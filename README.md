@@ -10,7 +10,7 @@ Mohammadamin Hassanpour 230883
 The goal of this project is to use PyTorch (with Pytorch image models) to solve the classification task of identifying the dog breed of an image. We will limit ourselves to classifying the following breeds: beagle, bulldog, dalmatian, german-shepherd, husky, labrador-retriever, poodle and rottweiler.
 
 ## Frameworks
-Since this is a image classification task we will be using pytorch-image-models from huggingface.
+Since this is an image classification task we will be using pytorch-image-models from huggingface.
 
 ## Data
 We will be using the Dog Breeds dataset from: https://www.kaggle.com/datasets/mohamedchahed/dog-breeds/data
@@ -74,6 +74,6 @@ The directory structure of the project looks like this:
 └── LICENSE              <- Open-source license if one is chosen
 ```
 
-Created using [mlops_template](https://github.com/SkafteNicki/mlops_template),
+Created using [mlops_template](https://github.com/Black3rror/mlops_template),
 a [cookiecutter template](https://github.com/cookiecutter/cookiecutter) for getting
 started with Machine Learning Operations (MLOps).
