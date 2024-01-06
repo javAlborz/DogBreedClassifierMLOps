@@ -180,3 +180,5 @@ data/processed/*
 
 
 
+# lightning
+lightning_logs/
