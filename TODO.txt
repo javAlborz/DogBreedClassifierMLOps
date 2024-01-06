@@ -1,0 +1,6 @@
+- "TODO.txt" should be deleted at the end
+- "src/dog-breeds-classification-using-xception.ipynb" should be deleted at the end
+- Using DVC to version the processed part of the data ("data/processed")
+- Using "ruff" to check the code formatting (extension in VSCode)
+- Logging instead of printing
+- Using wandb
