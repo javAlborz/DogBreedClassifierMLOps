@@ -1,26 +1,20 @@
 import torch
+import torchvision
 
 class MyNeuralNet(torch.nn.Module):
-    """ Basic neural network class. 
-    
-    Args:
-        in_features: number of input features
-        out_features: number of output features
-    
-    """
-    def __init__(self, in_features: int, out_features: int) -> None:
-        self.l1 = torch.nn.Linear(in_features, 500)
-        self.l2 = torch.nn.Linear(500, out_features)
-        self.r = torch.nn.ReLU()
+    """ Basic neural network class. """
+
+    def __init__(self) -> None:
+        super().__init__()
+
+        # Load in pretrained VGG16 model and replace the last layer in the classifier with the 
+        # number of dog-breed classes
+        self.model = torchvision.models.vgg16(weights=torchvision.models.VGG16_Weights.DEFAULT) 
+        self.model.classifier[-1] = torch.nn.Linear(4096,8, bias=True) # 
     
     def forward(self, x: torch.Tensor) -> torch.Tensor:
-        """Forward pass of the model.
-        
-        Args:
-            x: input tensor expected to be of shape [N,in_features]
+        """Forward pass of the model. """
+        return self.model(x)
+    
 
-        Returns:
-            Output tensor with shape [N,out_features]
 
-        """
-        return self.l2(self.r(self.l1(x)))
