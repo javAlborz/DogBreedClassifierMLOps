@@ -18,7 +18,6 @@ classname_to_number_map = {
     "labrador-retriever" : 5,
     "poodle" : 6,
     "rottweiler" : 7,
-
 }
 data_dir = os.path.join(__file__,"..","..","data",)
 
@@ -64,16 +63,13 @@ class DogDataSet(torch.utils.data.Dataset):
     def __getitem__(self, idx):
         'Generates one sample of data'
         X = Image.open(self.image_paths[idx])
+        X = self.transform(X)
 
         # classname -> id
         filename = os.path.basename(self.image_paths[idx])
         index_first_number = re.search(r'\d+', filename).start()
         Y = classname_to_number_map[filename[:index_first_number]]
-
-        seed = np.random.randint(0,1000000000)
-        torch.manual_seed(seed)
-        X = self.transform(X)
-
+        
         return X, Y
         
     
@@ -82,11 +78,11 @@ class DogDataSet(torch.utils.data.Dataset):
 def get_data(batch_size, validation_ratio, testing_ratio, transform=transforms.ToTensor()):   
 
     trainset = DogDataSet(split="train", validation_ratio=validation_ratio, testing_ratio=testing_ratio, transform=transform, random_seed=2)
-    train_loader = DataLoader(trainset, batch_size=batch_size, num_workers=3)
+    train_loader = DataLoader(trainset, batch_size=batch_size, num_workers=3, persistent_workers=True)
     validset = DogDataSet(split="valid", validation_ratio=validation_ratio, testing_ratio=testing_ratio, transform=transform, random_seed=2)
-    valid_loader = DataLoader(validset, batch_size=batch_size, num_workers=3)
+    valid_loader = DataLoader(validset, batch_size=batch_size, num_workers=3,persistent_workers=True)
     testset = DogDataSet(split="test", validation_ratio=validation_ratio, testing_ratio=testing_ratio, transform=transform, random_seed=2)
-    test_loader = DataLoader(testset, batch_size=1, num_workers=3)
+    test_loader = DataLoader(testset, batch_size=1, num_workers=3,persistent_workers=True)
 
     
     print('Loaded %d training images' % len(trainset))
