@@ -42,3 +42,10 @@ if __name__ == "__main__":
 
     # Test
     trainer.test(model, dataloaders=test_loader)
+
+    # Save model
+    trainer.save_checkpoint("src/models/checkpoints/model.ckpt")
+
+    # if we want to save the model parameters only
+    #torch.save(model.state_dict(), "model.pt")
+    
