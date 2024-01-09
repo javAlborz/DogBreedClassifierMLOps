@@ -2,9 +2,9 @@
 
 import torch
 import torchvision
-import lightning as L
+import pytorch_lightning as pl
 
-class MyNeuralNet(L.LightningModule):
+class MyNeuralNet(pl.LightningModule):
     """ Basic neural network class. """
 
     def __init__(self,lr) -> None:
