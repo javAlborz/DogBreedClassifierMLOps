@@ -1,0 +1,11 @@
+lr: 1e-4
+
+batch_size: 32
+max_epochs: 2
+
+validation_ratio: 0.15
+testing_ratio: 0.10
+
+target_shape:
+  - 128
+  - 128
