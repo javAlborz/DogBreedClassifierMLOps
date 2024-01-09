@@ -4,3 +4,5 @@ pillow
 tqdm
 pytorch-lightning
 wandb
+ruff
+mypy
