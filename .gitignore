@@ -182,3 +182,5 @@ lightning_logs/
 wandb/*
 checkpoints/*
 Classification*/*
+outputs/*
+models/*

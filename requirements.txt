@@ -6,3 +6,4 @@ pytorch-lightning
 wandb
 ruff
 mypy
+hydra-core
