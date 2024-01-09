@@ -25,3 +25,11 @@ dev = {file = ['requirements_dev.txt']}
 
 [tool.ruff]
 line-length = 120
+
+[[tool.mypy.overrides]]
+module = [
+  "torchvision.*",
+  "Tuple.*",
+  "models.*",
+]
+ignore_missing_imports = true

@@ -5,7 +5,7 @@ import wandb
 from datetime import datetime
 
 from models.model import MyNeuralNet
-from data_loader import get_data
+from data_loader import get_data # type: ignore
 
 # Config 
 lr = 1e-4 
