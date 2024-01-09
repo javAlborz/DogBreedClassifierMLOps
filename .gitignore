@@ -181,3 +181,4 @@ data/processed/*
 lightning_logs/
 wandb/*
 checkpoints/*
+Classification*/*
