@@ -28,4 +28,5 @@ jobs:
         ruff check
     - name: Run mypy
       run: |
+        mypy --install-types --non-interactive
         mypy src
