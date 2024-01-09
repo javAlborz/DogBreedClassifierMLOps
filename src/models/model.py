@@ -1,3 +1,5 @@
+""" Current model -- VGG16 pretrained model """
+
 import torch
 import torchvision
 import lightning as L
@@ -6,6 +8,11 @@ class MyNeuralNet(L.LightningModule):
     """ Basic neural network class. """
 
     def __init__(self,lr) -> None:
+        """Initialize 
+
+        Args:
+            lr (float) : Learning rate
+        """
         super().__init__()
 
         self.lr = lr
@@ -18,10 +25,27 @@ class MyNeuralNet(L.LightningModule):
         self.loss_func = torch.nn.CrossEntropyLoss()
     
     def forward(self, x: torch.Tensor) -> torch.Tensor:
-        """Forward pass of the model. """
+        """Forward pass of the model. 
+        
+        Args:
+            x (torch.Tensor) : Batch of images (batch_size, channels, height, width)
+
+        Returns:
+            (torch.Tensor) : logits results from the model (batch_size, 8 i.e. number of output classes) 
+        
+        """
         return self.model(x)
     
-    def training_step(self, batch, batch_idx):
+    def training_step(self, batch : tuple, batch_idx : int) -> torch.Tensor:
+        """"Training step on the lightning format
+
+        Args:
+            batch (tuple) : Contains the batch data i.e. batch of images and labels
+            batch_idx (int) : index of the batch
+
+        Returns: 
+            (torch.Tensor) : Loss for batch
+        """
         x, targets = batch
         preds_logits = self.forward(x)
         loss = self.loss_func(preds_logits, targets)
@@ -29,7 +53,16 @@ class MyNeuralNet(L.LightningModule):
         return loss
     
     
-    def validation_step(self, batch, batch_idx):
+    def validation_step(self, batch : tuple, batch_idx : int) -> torch.Tensor:
+        """"Validation step on the lightning format
+
+        Args:
+            batch (tuple) : Contains the batch data i.e. batch of images and labels
+            batch_idx (int) : index of the batch
+
+        Returns: 
+            (torch.Tensor) : Loss for batch
+        """
         x, targets = batch
         preds_logits = self.forward(x)
         loss = self.loss_func(preds_logits, targets)
@@ -37,7 +70,16 @@ class MyNeuralNet(L.LightningModule):
         return loss
     
     
-    def test_step(self, batch, batch_idx):
+    def test_step(self, batch : tuple, batch_idx : int) -> torch.Tensor:
+        """"Testing step on the lightning format
+
+        Args:
+            batch (tuple) : Contains the batch data i.e. batch of images and labels
+            batch_idx (int) : index of the batch
+
+        Returns: 
+            (torch.Tensor) : Loss for batch
+        """
         x, targets = batch
         preds_logits = self.forward(x)
         loss = self.loss_func(preds_logits, targets)
@@ -46,6 +88,11 @@ class MyNeuralNet(L.LightningModule):
 
 
     def configure_optimizers(self):
+        """" Set the optimization parameters
+
+        Returns:
+            (torch.nn.Optimizer) : Configure optimizer for model     
+        """
         return torch.optim.Adam(self.model.parameters(), lr = self.lr)
     
 
