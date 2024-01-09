@@ -9,6 +9,7 @@ import wandb
 from data_loader import get_data
 
 from models.model import MyNeuralNet
+from data_loader import get_data # type: ignore
 
 BASE_DIR = os.getcwd()
 
