@@ -22,11 +22,11 @@
 
 ### Week 2
 - [ ] Write unit tests related to the data part of your code
-- [ ] Write unit tests related to model construction and or model training
+- [X] Write unit tests related to model construction and or model training
 - [ ] Calculate the coverage.
-- [/] Get some continuous integration running on the github repository (running codecheck and test currently)
+- [/] Get some continuous integration running on the github  MS (running codecheck and test currently)
 - [ ] Create a data storage in GCP Bucket for you data and preferable link this with your data version control setup
-- [ ] Create a trigger workflow for automatically building your docker images
+- [/] Create a trigger workflow for automatically building your docker images MS
 - [ ] Get your model training in GCP using either the Engine or Vertex AI
 - [ ] Create a FastAPI application that can do inference using your model
 - [ ] If applicable, consider deploying the model locally using torchserve
