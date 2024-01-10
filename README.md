@@ -5,6 +5,7 @@ Final Project in Machine Learning Operations Jan 2024 at DTU
 Magnús Sigurðarson s222720
 Jónas Már Kristjánsson s223596
 Mohammadamin Hassanpour 230883
+Alborz Sabet s202075
 
 ## Overall goal of the project
 The goal of this project is to use PyTorch (with Pytorch image models) to solve the classification task of identifying the dog breed of an image. We will limit ourselves to classifying the following breeds: beagle, bulldog, dalmatian, german-shepherd, husky, labrador-retriever, poodle and rottweiler.

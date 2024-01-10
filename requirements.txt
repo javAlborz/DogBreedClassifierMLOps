@@ -13,3 +13,6 @@ gsutil
 dvc
 dvc[gs]
 
+ruff
+mypy
+hydra-core
