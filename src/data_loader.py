@@ -75,7 +75,7 @@ class DogDataSet(torch.utils.data.Dataset):
     
     
             
-def get_data(batch_size, validation_ratio, testing_ratio, transform=transforms.ToTensor()) -> (DataLoader, DataLoader, DataLoader):   
+def get_data(batch_size, validation_ratio, testing_ratio, transform=transforms.ToTensor()) -> tuple[DataLoader, DataLoader, DataLoader]:   
 
     trainset = DogDataSet(split="train", validation_ratio=validation_ratio, testing_ratio=testing_ratio, transform=transform, random_seed=2)
     train_loader = DataLoader(trainset, batch_size=batch_size, num_workers=3, persistent_workers=True)
