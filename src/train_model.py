@@ -6,9 +6,9 @@ import pytorch_lightning as pl
 import torch
 import torchvision.transforms as transforms
 import wandb
-from data_loader import get_data
+from src.data_loader import get_data # type: ignore
 
-from models.model import MyNeuralNet
+from src.models.model import MyNeuralNet
 
 BASE_DIR = os.getcwd()
 
@@ -63,6 +63,7 @@ def main(cfg):
 
     # if we want to save the model parameters only
     #torch.save(model.state_dict(), "model.pt")
+    return model, trainer
 
 
 if __name__ == "__main__":
