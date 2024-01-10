@@ -11,7 +11,7 @@
 - [X] Add a model file and a training script and get that running
 - [X] Remember to comply with good coding practices (pep8) while doing the project
 - [X] Do a bit of code typing and remember to document essential parts of your code
-- [ ] Setup version control for your data or part of your data
+- [X] Setup version control for your data or part of your data
 - [x] Construct one or multiple docker files for your code
 - [/] Build the docker files locally and make sure they work as intended (training file builds)
 - [X] Write one or multiple configurations files for your experiments
@@ -25,7 +25,7 @@
 - [X] Write unit tests related to model construction and or model training
 - [ ] Calculate the coverage.
 - [/] Get some continuous integration running on the github  MS (running codecheck and test currently)
-- [ ] Create a data storage in GCP Bucket for you data and preferable link this with your data version control setup
+- [X] Create a data storage in GCP Bucket for you data and preferable link this with your data version control setup
 - [/] Create a trigger workflow for automatically building your docker images MS
 - [ ] Get your model training in GCP using either the Engine or Vertex AI
 - [ ] Create a FastAPI application that can do inference using your model
