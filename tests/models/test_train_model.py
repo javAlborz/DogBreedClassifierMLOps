@@ -1,8 +1,4 @@
-import pytest
-import torch
-import torchvision.transforms as transforms
 from unittest.mock import patch, MagicMock
-from datetime import datetime
 from src.train_model import main
 
 @patch('wandb.api')

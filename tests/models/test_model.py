@@ -1,7 +1,5 @@
 import pytest
 import torch
-import torchvision
-import pytorch_lightning as pl
 
 from src.models.model import MyNeuralNet
 
