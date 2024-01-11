@@ -15,7 +15,7 @@ def branch_and_commit():
     """Creates a new branch and commits the current state of the repository there.
 
     Returns:
-        str: The message of the last commit.
+        tuple: A tuple containing the last commit message and the last commit hash.
     """
     time_id = int((time.time()*100)%100000000)
     stash_name = "stash_{:08d}".format(time_id)
@@ -28,6 +28,10 @@ def branch_and_commit():
     if _run_git_command('status', '--porcelain') != '':
         stashed = True
         _run_git_command('stash', 'push', '--include-untracked', '-m', stash_name)
+    else:
+        last_commit_message = _run_git_command('log', '-1', '--pretty="%s"')
+        last_commit_hash = _run_git_command('log', '-1', '--pretty="%H"')
+        return last_commit_message, last_commit_hash
 
     # 2. Create branch "branch_{rand_id}"
     _run_git_command('branch', new_branch)
@@ -43,14 +47,17 @@ def branch_and_commit():
         if _run_git_command('status', '--porcelain') != '':
             _run_git_command('add', '.')
             _run_git_command('commit', '-m', commit_message)
-    last_commit = _run_git_command('log', '-1', '--pretty="%s"')
+    last_commit_message = _run_git_command('log', '-1', '--pretty="%s"')
+    last_commit_hash = _run_git_command('log', '-1', '--pretty="%H"')
 
     # 5. Go back to the initial branch and pop "auto_stash" there
     _run_git_command('checkout', current_branch)
     if stashed:
         _run_git_command('stash', 'pop')
     
-    return last_commit
+    return last_commit_message, last_commit_hash
 
 if __name__ == '__main__':
-    print(branch_and_commit())
+    commit_message, commit_hash = branch_and_commit()
+    print("Commit message: ", commit_message)
+    print("Commit hash: ", commit_hash)
