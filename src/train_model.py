@@ -16,7 +16,7 @@ BASE_DIR = os.getcwd()
 
 @hydra.main(config_path=os.path.join(BASE_DIR, "src/conf"), config_name="training_config", version_base=None)
 def main(cfg):
-    commit_message = branch_and_commit()
+    commit_message, commit_hash = branch_and_commit()
     print("Commit message: ", commit_message)
 
     wandb_logger = pl.loggers.WandbLogger(
@@ -34,7 +34,8 @@ def main(cfg):
             "validation_ratio" : cfg.validation_ratio,
             "testing_ratio" : cfg.testing_ratio,
             "transforms" : "target_shape:"+str(tuple(cfg.target_shape)),
-            "commit_message": commit_message
+            "commit_message": commit_message,
+            "commit_hash": commit_hash
         })
     
     transform = transforms.Compose([
