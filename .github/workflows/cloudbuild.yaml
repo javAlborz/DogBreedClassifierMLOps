@@ -1,26 +1,24 @@
 steps:
-  # Build the container image
-  - name: 'gcr.io/cloud-builders/docker'
-    args: [
-      'build',
-      '-f',
-      'dockerfiles/train_model.dockerfile',
-      '-t', 
-      'gcr.io/$PROJECT_ID/mlops-group13:$COMMIT_SHA', 
-      '.']
-  # Push the container image to Container Registry
-  - name: 'gcr.io/cloud-builders/docker'
-    args: ['push', 'gcr.io/$PROJECT_ID/train_model:$COMMIT_SHA']
-  # Deploy container image to Cloud Run
-  #- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
-  #  entrypoint: gcloud
-  #  args:
-  #  - 'run'
-  #  - 'deploy'
-  #  - 'train_model'
-  #  - '--image'
-  #  - 'gcr.io/$PROJECT_ID/train_model:$COMMIT_SHA'
-  #  - '--region'
-  #  - 'REGION'
-images:
-  - 'gcr.io/$PROJECT_ID/train_model:$COMMIT_SHA'
+# Build the container image
+- name: 'gcr.io/cloud-builders/docker'
+  args: [
+    'build',
+    '-f',
+    'dockerfiles/train_model.dockerfile',
+    '-t', 
+    'gcr.io/$PROJECT_ID/mlops-group13:$COMMIT_SHA', 
+    '.']
+# Push the container image to Container Registry
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['push', 'gcr.io/$PROJECT_ID/train_model:$COMMIT_SHA']
+# Deploy container image to Cloud Run
+#- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+#  entrypoint: gcloud
+#  args:
+#  - 'run'
+#  - 'deploy'
+#  - 'train_model'
+#  - '--image'
+#  - 'gcr.io/$PROJECT_ID/train_model:$COMMIT_SHA'
+#  - '--region'
+#  - 'REGION'
