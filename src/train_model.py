@@ -6,8 +6,9 @@ import pytorch_lightning as pl
 import torch
 import torchvision.transforms as transforms
 import wandb
-from src.data_loader import get_data # type: ignore
 
+from src.commiter.commiter import branch_and_commit
+from src.data_loader import get_data  # type: ignore
 from src.models.model import MyNeuralNet
 
 BASE_DIR = os.getcwd()
@@ -15,10 +16,8 @@ BASE_DIR = os.getcwd()
 
 @hydra.main(config_path=os.path.join(BASE_DIR, "src/conf"), config_name="training_config", version_base=None)
 def main(cfg):
-    transform = transforms.Compose([
-            transforms.ToTensor(),
-            transforms.Resize(tuple(cfg.target_shape),antialias=True)
-        ])
+    commit_message = branch_and_commit()
+    print("Commit message: ", commit_message)
 
     wandb_logger = pl.loggers.WandbLogger(
         name = wandb.api.viewer()["username"] + " - " + datetime.now().strftime("%Y-%m-%d %H:%M"), # run name format : username - timestamp 
@@ -34,8 +33,14 @@ def main(cfg):
             "max_epochs": cfg.max_epochs,
             "validation_ratio" : cfg.validation_ratio,
             "testing_ratio" : cfg.testing_ratio,
-            "transforms" : "target_shape:"+str(tuple(cfg.target_shape))
+            "transforms" : "target_shape:"+str(tuple(cfg.target_shape)),
+            "commit_message": commit_message
         })
+    
+    transform = transforms.Compose([
+            transforms.ToTensor(),
+            transforms.Resize(tuple(cfg.target_shape),antialias=True)
+        ])
     
     # Setup device
     if torch.cuda.is_available():
