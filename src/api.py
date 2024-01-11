@@ -1,10 +1,8 @@
-from fastapi import FastAPI
-from fastapi import UploadFile, File
-from typing import Optional
-from src.models.model import MyNeuralNet
-import torch
 import cv2
+import torch
+from fastapi import FastAPI, File, UploadFile
 
+from src.models.model import MyNeuralNet
 
 app = FastAPI()
 model = MyNeuralNet()
