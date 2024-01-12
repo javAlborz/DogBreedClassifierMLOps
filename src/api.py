@@ -1,17 +1,31 @@
 import cv2
 import numpy as np
+import tempfile
+import os
 import torch
 from fastapi import FastAPI, File, UploadFile
 from fastapi.responses import JSONResponse
 import yaml
 from models.model import MyNeuralNet
+from torchvision.transforms import ToTensor
+from PIL import Image
+
+def preprocess_image(image_path):
+    # Load the image
+    image = Image.open(image_path)
+
+    # Apply the same transformations as in training
+    transform = ToTensor()
+    image = transform(image)
+
+    return image
 
 with open('conf/training_config.yaml', 'r') as file:
     config = yaml.safe_load(file)
 
 lr = config['lr']
 
-checkpoint_path = "../models/model.ckpt"
+checkpoint_path = "models/model.ckpt"
 
 classes = ["beagle", "bulldog", "dalmatian", "german-shepherd", 
            "husky", "labrador-retriever", "poodle", "rottweiler"]
@@ -31,14 +45,25 @@ async def cv_model(data: UploadFile = File(...)):
     
     content = await data.read()
 
-    # TODO: Instead, it's better to pass the image to predict_model and let it do the 
-    # resizing (and other preprocessing including normalization)
-    img = cv2.imdecode(np.fromstring(content, dtype=np.uint8), cv2.IMREAD_COLOR)    # type: ignore
-    img = cv2.resize(img, (128, 128))   # TODO: confirm this is actual model input shape
-    img_tensor = torch.from_numpy(img).permute(2, 0, 1).unsqueeze(0).float().to(device)
+    # Save the uploaded file to a temporary location
+    with tempfile.NamedTemporaryFile(delete=False) as temp:
+        temp.write(content)
+        temp_path = temp.name
+
+    # Preprocess the image
+    img_tensor = preprocess_image(temp_path)
+
+    # Add an extra dimension for batch size
+    img_tensor = img_tensor.unsqueeze(0)
+
+    # Make sure the image is on the same device as the model
+    img_tensor = img_tensor.to(device)
 
     probs = torch.softmax(model(img_tensor), dim=1)
     prediction = classes[int(probs.argmax(dim=1).item())]
     confidence = probs.max(dim=1).values.item()
+
+    # Delete the temporary file
+    os.remove(temp_path)
 
     return {"prediction": prediction, "confidence": confidence}
