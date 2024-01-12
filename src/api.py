@@ -1,14 +1,21 @@
 from fastapi import FastAPI
-from fastapi import UploadFile, File
+from fastapi import FastAPI, UploadFile, File
 from typing import Optional
-from src.models.model import MyNeuralNet
+from models.model import MyNeuralNet
 import torch
 import cv2
+import yaml
 
+with open('conf/training_config.yaml', 'r') as file:
+    config = yaml.safe_load(file)
+
+lr = config['lr']
+
+checkpoint_path = "../models/model.ckpt"
 
 app = FastAPI()
-model = MyNeuralNet()
-model = MyNeuralNet.load_from_checkpoint(checkpoint_path="model.ckpt")
+MyNeuralNet(lr)
+model = MyNeuralNet.load_from_checkpoint(checkpoint_path, lr=lr)
 model.eval()
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -25,10 +32,10 @@ def read_item(item_id: int):
 
 @app.post("/model/")
 async def cv_model(data: UploadFile = File(...)):
-    with open('image.jpg', 'wb') as image:
+    with open('hundur.jpg', 'wb') as image:
         content = await data.read()
         image.write(content)
-        img = cv2.imread("image.jpg")
+        img = cv2.imread("hundur.jpg")
         res = cv2.resize(img, (64, 64)) # TODO: confirm this is actual model input shape
         prediction = model(res)
         image.close()
