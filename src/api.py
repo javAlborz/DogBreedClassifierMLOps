@@ -3,16 +3,22 @@ import numpy as np
 import torch
 from fastapi import FastAPI, File, UploadFile
 from fastapi.responses import JSONResponse
+import yaml
+from models.model import MyNeuralNet
 
-from src.models.model import MyNeuralNet
+with open('conf/training_config.yaml', 'r') as file:
+    config = yaml.safe_load(file)
 
+lr = config['lr']
+
+checkpoint_path = "../models/model.ckpt"
 
 classes = ["beagle", "bulldog", "dalmatian", "german-shepherd", 
            "husky", "labrador-retriever", "poodle", "rottweiler"]
 
 
 app = FastAPI()
-model = MyNeuralNet.load_from_checkpoint(lr=1e-4, checkpoint_path="models/model.ckpt")
+model = MyNeuralNet.load_from_checkpoint(lr=lr, checkpoint_path=checkpoint_path)
 model.eval()
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
