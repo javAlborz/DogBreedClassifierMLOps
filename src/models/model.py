@@ -7,7 +7,7 @@ import pytorch_lightning as pl
 class MyNeuralNet(pl.LightningModule):
     """ Basic neural network class. """
 
-    def __init__(self,lr) -> None:
+    def __init__(self, lr) -> None:
         """Initialize 
 
         Args:

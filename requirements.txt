@@ -4,6 +4,7 @@ pillow
 tqdm
 pytorch-lightning
 wandb
+hydra-core
 
 # For data version control
 # - I'm assuming that the Google Cloud CLI is already installed 
@@ -13,13 +14,8 @@ gsutil
 dvc
 dvc[gs]
 
-ruff
-mypy
-hydra-core
-
 # For the web app
 fastapi>=0.68.0,<0.69.0
 uvicorn>=0.15.0,<0.16.0
 opencv-python
-pyyaml
 python-multipart

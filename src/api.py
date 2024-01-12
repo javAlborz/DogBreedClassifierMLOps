@@ -1,43 +1,38 @@
-from fastapi import FastAPI
-from fastapi import FastAPI, UploadFile, File
-from typing import Optional
-from models.model import MyNeuralNet
-import torch
 import cv2
-import yaml
+import numpy as np
+import torch
+from fastapi import FastAPI, File, UploadFile
+from fastapi.responses import JSONResponse
 
-with open('conf/training_config.yaml', 'r') as file:
-    config = yaml.safe_load(file)
+from src.models.model import MyNeuralNet
 
-lr = config['lr']
 
-checkpoint_path = "../models/model.ckpt"
+classes = ["beagle", "bulldog", "dalmatian", "german-shepherd", 
+           "husky", "labrador-retriever", "poodle", "rottweiler"]
+
 
 app = FastAPI()
-MyNeuralNet(lr)
-model = MyNeuralNet.load_from_checkpoint(checkpoint_path, lr=lr)
+model = MyNeuralNet.load_from_checkpoint(lr=1e-4, checkpoint_path="models/model.ckpt")
 model.eval()
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model.to(device)
 
-@app.get("/")
-def read_root():
-    return {"Hello": "World"}
-
-@app.get("/items/{item_id}")
-def read_item(item_id: int):
-    return {"item_id": item_id}
-
-
-@app.post("/model/")
+@app.post("/model")
 async def cv_model(data: UploadFile = File(...)):
-    with open('hundur.jpg', 'wb') as image:
-        content = await data.read()
-        image.write(content)
-        img = cv2.imread("hundur.jpg")
-        res = cv2.resize(img, (64, 64)) # TODO: confirm this is actual model input shape
-        prediction = model(res)
-        image.close()
+    if not data.content_type.startswith("image/"):
+        return JSONResponse(content={"error": "Invalid file type. Only images are allowed."}, status_code=400)
+    
+    content = await data.read()
 
-    return prediction
+    # TODO: Instead, it's better to pass the image to predict_model and let it do the 
+    # resizing (and other preprocessing including normalization)
+    img = cv2.imdecode(np.fromstring(content, dtype=np.uint8), cv2.IMREAD_COLOR)    # type: ignore
+    img = cv2.resize(img, (128, 128))   # TODO: confirm this is actual model input shape
+    img_tensor = torch.from_numpy(img).permute(2, 0, 1).unsqueeze(0).float().to(device)
+
+    probs = torch.softmax(model(img_tensor), dim=1)
+    prediction = classes[int(probs.argmax(dim=1).item())]
+    confidence = probs.max(dim=1).values.item()
+
+    return {"prediction": prediction, "confidence": confidence}
