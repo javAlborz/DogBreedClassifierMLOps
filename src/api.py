@@ -27,12 +27,12 @@ async def cv_model(data: UploadFile = File(...)):
 
     # TODO: Instead, it's better to pass the image to predict_model and let it do the 
     # resizing (and other preprocessing including normalization)
-    img = cv2.imdecode(np.fromstring(content, np.uint8), cv2.IMREAD_COLOR)
-    img = cv2.resize(img, (128, 128)) # TODO: confirm this is actual model input shape
-    img = torch.from_numpy(img).permute(2, 0, 1).unsqueeze(0).float()
+    img = cv2.imdecode(np.fromstring(content, dtype=np.uint8), cv2.IMREAD_COLOR)    # type: ignore
+    img = cv2.resize(img, (128, 128))   # TODO: confirm this is actual model input shape
+    img_tensor = torch.from_numpy(img).permute(2, 0, 1).unsqueeze(0).float().to(device)
 
-    probs = torch.softmax(model(img), dim=1)
-    prediction = classes[probs.argmax(dim=1).item()]
+    probs = torch.softmax(model(img_tensor), dim=1)
+    prediction = classes[int(probs.argmax(dim=1).item())]
     confidence = probs.max(dim=1).values.item()
 
     return {"prediction": prediction, "confidence": confidence}
