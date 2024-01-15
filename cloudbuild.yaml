@@ -1,16 +1,10 @@
 steps:
-<<<<<<< HEAD
-- name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/mlops2-410712/mnist_test_gcp', '.', '-f', 'trainer.dockerfile']
-- name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'gcr.io/mlops2-410712/mnist_test_gcp']
-=======
 # Build the container image
 - name: 'gcr.io/cloud-builders/docker'
   args: [
     'build',
     '-f',
-    'dockerfiles/train_model.dockerfile',
+    'trainer.dockerfile',
     '-t', 
     'gcr.io/$PROJECT_ID/train_model:$COMMIT_SHA', 
     '.']
@@ -30,4 +24,3 @@ steps:
 #  - 'REGION'
 images:
 - 'gcr.io/$PROJECT_ID/train_model:$COMMIT_SHA'
->>>>>>> 6e872397ef45f3d62b648fe52f5c18173e57a01d

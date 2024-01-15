@@ -31,4 +31,4 @@ RUN dvc config core.no_scm true
 #COPY data.dvc data.dvc
 #RUN dvc pull
 
-CMD ["sh", "-c", "dvc pull && python src/main.py train && python src/main.py evaluate trained_model.pt"]
+CMD ["sh", "-c", "dvc pull && python src/data/make_dataset.py && python src/train_model.py"]
