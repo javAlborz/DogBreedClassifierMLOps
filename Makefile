@@ -36,8 +36,11 @@ clean:
 # PROJECT RULES                                                                 #
 #################################################################################
 
-## Process raw data into processed data
+## Fetch and process raw data into processed data
 data:
+	gcloud auth activate-service-account --quiet --key-file=mlops-group13-data-service-account.json
+	dvc pull 
+	gcloud auth revoke --quiet --verbosity="error" data-service-account@mlops-group13.iam.gserviceaccount.com
 	python src/data/make_dataset.py
 
 #################################################################################

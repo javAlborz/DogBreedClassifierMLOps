@@ -1,5 +1,33 @@
 steps:
+<<<<<<< HEAD
 - name: 'gcr.io/cloud-builders/docker'
   args: ['build', '-t', 'gcr.io/mlops2-410712/mnist_test_gcp', '.', '-f', 'trainer.dockerfile']
 - name: 'gcr.io/cloud-builders/docker'
   args: ['push', 'gcr.io/mlops2-410712/mnist_test_gcp']
+=======
+# Build the container image
+- name: 'gcr.io/cloud-builders/docker'
+  args: [
+    'build',
+    '-f',
+    'dockerfiles/train_model.dockerfile',
+    '-t', 
+    'gcr.io/$PROJECT_ID/train_model:$COMMIT_SHA', 
+    '.']
+# Push the container image to Container Registry
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['push', 'gcr.io/$PROJECT_ID/train_model:$COMMIT_SHA']
+# Deploy container image to Cloud Run
+#- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+#  entrypoint: gcloud
+#  args:
+#  - 'run'
+#  - 'deploy'
+#  - 'train_model'
+#  - '--image'
+#  - 'gcr.io/$PROJECT_ID/train_model:$COMMIT_SHA'
+#  - '--region'
+#  - 'REGION'
+images:
+- 'gcr.io/$PROJECT_ID/train_model:$COMMIT_SHA'
+>>>>>>> 6e872397ef45f3d62b648fe52f5c18173e57a01d
