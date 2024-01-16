@@ -27,8 +27,8 @@
 - [/] Get some continuous integration running on the github  MS (running codecheck and test currently)
 - [X] Create a data storage in GCP Bucket for you data and preferable link this with your data version control setup
 - [/] Create a trigger workflow for automatically building your docker images MS
-- [ ] Get your model training in GCP using either the Engine or Vertex AI
-- [ ] Create a FastAPI application that can do inference using your model
+- [/] Get your model training in GCP using either the Engine or Vertex AI
+- [/] Create a FastAPI application that can do inference using your model
 - [ ] If applicable, consider deploying the model locally using torchserve
 - [ ] Deploy your model in GCP using either Functions or Run as the backend
 
