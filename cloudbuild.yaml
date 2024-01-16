@@ -24,3 +24,4 @@ steps:
 #  - 'REGION'
 images:
 - 'gcr.io/$PROJECT_ID/train_model:$COMMIT_SHA'
+# add deploy step here?
