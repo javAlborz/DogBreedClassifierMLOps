@@ -8,7 +8,7 @@ RUN apt clean
 RUN rm -rf /var/lib/apt/lists/*
 
 
-WORKDIR /DogBreedClassifierMLOps
+WORKDIR /app
 COPY src/ src/
 # COPY data/ data/ #dont iclude data in docker image. DVC will make it
 #COPY reports/ reports/
