@@ -7,7 +7,6 @@ import torch
 import torchvision.transforms as transforms
 import wandb
 
-from src.commiter.commiter import branch_and_commit
 from src.data_loader import get_data  # type: ignore
 from src.models.model import MyNeuralNet
 
@@ -16,8 +15,6 @@ BASE_DIR = os.getcwd()
 
 @hydra.main(config_path=os.path.join(BASE_DIR, "src/conf"), config_name="training_config", version_base=None)
 def main(cfg):
-    commit_message, commit_hash = branch_and_commit()
-    print("Commit message: ", commit_message)
 
     # wandb_logger = pl.loggers.WandbLogger(
     #     name = wandb.api.viewer()["username"] + " - " + datetime.now().strftime("%Y-%m-%d %H:%M"), # run name format : username - timestamp 
