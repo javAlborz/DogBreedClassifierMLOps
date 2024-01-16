@@ -4,4 +4,4 @@ workerPoolSpecs:
         machineType: n1-highmem-2
     replicaCount: 1
     containerSpec:
-        imageUri: gcr.io/mlops-group13/train_model@sha256:51419e50ac49ec30f8dfce001d915921903f96bbd6da8674046560fe9583b0ea
+        imageUri: gcr.io/mlops-group13/train_model@sha256:40017c9910cdcdc82957e0194da4019a9b8cadf8ab7e9ee6e6e1174da0ee28bf

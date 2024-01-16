@@ -1,16 +1,18 @@
 steps:
-# Build the container image
+# Build the container image for the trained model
 - name: 'gcr.io/cloud-builders/docker'
   args: [
     'build',
+    '--build-arg=WANDB_API_KEY=$$wandb_api_key',
     '-f',
     'trainer.dockerfile',
     '-t', 
-    'gcr.io/$PROJECT_ID/train_model:$COMMIT_SHA', 
+    'gcr.io/$PROJECT_ID/train_model:$TAG_NAME', 
     '.']
+    secretEnv: ['wandb_api_key']
 # Push the container image to Container Registry
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'gcr.io/$PROJECT_ID/train_model:$COMMIT_SHA']
+  args: ['push', 'gcr.io/$PROJECT_ID/train_model:$TAG_NAME']
 # Deploy container image to Cloud Run
 #- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
 #  entrypoint: gcloud
@@ -19,9 +21,34 @@ steps:
 #  - 'deploy'
 #  - 'train_model'
 #  - '--image'
-#  - 'gcr.io/$PROJECT_ID/train_model:$COMMIT_SHA'
+#  - 'gcr.io/$PROJECT_ID/train_model:$TAG_NAME'
 #  - '--region'
 #  - 'REGION'
 images:
-- 'gcr.io/$PROJECT_ID/train_model:$COMMIT_SHA'
+- 'gcr.io/$PROJECT_ID/train_model:$TAG_NAME'
 # add deploy step here?
+# Build the container image for the api!
+- name: 'gcr.io/cloud-builders/docker'
+  args: [
+    'build
+    '-f',
+    'api.dockerfile',
+    '-t', 
+    'gcr.io/$PROJECT_ID/api:$TAG_NAME', 
+    '.']
+# Push the container image FOR API to Container Registry
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['push', 'gcr.io/$PROJECT_ID/api:$TAG_NAME']
+images:
+- 'gcr.io/$PROJECT_ID/api:$TAG_NAME'
+# Deploy container image FOR API to Cloud Run for 
+- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+  entrypoint: gcloud
+  args:
+  - 'run'
+  - 'deploy'
+  - 'api'
+  - '--image'
+  - 'gcr.io/$PROJECT_ID/api:latest'
+  - '--region'
+  - 'eu-west1'
