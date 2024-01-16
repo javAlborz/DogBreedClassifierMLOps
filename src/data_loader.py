@@ -19,7 +19,7 @@ classname_to_number_map = {
     "poodle" : 6,
     "rottweiler" : 7,
 }
-data_dir = os.path.join(__file__,"..","..","data",)
+data_dir = os.path.join("data")
 
 class DogDataSet(torch.utils.data.Dataset):
     def __init__(self, split, validation_ratio, testing_ratio, transform=transforms.ToTensor(),random_seed=2):

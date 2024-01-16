@@ -4,7 +4,7 @@ steps:
   args: [
     'build',
     '-f',
-    'dockerfiles/train_model.dockerfile',
+    'trainer.dockerfile',
     '-t', 
     'gcr.io/$PROJECT_ID/train_model:$COMMIT_SHA', 
     '.']

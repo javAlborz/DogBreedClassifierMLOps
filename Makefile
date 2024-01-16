@@ -20,7 +20,7 @@ create_environment:
 requirements:
 	$(PYTHON_INTERPRETER) -m pip install -U pip setuptools wheel
 	$(PYTHON_INTERPRETER) -m pip install -r requirements.txt
-	$(PYTHON_INTERPRETER) -m pip install -e .
+	$(PYTHON_INTERPRETER)  
 
 ## Install Developer Python Dependencies
 dev_requirements: requirements
@@ -37,10 +37,12 @@ clean:
 #################################################################################
 
 ## Fetch and process raw data into processed data
+## gcloud auth activate-service-account --quiet --key-file=mlops-group13-data-service-account.json 	Add this back later?
+# gcloud auth revoke --quiet --verbosity="error" data-service-account@mlops-group13.iam.gserviceaccount.com
+
+
 data:
-	gcloud auth activate-service-account --quiet --key-file=mlops-group13-data-service-account.json
 	dvc pull 
-	gcloud auth revoke --quiet --verbosity="error" data-service-account@mlops-group13.iam.gserviceaccount.com
 	python src/data/make_dataset.py
 
 #################################################################################

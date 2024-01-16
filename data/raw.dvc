@@ -1,0 +1,3805 @@
+outs:
+- hash: md5
+  path: raw
+  files:
+  - relpath: .gitignore
+    md5: 76818d22175b0ed2af7e1a8e9332152f
+    size: 12
+    cloud:
+      remote_storage:
+        etag: 08c7a08cefe7e183031001
+        version_id: '1705404776255559'
+  - relpath: .gitkeep
+    md5: d41d8cd98f00b204e9800998ecf8427e
+    size: 0
+    cloud:
+      remote_storage:
+        etag: 089ffa99efe7e183031001
+        version_id: '1705404776480031'
+  - relpath: dog-breeds/beagle/beagle1.jpg
+    md5: 3aa559adcbee2d0bf8fa82404ccdf8e0
+    size: 90236
+    cloud:
+      remote_storage:
+        etag: 08a5efdaefe7e183031001
+        version_id: '1705404777543589'
+  - relpath: dog-breeds/beagle/beagle10.jpg
+    md5: 04ed601b36c57d7ddff2a43150e4fe07
+    size: 97152
+    cloud:
+      remote_storage:
+        etag: 08c0b9cdefe7e183031001
+        version_id: '1705404777323712'
+  - relpath: dog-breeds/beagle/beagle101.jpg
+    md5: 38a4826be92a2d45f1e53697809e750c
+    size: 496816
+    cloud:
+      remote_storage:
+        etag: 0889a4dbf0e7e183031001
+        version_id: '1705404779647497'
+  - relpath: dog-breeds/beagle/beagle105.jpg
+    md5: 3f0f5bc874c434a399cf4a8cbb2d9e66
+    size: 233802
+    cloud:
+      remote_storage:
+        etag: 0889e8f0efe7e183031001
+        version_id: '1705404777903113'
+  - relpath: dog-breeds/beagle/beagle106.jpg
+    md5: b7573a5e8227e33e07e3b0fa27feb74e
+    size: 148873
+    cloud:
+      remote_storage:
+        etag: 08fec6ccefe7e183031001
+        version_id: '1705404777309054'
+  - relpath: dog-breeds/beagle/beagle108.jpg
+    md5: 3feda9c856605b7264a3afb74c509b16
+    size: 37920
+    cloud:
+      remote_storage:
+        etag: 08ec97f0efe7e183031001
+        version_id: '1705404777892844'
+  - relpath: dog-breeds/beagle/beagle109.jpg
+    md5: 0d18865d7499c2a34af5291a8d484d6d
+    size: 171218
+    cloud:
+      remote_storage:
+        etag: 08a0a2f6efe7e183031001
+        version_id: '1705404777992480'
+  - relpath: dog-breeds/beagle/beagle11.jpg
+    md5: 70f4fb2be44d05ef067fb3952e02ad78
+    size: 72293
+    cloud:
+      remote_storage:
+        etag: 08cc94f3efe7e183031001
+        version_id: '1705404777941580'
+  - relpath: dog-breeds/beagle/beagle110.jpg
+    md5: 7629a991eaec60cd55a79f21a9b74376
+    size: 64344
+    cloud:
+      remote_storage:
+        etag: 08e0f6ceefe7e183031001
+        version_id: '1705404777347936'
+  - relpath: dog-breeds/beagle/beagle112.jpg
+    md5: 3feda9c856605b7264a3afb74c509b16
+    size: 37920
+    cloud:
+      remote_storage:
+        etag: 08fbc0bbefe7e183031001
+        version_id: '1705404777029755'
+  - relpath: dog-breeds/beagle/beagle114.jpg
+    md5: 7629a991eaec60cd55a79f21a9b74376
+    size: 64344
+    cloud:
+      remote_storage:
+        etag: 088ee3e9efe7e183031001
+        version_id: '1705404777787790'
+  - relpath: dog-breeds/beagle/beagle115.jpg
+    md5: 8ea73c77053f7ec2d02dcec1be113170
+    size: 72841
+    cloud:
+      remote_storage:
+        etag: 08b8c2efefe7e183031001
+        version_id: '1705404777881912'
+  - relpath: dog-breeds/beagle/beagle116.jpg
+    md5: dd8722042f27e253e7f5036261f49ed3
+    size: 61680
+    cloud:
+      remote_storage:
+        etag: 08bcb1e8efe7e183031001
+        version_id: '1705404777765052'
+  - relpath: dog-breeds/beagle/beagle118.jpg
+    md5: 2d7b19af02c427e52a2030a671b683b1
+    size: 109404
+    cloud:
+      remote_storage:
+        etag: 08d9dde8efe7e183031001
+        version_id: '1705404777770713'
+  - relpath: dog-breeds/beagle/beagle12.jpg
+    md5: 014aab2c9c77269c69f5cb093110478c
+    size: 94736
+    cloud:
+      remote_storage:
+        etag: 08f9fbb9efe7e183031001
+        version_id: '1705404777004537'
+  - relpath: dog-breeds/beagle/beagle13.jpg
+    md5: bd4cff4f53c97e81dba322a63ce30cf1
+    size: 107583
+    cloud:
+      remote_storage:
+        etag: 08af8db5efe7e183031001
+        version_id: '1705404776924847'
+  - relpath: dog-breeds/beagle/beagle14.jpg
+    md5: 594de86cc920aed1db15a822816c31ef
+    size: 88349
+    cloud:
+      remote_storage:
+        etag: 08be8ebeefe7e183031001
+        version_id: '1705404777072446'
+  - relpath: dog-breeds/beagle/beagle15.jpg
+    md5: 94e6730a8fb774567a712c9700e4ecf9
+    size: 60232
+    cloud:
+      remote_storage:
+        etag: 08a5b1ebefe7e183031001
+        version_id: '1705404777814181'
+  - relpath: dog-breeds/beagle/beagle16.jpg
+    md5: 79fd1cd132e21df65c08030afa7d59e7
+    size: 52400
+    cloud:
+      remote_storage:
+        etag: 0897dff3efe7e183031001
+        version_id: '1705404777951127'
+  - relpath: dog-breeds/beagle/beagle17.jpg
+    md5: 2b20d526ef29de9b8b97cf667a79deff
+    size: 56534
+    cloud:
+      remote_storage:
+        etag: 08b4aaedefe7e183031001
+        version_id: '1705404777846068'
+  - relpath: dog-breeds/beagle/beagle18.jpg
+    md5: 9ef2360de57210616987b03826181767
+    size: 59421
+    cloud:
+      remote_storage:
+        etag: 08e9c8edefe7e183031001
+        version_id: '1705404777849961'
+  - relpath: dog-breeds/beagle/beagle2.jpg
+    md5: c4f63859a1bdd61fedad80555b991e9a
+    size: 99173
+    cloud:
+      remote_storage:
+        etag: 088ac898f0e7e183031001
+        version_id: '1705404778554378'
+  - relpath: dog-breeds/beagle/beagle20.jpg
+    md5: 4a0163cc02b80515e05551c0be5a4b58
+    size: 86557
+    cloud:
+      remote_storage:
+        etag: 0893ddb7efe7e183031001
+        version_id: '1705404776967827'
+  - relpath: dog-breeds/beagle/beagle22.jpg
+    md5: 6fbd6214d9395960fb29255bc0a4fb5c
+    size: 160791
+    cloud:
+      remote_storage:
+        etag: 08b1d2c1efe7e183031001
+        version_id: '1705404777130289'
+  - relpath: dog-breeds/beagle/beagle24.jpg
+    md5: 584c940eda5073b5dd3e2cdff610ca5f
+    size: 255298
+    cloud:
+      remote_storage:
+        etag: 08e3b6d8efe7e183031001
+        version_id: '1705404777503587'
+  - relpath: dog-breeds/beagle/beagle26.jpg
+    md5: 6a5f81243ad939e29d4bf51d7cb25f13
+    size: 169601
+    cloud:
+      remote_storage:
+        etag: 08cafcecefe7e183031001
+        version_id: '1705404777840202'
+  - relpath: dog-breeds/beagle/beagle28.jpg
+    md5: 352e073e184f093f2c48f665e02525e6
+    size: 172745
+    cloud:
+      remote_storage:
+        etag: 08ad90f2efe7e183031001
+        version_id: '1705404777924653'
+  - relpath: dog-breeds/beagle/beagle30.jpg
+    md5: c6eed535032aeb1200d797dbd80a1d6a
+    size: 143205
+    cloud:
+      remote_storage:
+        etag: 08f2fee9efe7e183031001
+        version_id: '1705404777791346'
+  - relpath: dog-breeds/beagle/beagle32.jpg
+    md5: 91d21764c630c59db0f70c37b8ccd24d
+    size: 240595
+    cloud:
+      remote_storage:
+        etag: 08e6bcdbefe7e183031001
+        version_id: '1705404777553510'
+  - relpath: dog-breeds/beagle/beagle34.jpg
+    md5: ca09ba439ae7258ce3acda2ba4351fe4
+    size: 125292
+    cloud:
+      remote_storage:
+        etag: 08fec7f3efe7e183031001
+        version_id: '1705404777948158'
+  - relpath: dog-breeds/beagle/beagle36.jpg
+    md5: dc83346e0d39532e8b42d8b2e510d4da
+    size: 159916
+    cloud:
+      remote_storage:
+        etag: 08a5aec1efe7e183031001
+        version_id: '1705404777125669'
+  - relpath: dog-breeds/beagle/beagle38.jpg
+    md5: 5156aacb2bcac932a5e56601ca653dcd
+    size: 139348
+    cloud:
+      remote_storage:
+        etag: 08eae4b0efe7e183031001
+        version_id: '1705404776854122'
+  - relpath: dog-breeds/beagle/beagle4.jpg
+    md5: d077aa87d696b62e9289941c46fc8209
+    size: 59093
+    cloud:
+      remote_storage:
+        etag: 08849bb3efe7e183031001
+        version_id: '1705404776893828'
+  - relpath: dog-breeds/beagle/beagle40.jpg
+    md5: 6edf423c69daad556ea5da1888ff7e01
+    size: 235175
+    cloud:
+      remote_storage:
+        etag: 08d7a1f6efe7e183031001
+        version_id: '1705404777992407'
+  - relpath: dog-breeds/beagle/beagle42.jpg
+    md5: af8d4b01bfc6631e363590abab8caf20
+    size: 174064
+    cloud:
+      remote_storage:
+        etag: 0895fddbefe7e183031001
+        version_id: '1705404777561749'
+  - relpath: dog-breeds/beagle/beagle44.jpg
+    md5: 38a4826be92a2d45f1e53697809e750c
+    size: 496816
+    cloud:
+      remote_storage:
+        etag: 08e1ec89f0e7e183031001
+        version_id: '1705404778313313'
+  - relpath: dog-breeds/beagle/beagle46.jpg
+    md5: 3ddfb4dcf55597c3e7e44be3eb1bdee6
+    size: 93015
+    cloud:
+      remote_storage:
+        etag: 08b4e1c3efe7e183031001
+        version_id: '1705404777164980'
+  - relpath: dog-breeds/beagle/beagle48.jpg
+    md5: 01226467e194af0a61b13524cf0b068b
+    size: 148007
+    cloud:
+      remote_storage:
+        etag: 08aac48ff0e7e183031001
+        version_id: '1705404778406442'
+  - relpath: dog-breeds/beagle/beagle5.jpg
+    md5: ed28ce082ed59e5e217606e8677f8e63
+    size: 82904
+    cloud:
+      remote_storage:
+        etag: 08d3adb9efe7e183031001
+        version_id: '1705404776994515'
+  - relpath: dog-breeds/beagle/beagle50.jpg
+    md5: 554de2f360f2762440039b850e9641c1
+    size: 105302
+    cloud:
+      remote_storage:
+        etag: 08f0d2ddefe7e183031001
+        version_id: '1705404777589104'
+  - relpath: dog-breeds/beagle/beagle52.jpg
+    md5: 3f0f5bc874c434a399cf4a8cbb2d9e66
+    size: 233802
+    cloud:
+      remote_storage:
+        etag: 08918af1efe7e183031001
+        version_id: '1705404777907473'
+  - relpath: dog-breeds/beagle/beagle54.jpg
+    md5: b7573a5e8227e33e07e3b0fa27feb74e
+    size: 148873
+    cloud:
+      remote_storage:
+        etag: 08f0d5ddefe7e183031001
+        version_id: '1705404777589488'
+  - relpath: dog-breeds/beagle/beagle56.jpg
+    md5: 556a793a03b94265e0e7bdb2c0404759
+    size: 198654
+    cloud:
+      remote_storage:
+        etag: 088f9d91f0e7e183031001
+        version_id: '1705404778434191'
+  - relpath: dog-breeds/beagle/beagle58.jpg
+    md5: 5780d928bec1d8c5f062f8b6f3fa01bf
+    size: 90776
+    cloud:
+      remote_storage:
+        etag: 08d7aee9efe7e183031001
+        version_id: '1705404777781079'
+  - relpath: dog-breeds/beagle/beagle60.jpg
+    md5: a363f6ebf33991ce83b7c12fd2c6a4cd
+    size: 166913
+    cloud:
+      remote_storage:
+        etag: 08cfcbecefe7e183031001
+        version_id: '1705404777833935'
+  - relpath: dog-breeds/beagle/beagle61.jpg
+    md5: 6fbd6214d9395960fb29255bc0a4fb5c
+    size: 160791
+    cloud:
+      remote_storage:
+        etag: 08acbaebefe7e183031001
+        version_id: '1705404777815340'
+  - relpath: dog-breeds/beagle/beagle62.jpg
+    md5: 352e073e184f093f2c48f665e02525e6
+    size: 172745
+    cloud:
+      remote_storage:
+        etag: 08c8c9edefe7e183031001
+        version_id: '1705404777850056'
+  - relpath: dog-breeds/beagle/beagle63.jpg
+    md5: 91d21764c630c59db0f70c37b8ccd24d
+    size: 240595
+    cloud:
+      remote_storage:
+        etag: 08d7a984f0e7e183031001
+        version_id: '1705404778222807'
+  - relpath: dog-breeds/beagle/beagle64.jpg
+    md5: dc83346e0d39532e8b42d8b2e510d4da
+    size: 159916
+    cloud:
+      remote_storage:
+        etag: 08e1d2f0efe7e183031001
+        version_id: '1705404777900385'
+  - relpath: dog-breeds/beagle/beagle65.jpg
+    md5: af8d4b01bfc6631e363590abab8caf20
+    size: 174064
+    cloud:
+      remote_storage:
+        etag: 08a3a9edefe7e183031001
+        version_id: '1705404777845923'
+  - relpath: dog-breeds/beagle/beagle66.jpg
+    md5: 38a4826be92a2d45f1e53697809e750c
+    size: 496816
+    cloud:
+      remote_storage:
+        etag: 08b2d8a5f0e7e183031001
+        version_id: '1705404778769458'
+  - relpath: dog-breeds/beagle/beagle67.jpg
+    md5: 554de2f360f2762440039b850e9641c1
+    size: 105302
+    cloud:
+      remote_storage:
+        etag: 08bfe9eaefe7e183031001
+        version_id: '1705404777804991'
+  - relpath: dog-breeds/beagle/beagle68.jpg
+    md5: b7573a5e8227e33e07e3b0fa27feb74e
+    size: 148873
+    cloud:
+      remote_storage:
+        etag: 08a4ebd3efe7e183031001
+        version_id: '1705404777428388'
+  - relpath: dog-breeds/beagle/beagle69.jpg
+    md5: 5780d928bec1d8c5f062f8b6f3fa01bf
+    size: 90776
+    cloud:
+      remote_storage:
+        etag: 0897f4f0efe7e183031001
+        version_id: '1705404777904663'
+  - relpath: dog-breeds/beagle/beagle7.jpg
+    md5: 330d9a6981107f04e287c478c3c50cea
+    size: 30077
+    cloud:
+      remote_storage:
+        etag: 089df2eaefe7e183031001
+        version_id: '1705404777806109'
+  - relpath: dog-breeds/beagle/beagle70.jpg
+    md5: a363f6ebf33991ce83b7c12fd2c6a4cd
+    size: 166913
+    cloud:
+      remote_storage:
+        etag: 08eaa1ebefe7e183031001
+        version_id: '1705404777812202'
+  - relpath: dog-breeds/beagle/beagle71.jpg
+    md5: 584c940eda5073b5dd3e2cdff610ca5f
+    size: 255298
+    cloud:
+      remote_storage:
+        etag: 08c2d3b5f0e7e183031001
+        version_id: '1705404779030978'
+  - relpath: dog-breeds/beagle/beagle72.jpg
+    md5: 6a5f81243ad939e29d4bf51d7cb25f13
+    size: 169601
+    cloud:
+      remote_storage:
+        etag: 08fe80dcefe7e183031001
+        version_id: '1705404777562238'
+  - relpath: dog-breeds/beagle/beagle73.jpg
+    md5: c6eed535032aeb1200d797dbd80a1d6a
+    size: 143205
+    cloud:
+      remote_storage:
+        etag: 08a4fcf2efe7e183031001
+        version_id: '1705404777938468'
+  - relpath: dog-breeds/beagle/beagle74.jpg
+    md5: ca09ba439ae7258ce3acda2ba4351fe4
+    size: 125292
+    cloud:
+      remote_storage:
+        etag: 08bfc3bef0e7e183031001
+        version_id: '1705404779176383'
+  - relpath: dog-breeds/beagle/beagle75.jpg
+    md5: 5156aacb2bcac932a5e56601ca653dcd
+    size: 139348
+    cloud:
+      remote_storage:
+        etag: 08849febefe7e183031001
+        version_id: '1705404777811844'
+  - relpath: dog-breeds/beagle/beagle76.jpg
+    md5: 6edf423c69daad556ea5da1888ff7e01
+    size: 235175
+    cloud:
+      remote_storage:
+        etag: 08c699e4efe7e183031001
+        version_id: '1705404777696454'
+  - relpath: dog-breeds/beagle/beagle77.jpg
+    md5: 3ddfb4dcf55597c3e7e44be3eb1bdee6
+    size: 93015
+    cloud:
+      remote_storage:
+        etag: 088dc2b6efe7e183031001
+        version_id: '1705404776947981'
+  - relpath: dog-breeds/beagle/beagle78.jpg
+    md5: 01226467e194af0a61b13524cf0b068b
+    size: 148007
+    cloud:
+      remote_storage:
+        etag: 08aef7ecefe7e183031001
+        version_id: '1705404777839534'
+  - relpath: dog-breeds/beagle/beagle79.jpg
+    md5: 3f0f5bc874c434a399cf4a8cbb2d9e66
+    size: 233802
+    cloud:
+      remote_storage:
+        etag: 08ffb5dfefe7e183031001
+        version_id: '1705404777618175'
+  - relpath: dog-breeds/beagle/beagle8.jpg
+    md5: ce36e0cdc0c9855ab4bfef653ee6e8ce
+    size: 120455
+    cloud:
+      remote_storage:
+        etag: 0881eef5efe7e183031001
+        version_id: '1705404777985793'
+  - relpath: dog-breeds/beagle/beagle83.jpg
+    md5: 556a793a03b94265e0e7bdb2c0404759
+    size: 198654
+    cloud:
+      remote_storage:
+        etag: 0882c7d8efe7e183031001
+        version_id: '1705404777505666'
+  - relpath: dog-breeds/beagle/beagle84.jpg
+    md5: 6fbd6214d9395960fb29255bc0a4fb5c
+    size: 160791
+    cloud:
+      remote_storage:
+        etag: 08b29fc0efe7e183031001
+        version_id: '1705404777107378'
+  - relpath: dog-breeds/beagle/beagle85.jpg
+    md5: c6eed535032aeb1200d797dbd80a1d6a
+    size: 143205
+    cloud:
+      remote_storage:
+        etag: 08a88fb5efe7e183031001
+        version_id: '1705404776925096'
+  - relpath: dog-breeds/beagle/beagle86.jpg
+    md5: ca09ba439ae7258ce3acda2ba4351fe4
+    size: 125292
+    cloud:
+      remote_storage:
+        etag: 089fa7bdefe7e183031001
+        version_id: '1705404777059231'
+  - relpath: dog-breeds/beagle/beagle87.jpg
+    md5: 6edf423c69daad556ea5da1888ff7e01
+    size: 235175
+    cloud:
+      remote_storage:
+        etag: 08cff385f0e7e183031001
+        version_id: '1705404778248655'
+  - relpath: dog-breeds/beagle/beagle88.jpg
+    md5: 3ddfb4dcf55597c3e7e44be3eb1bdee6
+    size: 93015
+    cloud:
+      remote_storage:
+        etag: 08fea0b9efe7e183031001
+        version_id: '1705404776992894'
+  - relpath: dog-breeds/beagle/beagle89.jpg
+    md5: 01226467e194af0a61b13524cf0b068b
+    size: 148007
+    cloud:
+      remote_storage:
+        etag: 08d2fde9efe7e183031001
+        version_id: '1705404777791186'
+  - relpath: dog-breeds/beagle/beagle90.jpg
+    md5: 556a793a03b94265e0e7bdb2c0404759
+    size: 198654
+    cloud:
+      remote_storage:
+        etag: 08e7c5f4efe7e183031001
+        version_id: '1705404777964263'
+  - relpath: dog-breeds/beagle/beagle91.jpg
+    md5: 584c940eda5073b5dd3e2cdff610ca5f
+    size: 255298
+    cloud:
+      remote_storage:
+        etag: 08def1daefe7e183031001
+        version_id: '1705404777543902'
+  - relpath: dog-breeds/beagle/beagle92.jpg
+    md5: 352e073e184f093f2c48f665e02525e6
+    size: 172745
+    cloud:
+      remote_storage:
+        etag: 0897f780f0e7e183031001
+        version_id: '1705404778167191'
+  - relpath: dog-breeds/beagle/beagle93.jpg
+    md5: dc83346e0d39532e8b42d8b2e510d4da
+    size: 159916
+    cloud:
+      remote_storage:
+        etag: 08f39cedefe7e183031001
+        version_id: '1705404777844339'
+  - relpath: dog-breeds/beagle/beagle94.jpg
+    md5: af8d4b01bfc6631e363590abab8caf20
+    size: 174064
+    cloud:
+      remote_storage:
+        etag: 08d9fdfeefe7e183031001
+        version_id: '1705404778135257'
+  - relpath: dog-breeds/beagle/beagle95.jpg
+    md5: 554de2f360f2762440039b850e9641c1
+    size: 105302
+    cloud:
+      remote_storage:
+        etag: 08c5aaeeefe7e183031001
+        version_id: '1705404777862469'
+  - relpath: dog-breeds/beagle/beagle96.jpg
+    md5: 5780d928bec1d8c5f062f8b6f3fa01bf
+    size: 90776
+    cloud:
+      remote_storage:
+        etag: 08ecf0c8efe7e183031001
+        version_id: '1705404777248876'
+  - relpath: dog-breeds/beagle/beagle97.jpg
+    md5: a363f6ebf33991ce83b7c12fd2c6a4cd
+    size: 166913
+    cloud:
+      remote_storage:
+        etag: 08b2f4e9efe7e183031001
+        version_id: '1705404777790002'
+  - relpath: dog-breeds/beagle/beagle98.jpg
+    md5: 6a5f81243ad939e29d4bf51d7cb25f13
+    size: 169601
+    cloud:
+      remote_storage:
+        etag: 08b78e93f0e7e183031001
+        version_id: '1705404778465079'
+  - relpath: dog-breeds/beagle/beagle99.jpg
+    md5: 91d21764c630c59db0f70c37b8ccd24d
+    size: 240595
+    cloud:
+      remote_storage:
+        etag: 08e793efefe7e183031001
+        version_id: '1705404777875943'
+  - relpath: dog-breeds/bulldog/bulldog10.jpg
+    md5: 9879b0f3f74ba8b87a391da4fb4358a3
+    size: 89578
+    cloud:
+      remote_storage:
+        etag: 08a3faf0f2e7e183031001
+        version_id: '1705404784196899'
+  - relpath: dog-breeds/bulldog/bulldog100.jpg
+    md5: 94e9348cafb6542a72fd7bd3ace3c66e
+    size: 93445
+    cloud:
+      remote_storage:
+        etag: 08d9dba9f3e7e183031001
+        version_id: '1705404785126873'
+  - relpath: dog-breeds/bulldog/bulldog101.jpg
+    md5: c83246fd533bd8d8dd6048a39217cef0
+    size: 196955
+    cloud:
+      remote_storage:
+        etag: 08efe19af3e7e183031001
+        version_id: '1705404784881903'
+  - relpath: dog-breeds/bulldog/bulldog106.jpg
+    md5: 8b4582fbbe51a0cbcda3faf5b337722e
+    size: 190543
+    cloud:
+      remote_storage:
+        etag: 08c0b8aaf3e7e183031001
+        version_id: '1705404785138752'
+  - relpath: dog-breeds/bulldog/bulldog107.jpg
+    md5: 0c678c9983ded1a53f33821708c94be5
+    size: 62773
+    cloud:
+      remote_storage:
+        etag: 08e0efe0f2e7e183031001
+        version_id: '1705404783933408'
+  - relpath: dog-breeds/bulldog/bulldog108.jpg
+    md5: 5452e7a79bb594819629936905cc9357
+    size: 57713
+    cloud:
+      remote_storage:
+        etag: 08e39592f3e7e183031001
+        version_id: '1705404784741091'
+  - relpath: dog-breeds/bulldog/bulldog109.jpg
+    md5: 3b9584c2879706b5acc3dc5d88618632
+    size: 67257
+    cloud:
+      remote_storage:
+        etag: 08f1f8b3f3e7e183031001
+        version_id: '1705404785294449'
+  - relpath: dog-breeds/bulldog/bulldog11.jpg
+    md5: 7a1f6a443073733786868ec75d95c4db
+    size: 73801
+    cloud:
+      remote_storage:
+        etag: 08a0a3fff2e7e183031001
+        version_id: '1705404784431520'
+  - relpath: dog-breeds/bulldog/bulldog110.jpg
+    md5: 63e6da56fcdd1412b0abc901019223f8
+    size: 38059
+    cloud:
+      remote_storage:
+        etag: 08f9b4aaf3e7e183031001
+        version_id: '1705404785138297'
+  - relpath: dog-breeds/bulldog/bulldog111.jpg
+    md5: 0c678c9983ded1a53f33821708c94be5
+    size: 62773
+    cloud:
+      remote_storage:
+        etag: 08f8fda9f3e7e183031001
+        version_id: '1705404785131256'
+  - relpath: dog-breeds/bulldog/bulldog112.jpg
+    md5: 5452e7a79bb594819629936905cc9357
+    size: 57713
+    cloud:
+      remote_storage:
+        etag: 088ce486f3e7e183031001
+        version_id: '1705404784554508'
+  - relpath: dog-breeds/bulldog/bulldog113.jpg
+    md5: 3b9584c2879706b5acc3dc5d88618632
+    size: 67257
+    cloud:
+      remote_storage:
+        etag: 0892cc83f3e7e183031001
+        version_id: '1705404784502290'
+  - relpath: dog-breeds/bulldog/bulldog114.jpg
+    md5: 63e6da56fcdd1412b0abc901019223f8
+    size: 38059
+    cloud:
+      remote_storage:
+        etag: 08be819af3e7e183031001
+        version_id: '1705404784869566'
+  - relpath: dog-breeds/bulldog/bulldog117.jpg
+    md5: 0677df86789d67bd10e4af7f6714d520
+    size: 98389
+    cloud:
+      remote_storage:
+        etag: 08cae0b2f3e7e183031001
+        version_id: '1705404785274954'
+  - relpath: dog-breeds/bulldog/bulldog12.jpg
+    md5: 5ebe500ed988f8b8061aa6257a1226ed
+    size: 102988
+    cloud:
+      remote_storage:
+        etag: 0885bce6f2e7e183031001
+        version_id: '1705404784025093'
+  - relpath: dog-breeds/bulldog/bulldog13.jpg
+    md5: 9d03bb8af4498390984c2ee385afe950
+    size: 53413
+    cloud:
+      remote_storage:
+        etag: 08dc8283f3e7e183031001
+        version_id: '1705404784492892'
+  - relpath: dog-breeds/bulldog/bulldog14.jpg
+    md5: 385723c7872b6fd1186e4cadcb3aa5a5
+    size: 49941
+    cloud:
+      remote_storage:
+        etag: 0892a3a2f3e7e183031001
+        version_id: '1705404785004946'
+  - relpath: dog-breeds/bulldog/bulldog15.jpg
+    md5: 7edd4e366cefbac939b91c92faf9894a
+    size: 65779
+    cloud:
+      remote_storage:
+        etag: 088ec2aff3e7e183031001
+        version_id: '1705404785221902'
+  - relpath: dog-breeds/bulldog/bulldog16.jpg
+    md5: aa0385921eeb84ab3eb8ea8e1a55db0c
+    size: 56335
+    cloud:
+      remote_storage:
+        etag: 08a7859bf3e7e183031001
+        version_id: '1705404784886439'
+  - relpath: dog-breeds/bulldog/bulldog17.jpg
+    md5: 5a803a8f8f831a4ffd678c72b9a8027a
+    size: 92914
+    cloud:
+      remote_storage:
+        etag: 08d286acf3e7e183031001
+        version_id: '1705404785165138'
+  - relpath: dog-breeds/bulldog/bulldog18.jpg
+    md5: 668bc28b9276a8c10e63c22ea06071b6
+    size: 119271
+    cloud:
+      remote_storage:
+        etag: 089e8ef9f2e7e183031001
+        version_id: '1705404784330526'
+  - relpath: dog-breeds/bulldog/bulldog19.jpg
+    md5: fbe38cd8fcfab1098ba59c9ff245948f
+    size: 113714
+    cloud:
+      remote_storage:
+        etag: 08b4b8a1f3e7e183031001
+        version_id: '1705404784991284'
+  - relpath: dog-breeds/bulldog/bulldog2.jpg
+    md5: a9071e307fbbee0390ee4663e7422cb6
+    size: 129522
+    cloud:
+      remote_storage:
+        etag: 08d0c5f3f2e7e183031001
+        version_id: '1705404784239312'
+  - relpath: dog-breeds/bulldog/bulldog22.jpg
+    md5: adb971c8035748471bd4415d86fc5b07
+    size: 200956
+    cloud:
+      remote_storage:
+        etag: 08b2b3ccf3e7e183031001
+        version_id: '1705404785695154'
+  - relpath: dog-breeds/bulldog/bulldog24.jpg
+    md5: f2b889157bbcb384185ea2e167e63183
+    size: 288770
+    cloud:
+      remote_storage:
+        etag: 08e4ffcbf3e7e183031001
+        version_id: '1705404785688548'
+  - relpath: dog-breeds/bulldog/bulldog26.jpg
+    md5: 4082e88c9a0c6fde8a061018995d654c
+    size: 142910
+    cloud:
+      remote_storage:
+        etag: 08a8b6f2f2e7e183031001
+        version_id: '1705404784220968'
+  - relpath: dog-breeds/bulldog/bulldog28.jpg
+    md5: 7408cebfb9021123c2aefe0adcf59267
+    size: 116919
+    cloud:
+      remote_storage:
+        etag: 08e4929ef3e7e183031001
+        version_id: '1705404784937316'
+  - relpath: dog-breeds/bulldog/bulldog3.jpg
+    md5: 6648f8240831451e6b5acbdbb38bcfce
+    size: 51167
+    cloud:
+      remote_storage:
+        etag: 08ecdafdf2e7e183031001
+        version_id: '1705404784405868'
+  - relpath: dog-breeds/bulldog/bulldog30.jpg
+    md5: f040dd7b78fd35fe490859813c13c3e8
+    size: 238762
+    cloud:
+      remote_storage:
+        etag: 0898e8e8f3e7e183031001
+        version_id: '1705404786160664'
+  - relpath: dog-breeds/bulldog/bulldog32.jpg
+    md5: e30b08643c8923aedf9fd45a788672d0
+    size: 117715
+    cloud:
+      remote_storage:
+        etag: 08aee3aef3e7e183031001
+        version_id: '1705404785209774'
+  - relpath: dog-breeds/bulldog/bulldog36.jpg
+    md5: 9c7ec3eb6e0af7e1df51bc3849edb1d6
+    size: 73251
+    cloud:
+      remote_storage:
+        etag: 08e2ba99f3e7e183031001
+        version_id: '1705404784860514'
+  - relpath: dog-breeds/bulldog/bulldog38.jpg
+    md5: c83246fd533bd8d8dd6048a39217cef0
+    size: 196955
+    cloud:
+      remote_storage:
+        etag: 08cf94b0f3e7e183031001
+        version_id: '1705404785232463'
+  - relpath: dog-breeds/bulldog/bulldog4.jpg
+    md5: 5adf68507c4c6ae4a96ee5a9a9d2068a
+    size: 127697
+    cloud:
+      remote_storage:
+        etag: 08a9a6a3f3e7e183031001
+        version_id: '1705404785021737'
+  - relpath: dog-breeds/bulldog/bulldog40.jpg
+    md5: 7edbe30cd464c5b2b0ef2357efab5d86
+    size: 205200
+    cloud:
+      remote_storage:
+        etag: 08ff83adf3e7e183031001
+        version_id: '1705404785181183'
+  - relpath: dog-breeds/bulldog/bulldog42.jpg
+    md5: 76f2f1c66e63ab0bad142347ed4c40a8
+    size: 148581
+    cloud:
+      remote_storage:
+        etag: 08b8b2bcf3e7e183031001
+        version_id: '1705404785432888'
+  - relpath: dog-breeds/bulldog/bulldog44.jpg
+    md5: a4e90b446fd9fba92f9ff54368d7b65c
+    size: 228146
+    cloud:
+      remote_storage:
+        etag: 0883c3c5f3e7e183031001
+        version_id: '1705404785582467'
+  - relpath: dog-breeds/bulldog/bulldog46.jpg
+    md5: 23abc1849c130867b8202a1abd1f5161
+    size: 73447
+    cloud:
+      remote_storage:
+        etag: 08a089faf2e7e183031001
+        version_id: '1705404784346272'
+  - relpath: dog-breeds/bulldog/bulldog5.jpg
+    md5: fca4dd6a2dbf954938d3945a926574c2
+    size: 95592
+    cloud:
+      remote_storage:
+        etag: 08f2b9b3f3e7e183031001
+        version_id: '1705404785286386'
+  - relpath: dog-breeds/bulldog/bulldog50.jpg
+    md5: 19c57b1b5acb0eb2225c8914790143e2
+    size: 53202
+    cloud:
+      remote_storage:
+        etag: 08cdb08bf3e7e183031001
+        version_id: '1705404784629837'
+  - relpath: dog-breeds/bulldog/bulldog52.jpg
+    md5: bf929ce8985c67e4b38fd6d6b3d9e46b
+    size: 100688
+    cloud:
+      remote_storage:
+        etag: 0899c681f3e7e183031001
+        version_id: '1705404784468761'
+  - relpath: dog-breeds/bulldog/bulldog54.jpg
+    md5: 8b4582fbbe51a0cbcda3faf5b337722e
+    size: 190543
+    cloud:
+      remote_storage:
+        etag: 08bd8ffff2e7e183031001
+        version_id: '1705404784428989'
+  - relpath: dog-breeds/bulldog/bulldog56.jpg
+    md5: cff2cd02acb37ac5292bc78193a8bf78
+    size: 115491
+    cloud:
+      remote_storage:
+        etag: 0881b6f8f2e7e183031001
+        version_id: '1705404784319233'
+  - relpath: dog-breeds/bulldog/bulldog6.jpg
+    md5: 7a9541dd4b541fe3a14f8e85be3e6e6a
+    size: 53117
+    cloud:
+      remote_storage:
+        etag: 089780e7f2e7e183031001
+        version_id: '1705404784033815'
+  - relpath: dog-breeds/bulldog/bulldog60.jpg
+    md5: 9b09fdaa29992441186eeb7803ccfaa7
+    size: 134953
+    cloud:
+      remote_storage:
+        etag: 088abf9ff3e7e183031001
+        version_id: '1705404784959370'
+  - relpath: dog-breeds/bulldog/bulldog61.jpg
+    md5: adb971c8035748471bd4415d86fc5b07
+    size: 200956
+    cloud:
+      remote_storage:
+        etag: 0892d1a4f3e7e183031001
+        version_id: '1705404785043602'
+  - relpath: dog-breeds/bulldog/bulldog62.jpg
+    md5: 4082e88c9a0c6fde8a061018995d654c
+    size: 142910
+    cloud:
+      remote_storage:
+        etag: 08eef1fff2e7e183031001
+        version_id: '1705404784441582'
+  - relpath: dog-breeds/bulldog/bulldog63.jpg
+    md5: 7408cebfb9021123c2aefe0adcf59267
+    size: 116919
+    cloud:
+      remote_storage:
+        etag: 08ffedaff3e7e183031001
+        version_id: '1705404785227519'
+  - relpath: dog-breeds/bulldog/bulldog64.jpg
+    md5: e30b08643c8923aedf9fd45a788672d0
+    size: 117715
+    cloud:
+      remote_storage:
+        etag: 08c8c0b3f3e7e183031001
+        version_id: '1705404785287240'
+  - relpath: dog-breeds/bulldog/bulldog65.jpg
+    md5: c83246fd533bd8d8dd6048a39217cef0
+    size: 196955
+    cloud:
+      remote_storage:
+        etag: 0881f7bff3e7e183031001
+        version_id: '1705404785490817'
+  - relpath: dog-breeds/bulldog/bulldog66.jpg
+    md5: 76f2f1c66e63ab0bad142347ed4c40a8
+    size: 148581
+    cloud:
+      remote_storage:
+        etag: 08cad99ef3e7e183031001
+        version_id: '1705404784946378'
+  - relpath: dog-breeds/bulldog/bulldog68.jpg
+    md5: 19c57b1b5acb0eb2225c8914790143e2
+    size: 53202
+    cloud:
+      remote_storage:
+        etag: 08ebd8f9f2e7e183031001
+        version_id: '1705404784340075'
+  - relpath: dog-breeds/bulldog/bulldog69.jpg
+    md5: 8b4582fbbe51a0cbcda3faf5b337722e
+    size: 190543
+    cloud:
+      remote_storage:
+        etag: 089ab78ef3e7e183031001
+        version_id: '1705404784679834'
+  - relpath: dog-breeds/bulldog/bulldog71.jpg
+    md5: f2b889157bbcb384185ea2e167e63183
+    size: 288770
+    cloud:
+      remote_storage:
+        etag: 08e789e2f3e7e183031001
+        version_id: '1705404786050279'
+  - relpath: dog-breeds/bulldog/bulldog72.jpg
+    md5: f040dd7b78fd35fe490859813c13c3e8
+    size: 238762
+    cloud:
+      remote_storage:
+        etag: 08dc8d93f3e7e183031001
+        version_id: '1705404784756444'
+  - relpath: dog-breeds/bulldog/bulldog74.jpg
+    md5: 9c7ec3eb6e0af7e1df51bc3849edb1d6
+    size: 73251
+    cloud:
+      remote_storage:
+        etag: 0899f395f3e7e183031001
+        version_id: '1705404784802201'
+  - relpath: dog-breeds/bulldog/bulldog75.jpg
+    md5: 7edbe30cd464c5b2b0ef2357efab5d86
+    size: 205200
+    cloud:
+      remote_storage:
+        etag: 0882fbb7f3e7e183031001
+        version_id: '1705404785360258'
+  - relpath: dog-breeds/bulldog/bulldog76.jpg
+    md5: a4e90b446fd9fba92f9ff54368d7b65c
+    size: 228146
+    cloud:
+      remote_storage:
+        etag: 08aeb1b4f3e7e183031001
+        version_id: '1705404785301678'
+  - relpath: dog-breeds/bulldog/bulldog77.jpg
+    md5: 1dd04fc3b0e2ea1e96fffdc9c5dbf3f8
+    size: 43405
+    cloud:
+      remote_storage:
+        etag: 08df9c8ef3e7e183031001
+        version_id: '1705404784676447'
+  - relpath: dog-breeds/bulldog/bulldog78.jpg
+    md5: bf929ce8985c67e4b38fd6d6b3d9e46b
+    size: 100688
+    cloud:
+      remote_storage:
+        etag: 08f6ef8bf3e7e183031001
+        version_id: '1705404784637942'
+  - relpath: dog-breeds/bulldog/bulldog79.jpg
+    md5: cff2cd02acb37ac5292bc78193a8bf78
+    size: 115491
+    cloud:
+      remote_storage:
+        etag: 088aeeb4f3e7e183031001
+        version_id: '1705404785309450'
+  - relpath: dog-breeds/bulldog/bulldog8.jpg
+    md5: 18b390734bab8eb82c1ebaa18193aa25
+    size: 69171
+    cloud:
+      remote_storage:
+        etag: 08ddc28ef3e7e183031001
+        version_id: '1705404784681309'
+  - relpath: dog-breeds/bulldog/bulldog83.jpg
+    md5: 9b09fdaa29992441186eeb7803ccfaa7
+    size: 134953
+    cloud:
+      remote_storage:
+        etag: 08bdb4aff3e7e183031001
+        version_id: '1705404785220157'
+  - relpath: dog-breeds/bulldog/bulldog84.jpg
+    md5: adb971c8035748471bd4415d86fc5b07
+    size: 200956
+    cloud:
+      remote_storage:
+        etag: 0891d7b4f3e7e183031001
+        version_id: '1705404785306513'
+  - relpath: dog-breeds/bulldog/bulldog85.jpg
+    md5: f040dd7b78fd35fe490859813c13c3e8
+    size: 238762
+    cloud:
+      remote_storage:
+        etag: 089e95e3f3e7e183031001
+        version_id: '1705404786068126'
+  - relpath: dog-breeds/bulldog/bulldog86.jpg
+    md5: 9c7ec3eb6e0af7e1df51bc3849edb1d6
+    size: 73251
+    cloud:
+      remote_storage:
+        etag: 08c5e88bf3e7e183031001
+        version_id: '1705404784636997'
+  - relpath: dog-breeds/bulldog/bulldog87.jpg
+    md5: 76f2f1c66e63ab0bad142347ed4c40a8
+    size: 148581
+    cloud:
+      remote_storage:
+        etag: 0893f8a8f3e7e183031001
+        version_id: '1705404785114131'
+  - relpath: dog-breeds/bulldog/bulldog89.jpg
+    md5: bf929ce8985c67e4b38fd6d6b3d9e46b
+    size: 100688
+    cloud:
+      remote_storage:
+        etag: 08bfdca1f3e7e183031001
+        version_id: '1705404784995903'
+  - relpath: dog-breeds/bulldog/bulldog9.jpg
+    md5: 830910c3fb0fe748a86d75333268e817
+    size: 51647
+    cloud:
+      remote_storage:
+        etag: 08a7cee8f2e7e183031001
+        version_id: '1705404784060199'
+  - relpath: dog-breeds/bulldog/bulldog91.jpg
+    md5: 9b09fdaa29992441186eeb7803ccfaa7
+    size: 134953
+    cloud:
+      remote_storage:
+        etag: 08eb9591f3e7e183031001
+        version_id: '1705404784724715'
+  - relpath: dog-breeds/bulldog/bulldog92.jpg
+    md5: f2b889157bbcb384185ea2e167e63183
+    size: 288770
+    cloud:
+      remote_storage:
+        etag: 0889bce7f3e7e183031001
+        version_id: '1705404786138633'
+  - relpath: dog-breeds/bulldog/bulldog93.jpg
+    md5: e30b08643c8923aedf9fd45a788672d0
+    size: 117715
+    cloud:
+      remote_storage:
+        etag: 08a1b79cf3e7e183031001
+        version_id: '1705404784909217'
+  - relpath: dog-breeds/bulldog/bulldog94.jpg
+    md5: 7edbe30cd464c5b2b0ef2357efab5d86
+    size: 205200
+    cloud:
+      remote_storage:
+        etag: 08c6f2b0f3e7e183031001
+        version_id: '1705404785244486'
+  - relpath: dog-breeds/bulldog/bulldog96.jpg
+    md5: 19c57b1b5acb0eb2225c8914790143e2
+    size: 53202
+    cloud:
+      remote_storage:
+        etag: 088683f3f2e7e183031001
+        version_id: '1705404784230790'
+  - relpath: dog-breeds/bulldog/bulldog97.jpg
+    md5: cff2cd02acb37ac5292bc78193a8bf78
+    size: 115491
+    cloud:
+      remote_storage:
+        etag: 088eeff4f2e7e183031001
+        version_id: '1705404784261006'
+  - relpath: dog-breeds/bulldog/bulldog98.jpg
+    md5: 4082e88c9a0c6fde8a061018995d654c
+    size: 142910
+    cloud:
+      remote_storage:
+        etag: 08cfc7acf3e7e183031001
+        version_id: '1705404785173455'
+  - relpath: dog-breeds/bulldog/bulldog99.jpg
+    md5: 7408cebfb9021123c2aefe0adcf59267
+    size: 116919
+    cloud:
+      remote_storage:
+        etag: 08a4808bf3e7e183031001
+        version_id: '1705404784623652'
+  - relpath: dog-breeds/dalmatian/dalmatian10.jpg
+    md5: d515e912e73fbeabf1e1e84229fd56a9
+    size: 109306
+    cloud:
+      remote_storage:
+        etag: 08f3b587f1e7e183031001
+        version_id: '1705404780370675'
+  - relpath: dog-breeds/dalmatian/dalmatian12.jpg
+    md5: 65e3ec76a78400ed2037fba77cea1812
+    size: 73686
+    cloud:
+      remote_storage:
+        etag: 08b5a39cf1e7e183031001
+        version_id: '1705404780712373'
+  - relpath: dog-breeds/dalmatian/dalmatian14.jpg
+    md5: e6e7800a1d32109c803f2309d1f98c36
+    size: 143072
+    cloud:
+      remote_storage:
+        etag: 08abc3fbf0e7e183031001
+        version_id: '1705404780175787'
+  - relpath: dog-breeds/dalmatian/dalmatian16.jpg
+    md5: c66fab89f46ea0d94c3110ca79352aca
+    size: 80121
+    cloud:
+      remote_storage:
+        etag: 08b2ebfcf0e7e183031001
+        version_id: '1705404780197298'
+  - relpath: dog-breeds/dalmatian/dalmatian18.jpg
+    md5: 2ad0680d9ed0339d13b4a5c8be03423c
+    size: 119737
+    cloud:
+      remote_storage:
+        etag: 08b0f5fff0e7e183031001
+        version_id: '1705404780247728'
+  - relpath: dog-breeds/dalmatian/dalmatian2.jpg
+    md5: 0291bc55835fba76377bf65ac03d77c9
+    size: 158897
+    cloud:
+      remote_storage:
+        etag: 08c2e08af1e7e183031001
+        version_id: '1705404780425282'
+  - relpath: dog-breeds/dalmatian/dalmatian20.jpg
+    md5: 3673eb8edf2385028a9d5ff47b90030d
+    size: 60078
+    cloud:
+      remote_storage:
+        etag: 08faee94f1e7e183031001
+        version_id: '1705404780590970'
+  - relpath: dog-breeds/dalmatian/dalmatian22.jpg
+    md5: 255eeeb6fec18fc4ad93f561a93539ce
+    size: 73215
+    cloud:
+      remote_storage:
+        etag: 089df1fcf0e7e183031001
+        version_id: '1705404780198045'
+  - relpath: dog-breeds/dalmatian/dalmatian24.jpg
+    md5: 9928de4078382fa8c273500fe3bf0e64
+    size: 125075
+    cloud:
+      remote_storage:
+        etag: 088fc096f1e7e183031001
+        version_id: '1705404780617743'
+  - relpath: dog-breeds/dalmatian/dalmatian28.jpg
+    md5: da62b54eb7b9f63a2710b772abd5aa0a
+    size: 132297
+    cloud:
+      remote_storage:
+        etag: 08acbba8f1e7e183031001
+        version_id: '1705404780912044'
+  - relpath: dog-breeds/dalmatian/dalmatian30.jpg
+    md5: f2670df13c0695c8fa9114bdcbc4e84e
+    size: 110773
+    cloud:
+      remote_storage:
+        etag: 08a9dbb5f1e7e183031001
+        version_id: '1705404781129129'
+  - relpath: dog-breeds/dalmatian/dalmatian32.jpg
+    md5: bea60d120312f9773c2fa16048f1e32f
+    size: 68811
+    cloud:
+      remote_storage:
+        etag: 089da1aaf1e7e183031001
+        version_id: '1705404780941469'
+  - relpath: dog-breeds/dalmatian/dalmatian34.jpg
+    md5: 3834bc08c6ea37008c4da35f0c76abe0
+    size: 54615
+    cloud:
+      remote_storage:
+        etag: 08ce8a90f1e7e183031001
+        version_id: '1705404780512590'
+  - relpath: dog-breeds/dalmatian/dalmatian36.jpg
+    md5: 387d6e8f6264c5d6a09f8801af51f8dc
+    size: 131347
+    cloud:
+      remote_storage:
+        etag: 08c2f7a1f1e7e183031001
+        version_id: '1705404780805058'
+  - relpath: dog-breeds/dalmatian/dalmatian4.jpg
+    md5: 6d993b7f6fab9d1aab4b619a65f4d02e
+    size: 121399
+    cloud:
+      remote_storage:
+        etag: 08fde1a2f1e7e183031001
+        version_id: '1705404780818685'
+  - relpath: dog-breeds/dalmatian/dalmatian40.jpg
+    md5: 84497767ddb4abb0d1fdfdc1595e09a3
+    size: 78371
+    cloud:
+      remote_storage:
+        etag: 08efb383f1e7e183031001
+        version_id: '1705404780304879'
+  - relpath: dog-breeds/dalmatian/dalmatian41.jpg
+    md5: 0291bc55835fba76377bf65ac03d77c9
+    size: 158897
+    cloud:
+      remote_storage:
+        etag: 08948e9cf1e7e183031001
+        version_id: '1705404780709652'
+  - relpath: dog-breeds/dalmatian/dalmatian43.jpg
+    md5: 65e3ec76a78400ed2037fba77cea1812
+    size: 73686
+    cloud:
+      remote_storage:
+        etag: 088dfb92f1e7e183031001
+        version_id: '1705404780559757'
+  - relpath: dog-breeds/dalmatian/dalmatian44.jpg
+    md5: c66fab89f46ea0d94c3110ca79352aca
+    size: 80121
+    cloud:
+      remote_storage:
+        etag: 08c79391f1e7e183031001
+        version_id: '1705404780530119'
+  - relpath: dog-breeds/dalmatian/dalmatian45.jpg
+    md5: 3673eb8edf2385028a9d5ff47b90030d
+    size: 60078
+    cloud:
+      remote_storage:
+        etag: 08cc8cfbf0e7e183031001
+        version_id: '1705404780168780'
+  - relpath: dog-breeds/dalmatian/dalmatian46.jpg
+    md5: 255eeeb6fec18fc4ad93f561a93539ce
+    size: 73215
+    cloud:
+      remote_storage:
+        etag: 08d8a795f1e7e183031001
+        version_id: '1705404780598232'
+  - relpath: dog-breeds/dalmatian/dalmatian48.jpg
+    md5: f2670df13c0695c8fa9114bdcbc4e84e
+    size: 110773
+    cloud:
+      remote_storage:
+        etag: 0894e48bf1e7e183031001
+        version_id: '1705404780442132'
+  - relpath: dog-breeds/dalmatian/dalmatian49.jpg
+    md5: 3834bc08c6ea37008c4da35f0c76abe0
+    size: 54615
+    cloud:
+      remote_storage:
+        etag: 08f5ef8bf1e7e183031001
+        version_id: '1705404780443637'
+  - relpath: dog-breeds/dalmatian/dalmatian51.jpg
+    md5: 6d993b7f6fab9d1aab4b619a65f4d02e
+    size: 121399
+    cloud:
+      remote_storage:
+        etag: 08a9d297f1e7e183031001
+        version_id: '1705404780636457'
+  - relpath: dog-breeds/dalmatian/dalmatian52.jpg
+    md5: ccc04f38caacb7484a9175acd76471f5
+    size: 65252
+    cloud:
+      remote_storage:
+        etag: 08b4f093f1e7e183031001
+        version_id: '1705404780574772'
+  - relpath: dog-breeds/dalmatian/dalmatian53.jpg
+    md5: d515e912e73fbeabf1e1e84229fd56a9
+    size: 109306
+    cloud:
+      remote_storage:
+        etag: 088c94a6f1e7e183031001
+        version_id: '1705404780874252'
+  - relpath: dog-breeds/dalmatian/dalmatian55.jpg
+    md5: 2ad0680d9ed0339d13b4a5c8be03423c
+    size: 119737
+    cloud:
+      remote_storage:
+        etag: 08a8eab5f1e7e183031001
+        version_id: '1705404781131048'
+  - relpath: dog-breeds/dalmatian/dalmatian56.jpg
+    md5: 9928de4078382fa8c273500fe3bf0e64
+    size: 125075
+    cloud:
+      remote_storage:
+        etag: 08a5d2b0f1e7e183031001
+        version_id: '1705404781046053'
+  - relpath: dog-breeds/dalmatian/dalmatian57.jpg
+    md5: da62b54eb7b9f63a2710b772abd5aa0a
+    size: 132297
+    cloud:
+      remote_storage:
+        etag: 08d4a6b8f1e7e183031001
+        version_id: '1705404781171540'
+  - relpath: dog-breeds/dalmatian/dalmatian58.jpg
+    md5: bea60d120312f9773c2fa16048f1e32f
+    size: 68811
+    cloud:
+      remote_storage:
+        etag: 08e789a7f1e7e183031001
+        version_id: '1705404780889319'
+  - relpath: dog-breeds/dalmatian/dalmatian59.jpg
+    md5: 387d6e8f6264c5d6a09f8801af51f8dc
+    size: 131347
+    cloud:
+      remote_storage:
+        etag: 08cde499f1e7e183031001
+        version_id: '1705404780671565'
+  - relpath: dog-breeds/dalmatian/dalmatian6.jpg
+    md5: ccc04f38caacb7484a9175acd76471f5
+    size: 65252
+    cloud:
+      remote_storage:
+        etag: 08cfcf99f1e7e183031001
+        version_id: '1705404780668879'
+  - relpath: dog-breeds/dalmatian/dalmatian63.jpg
+    md5: 84497767ddb4abb0d1fdfdc1595e09a3
+    size: 78371
+    cloud:
+      remote_storage:
+        etag: 08aebb8bf1e7e183031001
+        version_id: '1705404780436910'
+  - relpath: dog-breeds/dalmatian/dalmatian64.jpg
+    md5: 0291bc55835fba76377bf65ac03d77c9
+    size: 158897
+    cloud:
+      remote_storage:
+        etag: 08e6c5ccf1e7e183031001
+        version_id: '1705404781503206'
+  - relpath: dog-breeds/dalmatian/dalmatian65.jpg
+    md5: 65e3ec76a78400ed2037fba77cea1812
+    size: 73686
+    cloud:
+      remote_storage:
+        etag: 0882b898f1e7e183031001
+        version_id: '1705404780649474'
+  - relpath: dog-breeds/dalmatian/dalmatian66.jpg
+    md5: 2ad0680d9ed0339d13b4a5c8be03423c
+    size: 119737
+    cloud:
+      remote_storage:
+        etag: 08af81aaf1e7e183031001
+        version_id: '1705404780937391'
+  - relpath: dog-breeds/dalmatian/dalmatian68.jpg
+    md5: bea60d120312f9773c2fa16048f1e32f
+    size: 68811
+    cloud:
+      remote_storage:
+        etag: 08acf4f8f0e7e183031001
+        version_id: '1705404780132908'
+  - relpath: dog-breeds/dalmatian/dalmatian69.jpg
+    md5: 387d6e8f6264c5d6a09f8801af51f8dc
+    size: 131347
+    cloud:
+      remote_storage:
+        etag: 08e79e92f1e7e183031001
+        version_id: '1705404780547943'
+  - relpath: dog-breeds/dalmatian/dalmatian70.jpg
+    md5: 6d993b7f6fab9d1aab4b619a65f4d02e
+    size: 121399
+    cloud:
+      remote_storage:
+        etag: 08ad84a6f1e7e183031001
+        version_id: '1705404780872237'
+  - relpath: dog-breeds/dalmatian/dalmatian71.jpg
+    md5: d515e912e73fbeabf1e1e84229fd56a9
+    size: 109306
+    cloud:
+      remote_storage:
+        etag: 08bcecabf1e7e183031001
+        version_id: '1705404780967484'
+  - relpath: dog-breeds/dalmatian/dalmatian72.jpg
+    md5: c66fab89f46ea0d94c3110ca79352aca
+    size: 80121
+    cloud:
+      remote_storage:
+        etag: 08efd88af1e7e183031001
+        version_id: '1705404780424303'
+  - relpath: dog-breeds/dalmatian/dalmatian73.jpg
+    md5: 255eeeb6fec18fc4ad93f561a93539ce
+    size: 73215
+    cloud:
+      remote_storage:
+        etag: 0881a58cf1e7e183031001
+        version_id: '1705404780450433'
+  - relpath: dog-breeds/dalmatian/dalmatian74.jpg
+    md5: da62b54eb7b9f63a2710b772abd5aa0a
+    size: 132297
+    cloud:
+      remote_storage:
+        etag: 08b4b99df1e7e183031001
+        version_id: '1705404780731572'
+  - relpath: dog-breeds/dalmatian/dalmatian75.jpg
+    md5: 3834bc08c6ea37008c4da35f0c76abe0
+    size: 54615
+    cloud:
+      remote_storage:
+        etag: 089de0f7f0e7e183031001
+        version_id: '1705404780113949'
+  - relpath: dog-breeds/dalmatian/dalmatian77.jpg
+    md5: ccc04f38caacb7484a9175acd76471f5
+    size: 65252
+    cloud:
+      remote_storage:
+        etag: 08a9fee9f0e7e183031001
+        version_id: '1705404779888425'
+  - relpath: dog-breeds/dalmatian/dalmatian78.jpg
+    md5: 1a3035527aa9ff8118759bb04cb387f1
+    size: 316331
+    cloud:
+      remote_storage:
+        etag: 08948ecbf1e7e183031001
+        version_id: '1705404781479700'
+  - relpath: dog-breeds/dalmatian/dalmatian8.jpg
+    md5: 1a3035527aa9ff8118759bb04cb387f1
+    size: 316331
+    cloud:
+      remote_storage:
+        etag: 08bdc0d8f1e7e183031001
+        version_id: '1705404781699133'
+  - relpath: dog-breeds/dalmatian/dalmatian80.jpg
+    md5: 3673eb8edf2385028a9d5ff47b90030d
+    size: 60078
+    cloud:
+      remote_storage:
+        etag: 08c3ca91f1e7e183031001
+        version_id: '1705404780537155'
+  - relpath: dog-breeds/dalmatian/dalmatian84.jpg
+    md5: 9928de4078382fa8c273500fe3bf0e64
+    size: 125075
+    cloud:
+      remote_storage:
+        etag: 08ccba82f1e7e183031001
+        version_id: '1705404780289356'
+  - relpath: dog-breeds/dalmatian/dalmatian85.jpg
+    md5: f2670df13c0695c8fa9114bdcbc4e84e
+    size: 110773
+    cloud:
+      remote_storage:
+        etag: 08db9f83f1e7e183031001
+        version_id: '1705404780302299'
+  - relpath: dog-breeds/dalmatian/dalmatian86.jpg
+    md5: 84497767ddb4abb0d1fdfdc1595e09a3
+    size: 78371
+    cloud:
+      remote_storage:
+        etag: 08b082f7f0e7e183031001
+        version_id: '1705404780101936'
+  - relpath: dog-breeds/german-shepherd/german-shepherd1.jpg
+    md5: 27534ba9602e83897094b6b746451e24
+    size: 97505
+    cloud:
+      remote_storage:
+        etag: 08e4b78af2e7e183031001
+        version_id: '1705404782517220'
+  - relpath: dog-breeds/german-shepherd/german-shepherd10.jpg
+    md5: ffd88636ff8922b34452858eb59eb81a
+    size: 50201
+    cloud:
+      remote_storage:
+        etag: 08f8cbbef1e7e183031001
+        version_id: '1705404781274616'
+  - relpath: dog-breeds/german-shepherd/german-shepherd100.jpg
+    md5: 6ca700ffeb947bca1ce371b7b81e42c3
+    size: 218396
+    cloud:
+      remote_storage:
+        etag: 08c3ed82f2e7e183031001
+        version_id: '1705404782393027'
+  - relpath: dog-breeds/german-shepherd/german-shepherd104.jpg
+    md5: 073f0116dc41061aa7e767c2ac32e1a7
+    size: 192959
+    cloud:
+      remote_storage:
+        etag: 088fefcbf1e7e183031001
+        version_id: '1705404781492111'
+  - relpath: dog-breeds/german-shepherd/german-shepherd105.jpg
+    md5: cc6768da0b5240703e8ff01a07865a50
+    size: 366085
+    cloud:
+      remote_storage:
+        etag: 08c7fc90f2e7e183031001
+        version_id: '1705404782624327'
+  - relpath: dog-breeds/german-shepherd/german-shepherd106.jpg
+    md5: 860f60fd3f67ec39373129db2d18022e
+    size: 171516
+    cloud:
+      remote_storage:
+        etag: 08b8b2c9f1e7e183031001
+        version_id: '1705404781451576'
+  - relpath: dog-breeds/german-shepherd/german-shepherd107.jpg
+    md5: 10ca7fd6f1ea4b6f8696e200acc72e31
+    size: 124908
+    cloud:
+      remote_storage:
+        etag: 089faadff1e7e183031001
+        version_id: '1705404781810975'
+  - relpath: dog-breeds/german-shepherd/german-shepherd108.jpg
+    md5: b8911298ea0fd701a02a92876feaa365
+    size: 87410
+    cloud:
+      remote_storage:
+        etag: 08d6eeedf1e7e183031001
+        version_id: '1705404782049110'
+  - relpath: dog-breeds/german-shepherd/german-shepherd11.jpg
+    md5: 61edb0e60fcb7a31eb6685946c9c3b67
+    size: 79415
+    cloud:
+      remote_storage:
+        etag: 08adfbe9f1e7e183031001
+        version_id: '1705404781985197'
+  - relpath: dog-breeds/german-shepherd/german-shepherd110.jpg
+    md5: 18512485b7ffa940a4215fb342fd3224
+    size: 79993
+    cloud:
+      remote_storage:
+        etag: 08e8c9e6f1e7e183031001
+        version_id: '1705404781929704'
+  - relpath: dog-breeds/german-shepherd/german-shepherd111.jpg
+    md5: 10ca7fd6f1ea4b6f8696e200acc72e31
+    size: 124908
+    cloud:
+      remote_storage:
+        etag: 08e8efbdf1e7e183031001
+        version_id: '1705404781262824'
+  - relpath: dog-breeds/german-shepherd/german-shepherd112.jpg
+    md5: b8911298ea0fd701a02a92876feaa365
+    size: 87410
+    cloud:
+      remote_storage:
+        etag: 08ee87dbf1e7e183031001
+        version_id: '1705404781741038'
+  - relpath: dog-breeds/german-shepherd/german-shepherd113.jpg
+    md5: f8eacbb3f1f6b38aee3ba00ec3756750
+    size: 110133
+    cloud:
+      remote_storage:
+        etag: 08baa291f2e7e183031001
+        version_id: '1705404782629178'
+  - relpath: dog-breeds/german-shepherd/german-shepherd114.jpg
+    md5: 18512485b7ffa940a4215fb342fd3224
+    size: 79993
+    cloud:
+      remote_storage:
+        etag: 089ba0c0f1e7e183031001
+        version_id: '1705404781301787'
+  - relpath: dog-breeds/german-shepherd/german-shepherd115.jpg
+    md5: 7e01a68379db48c21d368979f9ca53d9
+    size: 164588
+    cloud:
+      remote_storage:
+        etag: 089cd7c6f1e7e183031001
+        version_id: '1705404781407132'
+  - relpath: dog-breeds/german-shepherd/german-shepherd116.jpg
+    md5: ad5a57358e57a8455b3aae54414be5f5
+    size: 52890
+    cloud:
+      remote_storage:
+        etag: 08c091aff1e7e183031001
+        version_id: '1705404781021376'
+  - relpath: dog-breeds/german-shepherd/german-shepherd118.jpg
+    md5: 095cf0392de9b202ada2e48b8d0a86c0
+    size: 65390
+    cloud:
+      remote_storage:
+        etag: 08f99caef1e7e183031001
+        version_id: '1705404781006457'
+  - relpath: dog-breeds/german-shepherd/german-shepherd13.jpg
+    md5: 7a8a3fadcf887fae271cb1d499eec25b
+    size: 92520
+    cloud:
+      remote_storage:
+        etag: 08bbc6b7f1e7e183031001
+        version_id: '1705404781159227'
+  - relpath: dog-breeds/german-shepherd/german-shepherd14.jpg
+    md5: 89cd168e6c5a54a4ae66114e986b7a4a
+    size: 107993
+    cloud:
+      remote_storage:
+        etag: 08a999c9f1e7e183031001
+        version_id: '1705404781448361'
+  - relpath: dog-breeds/german-shepherd/german-shepherd16.jpg
+    md5: 8655f547e0cb6156d376b92489b4f6c5
+    size: 81376
+    cloud:
+      remote_storage:
+        etag: 08cfa590f2e7e183031001
+        version_id: '1705404782613199'
+  - relpath: dog-breeds/german-shepherd/german-shepherd17.jpg
+    md5: 77ab4431a28bc03318f5581d6cd86947
+    size: 118252
+    cloud:
+      remote_storage:
+        etag: 08b6dcedf1e7e183031001
+        version_id: '1705404782046774'
+  - relpath: dog-breeds/german-shepherd/german-shepherd18.jpg
+    md5: 8658631fe1e7c5c972d742f075b958ef
+    size: 88286
+    cloud:
+      remote_storage:
+        etag: 089edc83f2e7e183031001
+        version_id: '1705404782407198'
+  - relpath: dog-breeds/german-shepherd/german-shepherd2.jpg
+    md5: a7ba91be0369fdd842f74c63f1fccea2
+    size: 58946
+    cloud:
+      remote_storage:
+        etag: 088f9febf1e7e183031001
+        version_id: '1705404782006159'
+  - relpath: dog-breeds/german-shepherd/german-shepherd24.jpg
+    md5: a95f05f7f818deedf028aba5eeebf2ba
+    size: 387203
+    cloud:
+      remote_storage:
+        etag: 08e5d68bf2e7e183031001
+        version_id: '1705404782537573'
+  - relpath: dog-breeds/german-shepherd/german-shepherd26.jpg
+    md5: ef1dfc3aed529e817b9d242d5f19ba62
+    size: 172967
+    cloud:
+      remote_storage:
+        etag: 08e69089f2e7e183031001
+        version_id: '1705404782495846'
+  - relpath: dog-breeds/german-shepherd/german-shepherd28.jpg
+    md5: 143c52a150148d463b7a1f79005d6938
+    size: 400888
+    cloud:
+      remote_storage:
+        etag: 08c5bb8df2e7e183031001
+        version_id: '1705404782566853'
+  - relpath: dog-breeds/german-shepherd/german-shepherd30.jpg
+    md5: a171f519b36156a7f3c0daa944f09063
+    size: 120067
+    cloud:
+      remote_storage:
+        etag: 08d7908df2e7e183031001
+        version_id: '1705404782561367'
+  - relpath: dog-breeds/german-shepherd/german-shepherd32.jpg
+    md5: 947cd172a242b0ec18705053aaebfa0e
+    size: 259694
+    cloud:
+      remote_storage:
+        etag: 08b2c385f2e7e183031001
+        version_id: '1705404782436786'
+  - relpath: dog-breeds/german-shepherd/german-shepherd34.jpg
+    md5: 80aa222b47c876d667854f60296376b9
+    size: 71285
+    cloud:
+      remote_storage:
+        etag: 089086eff1e7e183031001
+        version_id: '1705404782068496'
+  - relpath: dog-breeds/german-shepherd/german-shepherd36.jpg
+    md5: 3ed2906ab476caab6d7bdd47aa8a2b54
+    size: 277273
+    cloud:
+      remote_storage:
+        etag: 08bced9ff2e7e183031001
+        version_id: '1705404782868156'
+  - relpath: dog-breeds/german-shepherd/german-shepherd38.jpg
+    md5: b2bb4745787814b77277cb2bb8b5214b
+    size: 188535
+    cloud:
+      remote_storage:
+        etag: 08c287c5f1e7e183031001
+        version_id: '1705404781380546'
+  - relpath: dog-breeds/german-shepherd/german-shepherd4.jpg
+    md5: fb94ca24569088a36ec5e494ec99ddaa
+    size: 104264
+    cloud:
+      remote_storage:
+        etag: 088dfc90f2e7e183031001
+        version_id: '1705404782624269'
+  - relpath: dog-breeds/german-shepherd/german-shepherd40.jpg
+    md5: e890eb8c83a295559d9a2a27b74a6796
+    size: 180880
+    cloud:
+      remote_storage:
+        etag: 08f8a0c8f1e7e183031001
+        version_id: '1705404781432952'
+  - relpath: dog-breeds/german-shepherd/german-shepherd42.jpg
+    md5: 6ca700ffeb947bca1ce371b7b81e42c3
+    size: 218396
+    cloud:
+      remote_storage:
+        etag: 08ebf9caf1e7e183031001
+        version_id: '1705404781477099'
+  - relpath: dog-breeds/german-shepherd/german-shepherd44.jpg
+    md5: fa1e779ec815f40dc0687ed26c74388b
+    size: 303977
+    cloud:
+      remote_storage:
+        etag: 0890a998f2e7e183031001
+        version_id: '1705404782744720'
+  - relpath: dog-breeds/german-shepherd/german-shepherd46.jpg
+    md5: c2bb321966f04a819f6472f9a0234b9a
+    size: 150981
+    cloud:
+      remote_storage:
+        etag: 08f2a1e7f1e7e183031001
+        version_id: '1705404781940978'
+  - relpath: dog-breeds/german-shepherd/german-shepherd48.jpg
+    md5: aa3c48eab87dfa92c30810aab8acb107
+    size: 188137
+    cloud:
+      remote_storage:
+        etag: 0896e1caf1e7e183031001
+        version_id: '1705404781473942'
+  - relpath: dog-breeds/german-shepherd/german-shepherd5.jpg
+    md5: ebdd50d72a27ee8f036dc321ee9874a8
+    size: 47597
+    cloud:
+      remote_storage:
+        etag: 088da7eef1e7e183031001
+        version_id: '1705404782056333'
+  - relpath: dog-breeds/german-shepherd/german-shepherd50.jpg
+    md5: 073f0116dc41061aa7e767c2ac32e1a7
+    size: 192959
+    cloud:
+      remote_storage:
+        etag: 089cb3cef1e7e183031001
+        version_id: '1705404781533596'
+  - relpath: dog-breeds/german-shepherd/german-shepherd52.jpg
+    md5: 014885de218f099df7cf5e1a1dcb3a19
+    size: 218417
+    cloud:
+      remote_storage:
+        etag: 0897c691f2e7e183031001
+        version_id: '1705404782633751'
+  - relpath: dog-breeds/german-shepherd/german-shepherd54.jpg
+    md5: cc6768da0b5240703e8ff01a07865a50
+    size: 366085
+    cloud:
+      remote_storage:
+        etag: 089bb8c4f2e7e183031001
+        version_id: '1705404783467547'
+  - relpath: dog-breeds/german-shepherd/german-shepherd56.jpg
+    md5: f0f2d0281771dee0e76279e36e65d72c
+    size: 346590
+    cloud:
+      remote_storage:
+        etag: 08cba48cf2e7e183031001
+        version_id: '1705404782547531'
+  - relpath: dog-breeds/german-shepherd/german-shepherd6.jpg
+    md5: 709ab6702de0f1ef682aacbd9a2fa0f2
+    size: 86523
+    cloud:
+      remote_storage:
+        etag: 08b5bd8af2e7e183031001
+        version_id: '1705404782517941'
+  - relpath: dog-breeds/german-shepherd/german-shepherd60.jpg
+    md5: 860f60fd3f67ec39373129db2d18022e
+    size: 171516
+    cloud:
+      remote_storage:
+        etag: 08f4a9c8f1e7e183031001
+        version_id: '1705404781434100'
+  - relpath: dog-breeds/german-shepherd/german-shepherd62.jpg
+    md5: ef1dfc3aed529e817b9d242d5f19ba62
+    size: 172967
+    cloud:
+      remote_storage:
+        etag: 08de8f87f2e7e183031001
+        version_id: '1705404782462942'
+  - relpath: dog-breeds/german-shepherd/german-shepherd63.jpg
+    md5: a171f519b36156a7f3c0daa944f09063
+    size: 120067
+    cloud:
+      remote_storage:
+        etag: 089bf58ef2e7e183031001
+        version_id: '1705404782590619'
+  - relpath: dog-breeds/german-shepherd/german-shepherd64.jpg
+    md5: 80aa222b47c876d667854f60296376b9
+    size: 71285
+    cloud:
+      remote_storage:
+        etag: 08c889d4f1e7e183031001
+        version_id: '1705404781626568'
+  - relpath: dog-breeds/german-shepherd/german-shepherd65.jpg
+    md5: 3ed2906ab476caab6d7bdd47aa8a2b54
+    size: 277273
+    cloud:
+      remote_storage:
+        etag: 08afdb86f2e7e183031001
+        version_id: '1705404782456239'
+  - relpath: dog-breeds/german-shepherd/german-shepherd66.jpg
+    md5: e890eb8c83a295559d9a2a27b74a6796
+    size: 180880
+    cloud:
+      remote_storage:
+        etag: 08eed0fbf1e7e183031001
+        version_id: '1705404782274670'
+  - relpath: dog-breeds/german-shepherd/german-shepherd67.jpg
+    md5: fa1e779ec815f40dc0687ed26c74388b
+    size: 303977
+    cloud:
+      remote_storage:
+        etag: 08fdaca3f2e7e183031001
+        version_id: '1705404782925437'
+  - relpath: dog-breeds/german-shepherd/german-shepherd68.jpg
+    md5: aa3c48eab87dfa92c30810aab8acb107
+    size: 188137
+    cloud:
+      remote_storage:
+        etag: 08f68df7f1e7e183031001
+        version_id: '1705404782200566'
+  - relpath: dog-breeds/german-shepherd/german-shepherd69.jpg
+    md5: cc6768da0b5240703e8ff01a07865a50
+    size: 366085
+    cloud:
+      remote_storage:
+        etag: 08a6f6eff1e7e183031001
+        version_id: '1705404782082854'
+  - relpath: dog-breeds/german-shepherd/german-shepherd7.jpg
+    md5: bbcc7a229c102b06bf9dd07debdd8d67
+    size: 89573
+    cloud:
+      remote_storage:
+        etag: 08b88f8cf2e7e183031001
+        version_id: '1705404782544824'
+  - relpath: dog-breeds/german-shepherd/german-shepherd70.jpg
+    md5: f0f2d0281771dee0e76279e36e65d72c
+    size: 346590
+    cloud:
+      remote_storage:
+        etag: 08a4efecf1e7e183031001
+        version_id: '1705404782032804'
+  - relpath: dog-breeds/german-shepherd/german-shepherd71.jpg
+    md5: 860f60fd3f67ec39373129db2d18022e
+    size: 171516
+    cloud:
+      remote_storage:
+        etag: 08d8a8ddf1e7e183031001
+        version_id: '1705404781778008'
+  - relpath: dog-breeds/german-shepherd/german-shepherd72.jpg
+    md5: a95f05f7f818deedf028aba5eeebf2ba
+    size: 387203
+    cloud:
+      remote_storage:
+        etag: 08f9dd80f2e7e183031001
+        version_id: '1705404782358265'
+  - relpath: dog-breeds/german-shepherd/german-shepherd73.jpg
+    md5: 143c52a150148d463b7a1f79005d6938
+    size: 400888
+    cloud:
+      remote_storage:
+        etag: 08bc92b3f2e7e183031001
+        version_id: '1705404783184188'
+  - relpath: dog-breeds/german-shepherd/german-shepherd74.jpg
+    md5: 947cd172a242b0ec18705053aaebfa0e
+    size: 259694
+    cloud:
+      remote_storage:
+        etag: 08ef97a5f2e7e183031001
+        version_id: '1705404782955503'
+  - relpath: dog-breeds/german-shepherd/german-shepherd75.jpg
+    md5: b2bb4745787814b77277cb2bb8b5214b
+    size: 188535
+    cloud:
+      remote_storage:
+        etag: 08b6c9e7f1e7e183031001
+        version_id: '1705404781946038'
+  - relpath: dog-breeds/german-shepherd/german-shepherd76.jpg
+    md5: 6ca700ffeb947bca1ce371b7b81e42c3
+    size: 218396
+    cloud:
+      remote_storage:
+        etag: 089685aff2e7e183031001
+        version_id: '1705404783116950'
+  - relpath: dog-breeds/german-shepherd/german-shepherd78.jpg
+    md5: 073f0116dc41061aa7e767c2ac32e1a7
+    size: 192959
+    cloud:
+      remote_storage:
+        etag: 089dbca1f2e7e183031001
+        version_id: '1705404782894621'
+  - relpath: dog-breeds/german-shepherd/german-shepherd79.jpg
+    md5: 014885de218f099df7cf5e1a1dcb3a19
+    size: 218417
+    cloud:
+      remote_storage:
+        etag: 08f4c8e9f1e7e183031001
+        version_id: '1705404781978740'
+  - relpath: dog-breeds/german-shepherd/german-shepherd8.jpg
+    md5: f527d1d954ff27d027ba6a8858d1c0cb
+    size: 91591
+    cloud:
+      remote_storage:
+        etag: 08b4edf1f1e7e183031001
+        version_id: '1705404782114484'
+  - relpath: dog-breeds/german-shepherd/german-shepherd85.jpg
+    md5: 143c52a150148d463b7a1f79005d6938
+    size: 400888
+    cloud:
+      remote_storage:
+        etag: 0898dbd0f2e7e183031001
+        version_id: '1705404783668632'
+  - relpath: dog-breeds/german-shepherd/german-shepherd86.jpg
+    md5: 80aa222b47c876d667854f60296376b9
+    size: 71285
+    cloud:
+      remote_storage:
+        etag: 08f482b6f1e7e183031001
+        version_id: '1705404781134196'
+  - relpath: dog-breeds/german-shepherd/german-shepherd87.jpg
+    md5: b2bb4745787814b77277cb2bb8b5214b
+    size: 188535
+    cloud:
+      remote_storage:
+        etag: 08ff83e0f1e7e183031001
+        version_id: '1705404781822463'
+  - relpath: dog-breeds/german-shepherd/german-shepherd88.jpg
+    md5: fa1e779ec815f40dc0687ed26c74388b
+    size: 303977
+    cloud:
+      remote_storage:
+        etag: 0898c48ef2e7e183031001
+        version_id: '1705404782584344'
+  - relpath: dog-breeds/german-shepherd/german-shepherd89.jpg
+    md5: 014885de218f099df7cf5e1a1dcb3a19
+    size: 218417
+    cloud:
+      remote_storage:
+        etag: 08f596eef1e7e183031001
+        version_id: '1705404782054261'
+  - relpath: dog-breeds/german-shepherd/german-shepherd91.jpg
+    md5: a95f05f7f818deedf028aba5eeebf2ba
+    size: 387203
+    cloud:
+      remote_storage:
+        etag: 08efa7cef2e7e183031001
+        version_id: '1705404783629295'
+  - relpath: dog-breeds/german-shepherd/german-shepherd92.jpg
+    md5: 947cd172a242b0ec18705053aaebfa0e
+    size: 259694
+    cloud:
+      remote_storage:
+        etag: 0886d792f2e7e183031001
+        version_id: '1705404782652294'
+  - relpath: dog-breeds/german-shepherd/german-shepherd93.jpg
+    md5: e890eb8c83a295559d9a2a27b74a6796
+    size: 180880
+    cloud:
+      remote_storage:
+        etag: 08bfe7bdf1e7e183031001
+        version_id: '1705404781261759'
+  - relpath: dog-breeds/german-shepherd/german-shepherd95.jpg
+    md5: aa3c48eab87dfa92c30810aab8acb107
+    size: 188137
+    cloud:
+      remote_storage:
+        etag: 089dfcf4f1e7e183031001
+        version_id: '1705404782165533'
+  - relpath: dog-breeds/german-shepherd/german-shepherd96.jpg
+    md5: f0f2d0281771dee0e76279e36e65d72c
+    size: 346590
+    cloud:
+      remote_storage:
+        etag: 08e4bc86f2e7e183031001
+        version_id: '1705404782452324'
+  - relpath: dog-breeds/german-shepherd/german-shepherd97.jpg
+    md5: ef1dfc3aed529e817b9d242d5f19ba62
+    size: 172967
+    cloud:
+      remote_storage:
+        etag: 08c39993f2e7e183031001
+        version_id: '1705404782660803'
+  - relpath: dog-breeds/german-shepherd/german-shepherd98.jpg
+    md5: a171f519b36156a7f3c0daa944f09063
+    size: 120067
+    cloud:
+      remote_storage:
+        etag: 08eeda95f2e7e183031001
+        version_id: '1705404782701934'
+  - relpath: dog-breeds/german-shepherd/german-shepherd99.jpg
+    md5: 3ed2906ab476caab6d7bdd47aa8a2b54
+    size: 277273
+    cloud:
+      remote_storage:
+        etag: 08eaf2a0f2e7e183031001
+        version_id: '1705404782885226'
+  - relpath: dog-breeds/husky/husky10.jpg
+    md5: d0de86278d6c37f511c496d14585e225
+    size: 73036
+    cloud:
+      remote_storage:
+        etag: 08cbfbb3f3e7e183031001
+        version_id: '1705404785294795'
+  - relpath: dog-breeds/husky/husky100.jpg
+    md5: 935e1b110e81dc074d120d7842ab2eee
+    size: 170683
+    cloud:
+      remote_storage:
+        etag: 088df4edf3e7e183031001
+        version_id: '1705404786244109'
+  - relpath: dog-breeds/husky/husky101.jpg
+    md5: a761ae357851a81b10adc7c6897728f3
+    size: 178252
+    cloud:
+      remote_storage:
+        etag: 08a78688f4e7e183031001
+        version_id: '1705404786672423'
+  - relpath: dog-breeds/husky/husky105.jpg
+    md5: 29fa9b5617f5afb364f44bc8645ab4da
+    size: 191532
+    cloud:
+      remote_storage:
+        etag: 0883c784f4e7e183031001
+        version_id: '1705404786615171'
+  - relpath: dog-breeds/husky/husky106.jpg
+    md5: 6bda95199425cdba7ad2b2cada468990
+    size: 348731
+    cloud:
+      remote_storage:
+        etag: 08cda481f4e7e183031001
+        version_id: '1705404786561613'
+  - relpath: dog-breeds/husky/husky107.jpg
+    md5: 9906d8843a3d217e5b321cbddad83102
+    size: 65776
+    cloud:
+      remote_storage:
+        etag: 08d8f0f9f3e7e183031001
+        version_id: '1705404786440280'
+  - relpath: dog-breeds/husky/husky11.jpg
+    md5: fd6621486176be3df245d8fc3e236d08
+    size: 67410
+    cloud:
+      remote_storage:
+        etag: 08e881f5f3e7e183031001
+        version_id: '1705404786360552'
+  - relpath: dog-breeds/husky/husky110.jpg
+    md5: dfafb2be0fe62c6b78a12d2a44357b31
+    size: 121757
+    cloud:
+      remote_storage:
+        etag: 0892b681f4e7e183031001
+        version_id: '1705404786563858'
+  - relpath: dog-breeds/husky/husky111.jpg
+    md5: 9906d8843a3d217e5b321cbddad83102
+    size: 65776
+    cloud:
+      remote_storage:
+        etag: 08c084f9f3e7e183031001
+        version_id: '1705404786426432'
+  - relpath: dog-breeds/husky/husky112.jpg
+    md5: 4d7d73f5f25b3fd80674b6153157d210
+    size: 116011
+    cloud:
+      remote_storage:
+        etag: 08bef1c8f3e7e183031001
+        version_id: '1705404785637566'
+  - relpath: dog-breeds/husky/husky116.jpg
+    md5: d03889a2ef7893fce0368b163414caa1
+    size: 46079
+    cloud:
+      remote_storage:
+        etag: 08d6a7d2f3e7e183031001
+        version_id: '1705404785791958'
+  - relpath: dog-breeds/husky/husky12.jpg
+    md5: 98645ef013d751efb106aef99248c13e
+    size: 66474
+    cloud:
+      remote_storage:
+        etag: 088aa6bdf3e7e183031001
+        version_id: '1705404785447690'
+  - relpath: dog-breeds/husky/husky16.jpg
+    md5: 0dcefac99465bcb062c6460b036d462c
+    size: 130613
+    cloud:
+      remote_storage:
+        etag: 0893a8e1f3e7e183031001
+        version_id: '1705404786037779'
+  - relpath: dog-breeds/husky/husky17.jpg
+    md5: bbe4f7b689b317d5b17fd898285480de
+    size: 106370
+    cloud:
+      remote_storage:
+        etag: 0893d0f4f3e7e183031001
+        version_id: '1705404786354195'
+  - relpath: dog-breeds/husky/husky18.jpg
+    md5: e17eeb2ce3ae3f31f35f1439483da09e
+    size: 73144
+    cloud:
+      remote_storage:
+        etag: 08acc0e4f3e7e183031001
+        version_id: '1705404786090028'
+  - relpath: dog-breeds/husky/husky2.jpg
+    md5: b9cb74533af5fd1f11d02c2492969941
+    size: 127143
+    cloud:
+      remote_storage:
+        etag: 08b78688f4e7e183031001
+        version_id: '1705404786672439'
+  - relpath: dog-breeds/husky/husky20.jpg
+    md5: 9d6b39d1c3ecd807971e3b7c641826e0
+    size: 63797
+    cloud:
+      remote_storage:
+        etag: 0890c9b0f3e7e183031001
+        version_id: '1705404785239184'
+  - relpath: dog-breeds/husky/husky22.jpg
+    md5: ec4731db3b64f62af6c23dd9d05b2cc4
+    size: 87411
+    cloud:
+      remote_storage:
+        etag: 089587d7f3e7e183031001
+        version_id: '1705404785869717'
+  - relpath: dog-breeds/husky/husky24.jpg
+    md5: a1a7b39d92f2b7f5410b1caa0c76ebc3
+    size: 214282
+    cloud:
+      remote_storage:
+        etag: 08bea192f4e7e183031001
+        version_id: '1705404786839742'
+  - relpath: dog-breeds/husky/husky26.jpg
+    md5: a7e0a4a027a05efe4944c54f55e38c72
+    size: 128834
+    cloud:
+      remote_storage:
+        etag: 08bbdddff3e7e183031001
+        version_id: '1705404786011835'
+  - relpath: dog-breeds/husky/husky28.jpg
+    md5: 71ef9029bc06eaaef5327155b91fd4a8
+    size: 196723
+    cloud:
+      remote_storage:
+        etag: 08dbd2e6f3e7e183031001
+        version_id: '1705404786125147'
+  - relpath: dog-breeds/husky/husky3.jpg
+    md5: dfd08a7291ecc4e754472c659d26fa2b
+    size: 125079
+    cloud:
+      remote_storage:
+        etag: 088d8ad7f3e7e183031001
+        version_id: '1705404785870093'
+  - relpath: dog-breeds/husky/husky30.jpg
+    md5: d47868f7aab9c882790b99e12abfe142
+    size: 161408
+    cloud:
+      remote_storage:
+        etag: 08ecb8f9f3e7e183031001
+        version_id: '1705404786433132'
+  - relpath: dog-breeds/husky/husky32.jpg
+    md5: 1c074f8b689cad55cd48e4f27215dd4c
+    size: 92905
+    cloud:
+      remote_storage:
+        etag: 08b1b9fbf3e7e183031001
+        version_id: '1705404786465969'
+  - relpath: dog-breeds/husky/husky34.jpg
+    md5: f8a01affe2582aa9fd8ae76875a5a955
+    size: 67248
+    cloud:
+      remote_storage:
+        etag: 08f8c3c6f3e7e183031001
+        version_id: '1705404785598968'
+  - relpath: dog-breeds/husky/husky36.jpg
+    md5: 29fdf9c0b72d3376d07a205e1c1da7ba
+    size: 166528
+    cloud:
+      remote_storage:
+        etag: 08cbb6dbf3e7e183031001
+        version_id: '1705404785941323'
+  - relpath: dog-breeds/husky/husky38.jpg
+    md5: b58f5d18834fb38d4ad618f0bebd0765
+    size: 153899
+    cloud:
+      remote_storage:
+        etag: 08a2e4fbf3e7e183031001
+        version_id: '1705404786471458'
+  - relpath: dog-breeds/husky/husky4.jpg
+    md5: 8e624930b152c98ff59efa19c144b4be
+    size: 94030
+    cloud:
+      remote_storage:
+        etag: 088390caf3e7e183031001
+        version_id: '1705404785657859'
+  - relpath: dog-breeds/husky/husky40.jpg
+    md5: 935e1b110e81dc074d120d7842ab2eee
+    size: 170683
+    cloud:
+      remote_storage:
+        etag: 088fd282f4e7e183031001
+        version_id: '1705404786583823'
+  - relpath: dog-breeds/husky/husky42.jpg
+    md5: 640d3791b1004555d3daa175743b5120
+    size: 223924
+    cloud:
+      remote_storage:
+        etag: 089791e7f3e7e183031001
+        version_id: '1705404786133143'
+  - relpath: dog-breeds/husky/husky44.jpg
+    md5: 7900964d7f470a7013bca51338a4492a
+    size: 517162
+    cloud:
+      remote_storage:
+        etag: 08eac994f4e7e183031001
+        version_id: '1705404786877674'
+  - relpath: dog-breeds/husky/husky46.jpg
+    md5: a761ae357851a81b10adc7c6897728f3
+    size: 178252
+    cloud:
+      remote_storage:
+        etag: 088995fff3e7e183031001
+        version_id: '1705404786526857'
+  - relpath: dog-breeds/husky/husky52.jpg
+    md5: 567d6bf4cd8579aa1278357a3a79d1f1
+    size: 200123
+    cloud:
+      remote_storage:
+        etag: 08c4b8f9f3e7e183031001
+        version_id: '1705404786433092'
+  - relpath: dog-breeds/husky/husky54.jpg
+    md5: 29fa9b5617f5afb364f44bc8645ab4da
+    size: 191532
+    cloud:
+      remote_storage:
+        etag: 08e1e0e4f3e7e183031001
+        version_id: '1705404786094177'
+  - relpath: dog-breeds/husky/husky56.jpg
+    md5: 20aa2ff23a24c5c44c45940852f6e111
+    size: 97511
+    cloud:
+      remote_storage:
+        etag: 089f9fcef3e7e183031001
+        version_id: '1705404785725343'
+  - relpath: dog-breeds/husky/husky58.jpg
+    md5: f0b0337cf8e85395cdf99d809cfbfe7d
+    size: 98899
+    cloud:
+      remote_storage:
+        etag: 088d84f9f3e7e183031001
+        version_id: '1705404786426381'
+  - relpath: dog-breeds/husky/husky6.jpg
+    md5: 172637c8f2f156dd8baf38f877e56cf9
+    size: 38521
+    cloud:
+      remote_storage:
+        etag: 08e8a2faf3e7e183031001
+        version_id: '1705404786446696'
+  - relpath: dog-breeds/husky/husky60.jpg
+    md5: 6bda95199425cdba7ad2b2cada468990
+    size: 348731
+    cloud:
+      remote_storage:
+        etag: 0887ee9ff4e7e183031001
+        version_id: '1705404787062535'
+  - relpath: dog-breeds/husky/husky61.jpg
+    md5: ec4731db3b64f62af6c23dd9d05b2cc4
+    size: 87411
+    cloud:
+      remote_storage:
+        etag: 08e9c7c8f3e7e183031001
+        version_id: '1705404785632233'
+  - relpath: dog-breeds/husky/husky62.jpg
+    md5: a7e0a4a027a05efe4944c54f55e38c72
+    size: 128834
+    cloud:
+      remote_storage:
+        etag: 0888fac1f3e7e183031001
+        version_id: '1705404785523976'
+  - relpath: dog-breeds/husky/husky63.jpg
+    md5: d47868f7aab9c882790b99e12abfe142
+    size: 161408
+    cloud:
+      remote_storage:
+        etag: 08c9cef1f3e7e183031001
+        version_id: '1705404786304841'
+  - relpath: dog-breeds/husky/husky64.jpg
+    md5: f8a01affe2582aa9fd8ae76875a5a955
+    size: 67248
+    cloud:
+      remote_storage:
+        etag: 08b1a3e7f3e7e183031001
+        version_id: '1705404786135473'
+  - relpath: dog-breeds/husky/husky65.jpg
+    md5: 29fdf9c0b72d3376d07a205e1c1da7ba
+    size: 166528
+    cloud:
+      remote_storage:
+        etag: 08fec985f4e7e183031001
+        version_id: '1705404786631934'
+  - relpath: dog-breeds/husky/husky66.jpg
+    md5: 935e1b110e81dc074d120d7842ab2eee
+    size: 170683
+    cloud:
+      remote_storage:
+        etag: 0897c9c5f3e7e183031001
+        version_id: '1705404785583255'
+  - relpath: dog-breeds/husky/husky67.jpg
+    md5: 7900964d7f470a7013bca51338a4492a
+    size: 517162
+    cloud:
+      remote_storage:
+        etag: 08c7f1a1f4e7e183031001
+        version_id: '1705404787095751'
+  - relpath: dog-breeds/husky/husky69.jpg
+    md5: 567d6bf4cd8579aa1278357a3a79d1f1
+    size: 200123
+    cloud:
+      remote_storage:
+        etag: 08c49ffdf3e7e183031001
+        version_id: '1705404786495428'
+  - relpath: dog-breeds/husky/husky7.jpg
+    md5: 12faa6563e5eabbe95383d32cc4cd7ff
+    size: 141217
+    cloud:
+      remote_storage:
+        etag: 089fbadbf3e7e183031001
+        version_id: '1705404785941791'
+  - relpath: dog-breeds/husky/husky70.jpg
+    md5: 20aa2ff23a24c5c44c45940852f6e111
+    size: 97511
+    cloud:
+      remote_storage:
+        etag: 08ddb8dbf3e7e183031001
+        version_id: '1705404785941597'
+  - relpath: dog-breeds/husky/husky71.jpg
+    md5: a1a7b39d92f2b7f5410b1caa0c76ebc3
+    size: 214282
+    cloud:
+      remote_storage:
+        etag: 0891c08bf4e7e183031001
+        version_id: '1705404786728977'
+  - relpath: dog-breeds/husky/husky72.jpg
+    md5: 71ef9029bc06eaaef5327155b91fd4a8
+    size: 196723
+    cloud:
+      remote_storage:
+        etag: 08a3f8fff3e7e183031001
+        version_id: '1705404786539555'
+  - relpath: dog-breeds/husky/husky73.jpg
+    md5: 1c074f8b689cad55cd48e4f27215dd4c
+    size: 92905
+    cloud:
+      remote_storage:
+        etag: 08aa85f9f3e7e183031001
+        version_id: '1705404786426538'
+  - relpath: dog-breeds/husky/husky74.jpg
+    md5: b58f5d18834fb38d4ad618f0bebd0765
+    size: 153899
+    cloud:
+      remote_storage:
+        etag: 08b4d384f4e7e183031001
+        version_id: '1705404786616756'
+  - relpath: dog-breeds/husky/husky75.jpg
+    md5: 640d3791b1004555d3daa175743b5120
+    size: 223924
+    cloud:
+      remote_storage:
+        etag: 0886da86f4e7e183031001
+        version_id: '1705404786650374'
+  - relpath: dog-breeds/husky/husky76.jpg
+    md5: a761ae357851a81b10adc7c6897728f3
+    size: 178252
+    cloud:
+      remote_storage:
+        etag: 08a288f4f3e7e183031001
+        version_id: '1705404786344994'
+  - relpath: dog-breeds/husky/husky78.jpg
+    md5: 29fa9b5617f5afb364f44bc8645ab4da
+    size: 191532
+    cloud:
+      remote_storage:
+        etag: 0882eb87f4e7e183031001
+        version_id: '1705404786668930'
+  - relpath: dog-breeds/husky/husky79.jpg
+    md5: f0b0337cf8e85395cdf99d809cfbfe7d
+    size: 98899
+    cloud:
+      remote_storage:
+        etag: 08fcc5e8f3e7e183031001
+        version_id: '1705404786156284'
+  - relpath: dog-breeds/husky/husky8.jpg
+    md5: fe3d97280a38e098faab8681a79ddd05
+    size: 48929
+    cloud:
+      remote_storage:
+        etag: 08a7efcff3e7e183031001
+        version_id: '1705404785751975'
+  - relpath: dog-breeds/husky/husky83.jpg
+    md5: 6bda95199425cdba7ad2b2cada468990
+    size: 348731
+    cloud:
+      remote_storage:
+        etag: 08bac6ecf3e7e183031001
+        version_id: '1705404786221882'
+  - relpath: dog-breeds/husky/husky84.jpg
+    md5: ec4731db3b64f62af6c23dd9d05b2cc4
+    size: 87411
+    cloud:
+      remote_storage:
+        etag: 08daecf4f3e7e183031001
+        version_id: '1705404786357850'
+  - relpath: dog-breeds/husky/husky85.jpg
+    md5: 71ef9029bc06eaaef5327155b91fd4a8
+    size: 196723
+    cloud:
+      remote_storage:
+        etag: 08a3c188f4e7e183031001
+        version_id: '1705404786679971'
+  - relpath: dog-breeds/husky/husky86.jpg
+    md5: f8a01affe2582aa9fd8ae76875a5a955
+    size: 67248
+    cloud:
+      remote_storage:
+        etag: 08939fc6f3e7e183031001
+        version_id: '1705404785594259'
+  - relpath: dog-breeds/husky/husky9.jpg
+    md5: 1515c7491af4036f3327f4bb59c05251
+    size: 60196
+    cloud:
+      remote_storage:
+        etag: 08fccfc9f3e7e183031001
+        version_id: '1705404785649660'
+  - relpath: dog-breeds/husky/husky90.jpg
+    md5: 567d6bf4cd8579aa1278357a3a79d1f1
+    size: 200123
+    cloud:
+      remote_storage:
+        etag: 08efc988f4e7e183031001
+        version_id: '1705404786681071'
+  - relpath: dog-breeds/husky/husky91.jpg
+    md5: f0b0337cf8e85395cdf99d809cfbfe7d
+    size: 98899
+    cloud:
+      remote_storage:
+        etag: 08aefdd7f3e7e183031001
+        version_id: '1705404785884846'
+  - relpath: dog-breeds/husky/husky92.jpg
+    md5: a1a7b39d92f2b7f5410b1caa0c76ebc3
+    size: 214282
+    cloud:
+      remote_storage:
+        etag: 08a1d485f4e7e183031001
+        version_id: '1705404786633249'
+  - relpath: dog-breeds/husky/husky93.jpg
+    md5: d47868f7aab9c882790b99e12abfe142
+    size: 161408
+    cloud:
+      remote_storage:
+        etag: 08a2d1bdf3e7e183031001
+        version_id: '1705404785453218'
+  - relpath: dog-breeds/husky/husky94.jpg
+    md5: b58f5d18834fb38d4ad618f0bebd0765
+    size: 153899
+    cloud:
+      remote_storage:
+        etag: 08b9b182f4e7e183031001
+        version_id: '1705404786579641'
+  - relpath: dog-breeds/husky/husky95.jpg
+    md5: 7900964d7f470a7013bca51338a4492a
+    size: 517162
+    cloud:
+      remote_storage:
+        etag: 08c08d9ef4e7e183031001
+        version_id: '1705404787033792'
+  - relpath: dog-breeds/husky/husky97.jpg
+    md5: 20aa2ff23a24c5c44c45940852f6e111
+    size: 97511
+    cloud:
+      remote_storage:
+        etag: 08948580f4e7e183031001
+        version_id: '1705404786541204'
+  - relpath: dog-breeds/husky/husky98.jpg
+    md5: a7e0a4a027a05efe4944c54f55e38c72
+    size: 128834
+    cloud:
+      remote_storage:
+        etag: 0885fcfdf3e7e183031001
+        version_id: '1705404786507269'
+  - relpath: dog-breeds/husky/husky99.jpg
+    md5: 1c074f8b689cad55cd48e4f27215dd4c
+    size: 92905
+    cloud:
+      remote_storage:
+        etag: 08a8c4dff3e7e183031001
+        version_id: '1705404786008616'
+  - relpath: dog-breeds/labrador-retriever/labrador-retriever1.jpg
+    md5: 41168de69baf46971822a96ad793542c
+    size: 109283
+    cloud:
+      remote_storage:
+        etag: 08ed9ed5f0e7e183031001
+        version_id: '1705404779548525'
+  - relpath: dog-breeds/labrador-retriever/labrador-retriever100.jpg
+    md5: f0db28e95c081da2fc1684b1ff584c75
+    size: 309313
+    cloud:
+      remote_storage:
+        etag: 08e4e997f1e7e183031001
+        version_id: '1705404780639460'
+  - relpath: dog-breeds/labrador-retriever/labrador-retriever104.jpg
+    md5: 7564845aae5264a7ec9d2645dbfd22eb
+    size: 127597
+    cloud:
+      remote_storage:
+        etag: 08e0aecff0e7e183031001
+        version_id: '1705404779452256'
+  - relpath: dog-breeds/labrador-retriever/labrador-retriever106.jpg
+    md5: c4c62ea39c610ebe47bcb0a40f9f5317
+    size: 151938
+    cloud:
+      remote_storage:
+        etag: 089593e2f0e7e183031001
+        version_id: '1705404779760021'
+  - relpath: dog-breeds/labrador-retriever/labrador-retriever107.jpg
+    md5: d6bfce56ca96e12d1cde32039481d303
+    size: 144105
+    cloud:
+      remote_storage:
+        etag: 0893b7d3f0e7e183031001
+        version_id: '1705404779518867'
+  - relpath: dog-breeds/labrador-retriever/labrador-retriever108.jpg
+    md5: c0828a973d1c35d187f29aeae8afb047
+    size: 143436
+    cloud:
+      remote_storage:
+        etag: 08fde0f7f0e7e183031001
+        version_id: '1705404780114045'
+  - relpath: dog-breeds/labrador-retriever/labrador-retriever110.jpg
+    md5: 6c42dca55ad256b8383464ebf122b599
+    size: 40557
+    cloud:
+      remote_storage:
+        etag: 08ef8be1f0e7e183031001
+        version_id: '1705404779742703'
+  - relpath: dog-breeds/labrador-retriever/labrador-retriever111.jpg
+    md5: d6bfce56ca96e12d1cde32039481d303
+    size: 144105
+    cloud:
+      remote_storage:
+        etag: 08f4dbfbf0e7e183031001
+        version_id: '1705404780178932'
+  - relpath: dog-breeds/labrador-retriever/labrador-retriever114.jpg
+    md5: 6c42dca55ad256b8383464ebf122b599
+    size: 40557
+    cloud:
+      remote_storage:
+        etag: 08c3add8f0e7e183031001
+        version_id: '1705404779599555'
+  - relpath: dog-breeds/labrador-retriever/labrador-retriever115.jpg
+    md5: 9d0ef54973a1314e219f37ffba502311
+    size: 109693
+    cloud:
+      remote_storage:
+        etag: 0889e5d0f0e7e183031001
+        version_id: '1705404779475593'
+  - relpath: dog-breeds/labrador-retriever/labrador-retriever116.jpg
+    md5: 0409fdf77e2c9ecd1909db94c41d999b
+    size: 68513
+    cloud:
+      remote_storage:
+        etag: 08d795f1f0e7e183031001
+        version_id: '1705404780006103'
+  - relpath: dog-breeds/labrador-retriever/labrador-retriever15.jpg
+    md5: 7ea1445b1eb036471f6ce3f33c42229d
+    size: 106006
+    cloud:
+      remote_storage:
+        etag: 08e4cecef0e7e183031001
+        version_id: '1705404779439972'
+  - relpath: dog-breeds/labrador-retriever/labrador-retriever17.jpg
+    md5: 73c0a319290385a503e2e04cd061acba
+    size: 65158
+    cloud:
+      remote_storage:
+        etag: 0894adeef0e7e183031001
+        version_id: '1705404779959956'
+  - relpath: dog-breeds/labrador-retriever/labrador-retriever19.jpg
+    md5: f1933952b7949058ead3bd847fc90ebd
+    size: 140160
+    cloud:
+      remote_storage:
+        etag: 08879cf3f0e7e183031001
+        version_id: '1705404780039687'
+  - relpath: dog-breeds/labrador-retriever/labrador-retriever2.jpg
+    md5: 37e97f03041c33c194344a0b4110c0eb
+    size: 57774
+    cloud:
+      remote_storage:
+        etag: 0892c2dff0e7e183031001
+        version_id: '1705404779716882'
+  - relpath: dog-breeds/labrador-retriever/labrador-retriever20.jpg
+    md5: dcd89ba84cd95449b1463915ab753be2
+    size: 108137
+    cloud:
+      remote_storage:
+        etag: 0899b2dff0e7e183031001
+        version_id: '1705404779714841'
+  - relpath: dog-breeds/labrador-retriever/labrador-retriever24.jpg
+    md5: 24b4e097debd57011cd9607560849f9a
+    size: 148194
+    cloud:
+      remote_storage:
+        etag: 08879ae2f0e7e183031001
+        version_id: '1705404779760903'
+  - relpath: dog-breeds/labrador-retriever/labrador-retriever26.jpg
+    md5: bfcd0356ffbd3b2ab5aca6ab29942e8b
+    size: 183902
+    cloud:
+      remote_storage:
+        etag: 089b93f5f0e7e183031001
+        version_id: '1705404780071323'
+  - relpath: dog-breeds/labrador-retriever/labrador-retriever28.jpg
+    md5: 37768f3fb77bfc2420b19928a390b2d0
+    size: 118721
+    cloud:
+      remote_storage:
+        etag: 08ceb1d3f0e7e183031001
+        version_id: '1705404779518158'
+  - relpath: dog-breeds/labrador-retriever/labrador-retriever3.jpg
+    md5: f53f2295310c1d77287d3a8c1b34aa6e
+    size: 74058
+    cloud:
+      remote_storage:
+        etag: 08e0e6edf0e7e183031001
+        version_id: '1705404779950944'
+  - relpath: dog-breeds/labrador-retriever/labrador-retriever30.jpg
+    md5: 3a411234e7a00cde7bf7e826df6d47b4
+    size: 158511
+    cloud:
+      remote_storage:
+        etag: 08f5d9f9f0e7e183031001
+        version_id: '1705404780145909'
+  - relpath: dog-breeds/labrador-retriever/labrador-retriever38.jpg
+    md5: 356e95032e285a13f5571d21e574a8da
+    size: 195080
+    cloud:
+      remote_storage:
+        etag: 08989ed2f0e7e183031001
+        version_id: '1705404779499288'
+  - relpath: dog-breeds/labrador-retriever/labrador-retriever4.jpg
+    md5: b82bc81d5fb2155130a709e71db3bd98
+    size: 81910
+    cloud:
+      remote_storage:
+        etag: 0897ddd9f0e7e183031001
+        version_id: '1705404779622039'
+  - relpath: dog-breeds/labrador-retriever/labrador-retriever42.jpg
+    md5: 3ed17af3381b491f44b6e7a36251e132
+    size: 285583
+    cloud:
+      remote_storage:
+        etag: 08b398fef0e7e183031001
+        version_id: '1705404780219443'
+  - relpath: dog-breeds/labrador-retriever/labrador-retriever44.jpg
+    md5: f0db28e95c081da2fc1684b1ff584c75
+    size: 309313
+    cloud:
+      remote_storage:
+        etag: 0892c2f9f0e7e183031001
+        version_id: '1705404780142866'
+  - relpath: dog-breeds/labrador-retriever/labrador-retriever46.jpg
+    md5: 21528dedbc0935f4852170eaf9f39bb9
+    size: 78191
+    cloud:
+      remote_storage:
+        etag: 0893bfe0f0e7e183031001
+        version_id: '1705404779732883'
+  - relpath: dog-breeds/labrador-retriever/labrador-retriever52.jpg
+    md5: 7564845aae5264a7ec9d2645dbfd22eb
+    size: 127597
+    cloud:
+      remote_storage:
+        etag: 08cc81e4f0e7e183031001
+        version_id: '1705404779790540'
+  - relpath: dog-breeds/labrador-retriever/labrador-retriever56.jpg
+    md5: 4dcdb1c7fa9d61fd09579139b897cb61
+    size: 198682
+    cloud:
+      remote_storage:
+        etag: 088d8de1f0e7e183031001
+        version_id: '1705404779742861'
+  - relpath: dog-breeds/labrador-retriever/labrador-retriever60.jpg
+    md5: c4c62ea39c610ebe47bcb0a40f9f5317
+    size: 151938
+    cloud:
+      remote_storage:
+        etag: 0885a3d8f0e7e183031001
+        version_id: '1705404779598213'
+  - relpath: dog-breeds/labrador-retriever/labrador-retriever61.jpg
+    md5: 2047ae27c6fab4cd4727b09b2fa5ce4e
+    size: 100182
+    cloud:
+      remote_storage:
+        etag: 08dd84bef0e7e183031001
+        version_id: '1705404779168349'
+  - relpath: dog-breeds/labrador-retriever/labrador-retriever62.jpg
+    md5: bfcd0356ffbd3b2ab5aca6ab29942e8b
+    size: 183902
+    cloud:
+      remote_storage:
+        etag: 08b896cbf0e7e183031001
+        version_id: '1705404779383608'
+  - relpath: dog-breeds/labrador-retriever/labrador-retriever63.jpg
+    md5: 3a411234e7a00cde7bf7e826df6d47b4
+    size: 158511
+    cloud:
+      remote_storage:
+        etag: 08c0fc9cf1e7e183031001
+        version_id: '1705404780723776'
+  - relpath: dog-breeds/labrador-retriever/labrador-retriever67.jpg
+    md5: f0db28e95c081da2fc1684b1ff584c75
+    size: 309313
+    cloud:
+      remote_storage:
+        etag: 08c19d8df1e7e183031001
+        version_id: '1705404780465857'
+  - relpath: dog-breeds/labrador-retriever/labrador-retriever71.jpg
+    md5: c4c62ea39c610ebe47bcb0a40f9f5317
+    size: 151938
+    cloud:
+      remote_storage:
+        etag: 088be5def0e7e183031001
+        version_id: '1705404779704971'
+  - relpath: dog-breeds/labrador-retriever/labrador-retriever72.jpg
+    md5: 24b4e097debd57011cd9607560849f9a
+    size: 148194
+    cloud:
+      remote_storage:
+        etag: 08d5d6d4f0e7e183031001
+        version_id: '1705404779539285'
+  - relpath: dog-breeds/labrador-retriever/labrador-retriever73.jpg
+    md5: 37768f3fb77bfc2420b19928a390b2d0
+    size: 118721
+    cloud:
+      remote_storage:
+        etag: 08d4e2bff0e7e183031001
+        version_id: '1705404779196756'
+  - relpath: dog-breeds/labrador-retriever/labrador-retriever75.jpg
+    md5: 356e95032e285a13f5571d21e574a8da
+    size: 195080
+    cloud:
+      remote_storage:
+        etag: 08868efcf0e7e183031001
+        version_id: '1705404780185350'
+  - relpath: dog-breeds/labrador-retriever/labrador-retriever76.jpg
+    md5: 3ed17af3381b491f44b6e7a36251e132
+    size: 285583
+    cloud:
+      remote_storage:
+        etag: 08f1d2aff1e7e183031001
+        version_id: '1705404781029745'
+  - relpath: dog-breeds/labrador-retriever/labrador-retriever77.jpg
+    md5: 21528dedbc0935f4852170eaf9f39bb9
+    size: 78191
+    cloud:
+      remote_storage:
+        etag: 08c5e8cbf0e7e183031001
+        version_id: '1705404779394117'
+  - relpath: dog-breeds/labrador-retriever/labrador-retriever79.jpg
+    md5: 7564845aae5264a7ec9d2645dbfd22eb
+    size: 127597
+    cloud:
+      remote_storage:
+        etag: 08d1e0c4f0e7e183031001
+        version_id: '1705404779278417'
+  - relpath: dog-breeds/labrador-retriever/labrador-retriever8.jpg
+    md5: e05ee4ea4415fdfb11e9a324ce140e2f
+    size: 90036
+    cloud:
+      remote_storage:
+        etag: 089de0b3f0e7e183031001
+        version_id: '1705404778999837'
+  - relpath: dog-breeds/labrador-retriever/labrador-retriever80.jpg
+    md5: 4dcdb1c7fa9d61fd09579139b897cb61
+    size: 198682
+    cloud:
+      remote_storage:
+        etag: 08cac1d7f0e7e183031001
+        version_id: '1705404779585738'
+  - relpath: dog-breeds/labrador-retriever/labrador-retriever85.jpg
+    md5: 37768f3fb77bfc2420b19928a390b2d0
+    size: 118721
+    cloud:
+      remote_storage:
+        etag: 08c7c2d4f0e7e183031001
+        version_id: '1705404779536711'
+  - relpath: dog-breeds/labrador-retriever/labrador-retriever87.jpg
+    md5: 356e95032e285a13f5571d21e574a8da
+    size: 195080
+    cloud:
+      remote_storage:
+        etag: 08a391f9f0e7e183031001
+        version_id: '1705404780136611'
+  - relpath: dog-breeds/labrador-retriever/labrador-retriever88.jpg
+    md5: 21528dedbc0935f4852170eaf9f39bb9
+    size: 78191
+    cloud:
+      remote_storage:
+        etag: 08bbc0b0f0e7e183031001
+        version_id: '1705404778946619'
+  - relpath: dog-breeds/labrador-retriever/labrador-retriever91.jpg
+    md5: 24b4e097debd57011cd9607560849f9a
+    size: 148194
+    cloud:
+      remote_storage:
+        etag: 08b98af9f0e7e183031001
+        version_id: '1705404780135737'
+  - relpath: dog-breeds/labrador-retriever/labrador-retriever94.jpg
+    md5: 3ed17af3381b491f44b6e7a36251e132
+    size: 285583
+    cloud:
+      remote_storage:
+        etag: 08c594f5f0e7e183031001
+        version_id: '1705404780071493'
+  - relpath: dog-breeds/labrador-retriever/labrador-retriever96.jpg
+    md5: 4dcdb1c7fa9d61fd09579139b897cb61
+    size: 198682
+    cloud:
+      remote_storage:
+        etag: 088df283f1e7e183031001
+        version_id: '1705404780312845'
+  - relpath: dog-breeds/labrador-retriever/labrador-retriever97.jpg
+    md5: bfcd0356ffbd3b2ab5aca6ab29942e8b
+    size: 183902
+    cloud:
+      remote_storage:
+        etag: 08d0afe4f0e7e183031001
+        version_id: '1705404779796432'
+  - relpath: dog-breeds/labrador-retriever/labrador-retriever98.jpg
+    md5: 3a411234e7a00cde7bf7e826df6d47b4
+    size: 158511
+    cloud:
+      remote_storage:
+        etag: 0880acfcf0e7e183031001
+        version_id: '1705404780189184'
+  - relpath: dog-breeds/poodle/poodle100.jpg
+    md5: 6864ba7dfe7689205a647d69de275857
+    size: 432814
+    cloud:
+      remote_storage:
+        etag: 08e7bce4f0e7e183031001
+        version_id: '1705404779798119'
+  - relpath: dog-breeds/poodle/poodle104.jpg
+    md5: 1e232d33f786b9e32b8cdd2fb12cd6bf
+    size: 2196237
+    cloud:
+      remote_storage:
+        etag: 08ddd3a8f4e7e183031001
+        version_id: '1705404787206621'
+  - relpath: dog-breeds/poodle/poodle106.jpg
+    md5: 1bbdc1e29bbc0c3839eba69efc475b3d
+    size: 83673
+    cloud:
+      remote_storage:
+        etag: 08f9948cf0e7e183031001
+        version_id: '1705404778351225'
+  - relpath: dog-breeds/poodle/poodle109.jpg
+    md5: e0e152411bd4c474551e003f4ecca0e9
+    size: 48115
+    cloud:
+      remote_storage:
+        etag: 0891cf8bf0e7e183031001
+        version_id: '1705404778342289'
+  - relpath: dog-breeds/poodle/poodle11.jpg
+    md5: 984a631e5706743ab1dde48db072ecb3
+    size: 165404
+    cloud:
+      remote_storage:
+        etag: 0881b9a8f0e7e183031001
+        version_id: '1705404778814593'
+  - relpath: dog-breeds/poodle/poodle110.jpg
+    md5: af79c545ae1658e2f7eb2090dbbb0b1d
+    size: 98929
+    cloud:
+      remote_storage:
+        etag: 08a2d4b5f0e7e183031001
+        version_id: '1705404779031074'
+  - relpath: dog-breeds/poodle/poodle116.jpg
+    md5: 529a49995862f3fa928c7356b53a61a6
+    size: 82705
+    cloud:
+      remote_storage:
+        etag: 0898d2aef0e7e183031001
+        version_id: '1705404778916120'
+  - relpath: dog-breeds/poodle/poodle118.jpg
+    md5: 0ba547310612484049a0364906c1bdff
+    size: 89934
+    cloud:
+      remote_storage:
+        etag: 08ab9193f0e7e183031001
+        version_id: '1705404778465451'
+  - relpath: dog-breeds/poodle/poodle13.jpg
+    md5: 30a96141afb9a66c6b20a53e17d5fd4a
+    size: 90391
+    cloud:
+      remote_storage:
+        etag: 08efeeaff0e7e183031001
+        version_id: '1705404778936175'
+  - relpath: dog-breeds/poodle/poodle14.jpg
+    md5: a1243ce3ba4f32da3706ff55c2c70d4f
+    size: 39331
+    cloud:
+      remote_storage:
+        etag: 08d0bd8af0e7e183031001
+        version_id: '1705404778323664'
+  - relpath: dog-breeds/poodle/poodle16.jpg
+    md5: 69504e75a5a3ec052ab607e0d6ecb0ea
+    size: 79133
+    cloud:
+      remote_storage:
+        etag: 08c3eaa7f0e7e183031001
+        version_id: '1705404778804547'
+  - relpath: dog-breeds/poodle/poodle17.jpg
+    md5: 61ed46a713674b11303800921cab0053
+    size: 103916
+    cloud:
+      remote_storage:
+        etag: 08a2b798f0e7e183031001
+        version_id: '1705404778552226'
+  - relpath: dog-breeds/poodle/poodle18.jpg
+    md5: 6465e520430c6ef4bad159762959c6b8
+    size: 67200
+    cloud:
+      remote_storage:
+        etag: 08efe3b0f0e7e183031001
+        version_id: '1705404778951151'
+  - relpath: dog-breeds/poodle/poodle19.jpg
+    md5: 932c2b1207692a33fe25495685509055
+    size: 138423
+    cloud:
+      remote_storage:
+        etag: 08b1d5a0f0e7e183031001
+        version_id: '1705404778687153'
+  - relpath: dog-breeds/poodle/poodle20.jpg
+    md5: 513e17b1b7fac3354e01b9e92f37eeeb
+    size: 143183
+    cloud:
+      remote_storage:
+        etag: 08f0e59ff0e7e183031001
+        version_id: '1705404778672880'
+  - relpath: dog-breeds/poodle/poodle24.jpg
+    md5: 76b6d8cb4aff4956f1619b9dd5715d94
+    size: 108489
+    cloud:
+      remote_storage:
+        etag: 08c2af98f0e7e183031001
+        version_id: '1705404778551234'
+  - relpath: dog-breeds/poodle/poodle26.jpg
+    md5: 60a2d77447e53ef6c5c0bf98149c53d7
+    size: 116346
+    cloud:
+      remote_storage:
+        etag: 08a8f3a4f0e7e183031001
+        version_id: '1705404778756520'
+  - relpath: dog-breeds/poodle/poodle28.jpg
+    md5: 378e9f7fc40de3e3793d9c44c3122e55
+    size: 121471
+    cloud:
+      remote_storage:
+        etag: 0880a8b3f0e7e183031001
+        version_id: '1705404778992640'
+  - relpath: dog-breeds/poodle/poodle30.jpg
+    md5: 2fcb6af9804012910809283c1a0ee31b
+    size: 169319
+    cloud:
+      remote_storage:
+        etag: 08b0bac0f0e7e183031001
+        version_id: '1705404779207984'
+  - relpath: dog-breeds/poodle/poodle32.jpg
+    md5: cd6aab175c105b477467977ae63fb8db
+    size: 75142
+    cloud:
+      remote_storage:
+        etag: 08f8b698f0e7e183031001
+        version_id: '1705404778552184'
+  - relpath: dog-breeds/poodle/poodle36.jpg
+    md5: 9b450ba812911e03a53ddecb9e67cceb
+    size: 164577
+    cloud:
+      remote_storage:
+        etag: 08d4fadbf0e7e183031001
+        version_id: '1705404779658580'
+  - relpath: dog-breeds/poodle/poodle40.jpg
+    md5: 79778926efc21403bf1a1c1a557358b1
+    size: 180175
+    cloud:
+      remote_storage:
+        etag: 08f9bfc8f0e7e183031001
+        version_id: '1705404779339769'
+  - relpath: dog-breeds/poodle/poodle42.jpg
+    md5: e793be289d38e95596cc726881402aeb
+    size: 79019
+    cloud:
+      remote_storage:
+        etag: 08898c98f0e7e183031001
+        version_id: '1705404778546697'
+  - relpath: dog-breeds/poodle/poodle44.jpg
+    md5: 6864ba7dfe7689205a647d69de275857
+    size: 432814
+    cloud:
+      remote_storage:
+        etag: 0897d5d9f0e7e183031001
+        version_id: '1705404779621015'
+  - relpath: dog-breeds/poodle/poodle48.jpg
+    md5: 9358dd274454b2c124e1b2cf75ece915
+    size: 64601
+    cloud:
+      remote_storage:
+        etag: 08f2df83f0e7e183031001
+        version_id: '1705404778213362'
+  - relpath: dog-breeds/poodle/poodle5.jpg
+    md5: f3fe6e1ff61342854e47f20272b2a2f7
+    size: 87245
+    cloud:
+      remote_storage:
+        etag: 08cda98ef0e7e183031001
+        version_id: '1705404778386637'
+  - relpath: dog-breeds/poodle/poodle50.jpg
+    md5: 1e232d33f786b9e32b8cdd2fb12cd6bf
+    size: 2196237
+    cloud:
+      remote_storage:
+        etag: 08d08ba5f4e7e183031001
+        version_id: '1705404787148240'
+  - relpath: dog-breeds/poodle/poodle54.jpg
+    md5: e616545e51b0af9e55bad92548a610ae
+    size: 627148
+    cloud:
+      remote_storage:
+        etag: 08b6c6cff1e7e183031001
+        version_id: '1705404781552438'
+  - relpath: dog-breeds/poodle/poodle56.jpg
+    md5: 63b22afec5cddf269816c2bd1c8cf585
+    size: 106973
+    cloud:
+      remote_storage:
+        etag: 08888a9af0e7e183031001
+        version_id: '1705404778579208'
+  - relpath: dog-breeds/poodle/poodle6.jpg
+    md5: 68ea8ff6bc56c2e0fc6d24617b5c5e83
+    size: 95391
+    cloud:
+      remote_storage:
+        etag: 08a4c0b8f0e7e183031001
+        version_id: '1705404779077668'
+  - relpath: dog-breeds/poodle/poodle60.jpg
+    md5: 1bbdc1e29bbc0c3839eba69efc475b3d
+    size: 83673
+    cloud:
+      remote_storage:
+        etag: 08bfc298f0e7e183031001
+        version_id: '1705404778553663'
+  - relpath: dog-breeds/poodle/poodle62.jpg
+    md5: 378e9f7fc40de3e3793d9c44c3122e55
+    size: 121471
+    cloud:
+      remote_storage:
+        etag: 08a2d0b3f0e7e183031001
+        version_id: '1705404778997794'
+  - relpath: dog-breeds/poodle/poodle63.jpg
+    md5: cd6aab175c105b477467977ae63fb8db
+    size: 75142
+    cloud:
+      remote_storage:
+        etag: 08f7b59cf0e7e183031001
+        version_id: '1705404778617591'
+  - relpath: dog-breeds/poodle/poodle64.jpg
+    md5: 9b450ba812911e03a53ddecb9e67cceb
+    size: 164577
+    cloud:
+      remote_storage:
+        etag: 08f790c3f0e7e183031001
+        version_id: '1705404779251831'
+  - relpath: dog-breeds/poodle/poodle65.jpg
+    md5: 79778926efc21403bf1a1c1a557358b1
+    size: 180175
+    cloud:
+      remote_storage:
+        etag: 08d1a0aaf0e7e183031001
+        version_id: '1705404778844241'
+  - relpath: dog-breeds/poodle/poodle66.jpg
+    md5: e793be289d38e95596cc726881402aeb
+    size: 79019
+    cloud:
+      remote_storage:
+        etag: 08b1b5adf0e7e183031001
+        version_id: '1705404778896049'
+  - relpath: dog-breeds/poodle/poodle68.jpg
+    md5: 1e232d33f786b9e32b8cdd2fb12cd6bf
+    size: 2196237
+    cloud:
+      remote_storage:
+        etag: 08a6d9b3f4e7e183031001
+        version_id: '1705404787387558'
+  - relpath: dog-breeds/poodle/poodle69.jpg
+    md5: 63b22afec5cddf269816c2bd1c8cf585
+    size: 106973
+    cloud:
+      remote_storage:
+        etag: 089fed93f0e7e183031001
+        version_id: '1705404778477215'
+  - relpath: dog-breeds/poodle/poodle70.jpg
+    md5: 1bbdc1e29bbc0c3839eba69efc475b3d
+    size: 83673
+    cloud:
+      remote_storage:
+        etag: 08b082a5f0e7e183031001
+        version_id: '1705404778758448'
+  - relpath: dog-breeds/poodle/poodle71.jpg
+    md5: 76b6d8cb4aff4956f1619b9dd5715d94
+    size: 108489
+    cloud:
+      remote_storage:
+        etag: 089ed09df0e7e183031001
+        version_id: '1705404778637342'
+  - relpath: dog-breeds/poodle/poodle72.jpg
+    md5: 60a2d77447e53ef6c5c0bf98149c53d7
+    size: 116346
+    cloud:
+      remote_storage:
+        etag: 08bc9594f0e7e183031001
+        version_id: '1705404778482364'
+  - relpath: dog-breeds/poodle/poodle73.jpg
+    md5: 2fcb6af9804012910809283c1a0ee31b
+    size: 169319
+    cloud:
+      remote_storage:
+        etag: 08ec9b92f0e7e183031001
+        version_id: '1705404778450412'
+  - relpath: dog-breeds/poodle/poodle76.jpg
+    md5: 6864ba7dfe7689205a647d69de275857
+    size: 432814
+    cloud:
+      remote_storage:
+        etag: 08f794fdf0e7e183031001
+        version_id: '1705404780202615'
+  - relpath: dog-breeds/poodle/poodle77.jpg
+    md5: 9358dd274454b2c124e1b2cf75ece915
+    size: 64601
+    cloud:
+      remote_storage:
+        etag: 0883b793f0e7e183031001
+        version_id: '1705404778470275'
+  - relpath: dog-breeds/poodle/poodle79.jpg
+    md5: e616545e51b0af9e55bad92548a610ae
+    size: 627148
+    cloud:
+      remote_storage:
+        etag: 08becfb6f1e7e183031001
+        version_id: '1705404781143998'
+  - relpath: dog-breeds/poodle/poodle86.jpg
+    md5: 79778926efc21403bf1a1c1a557358b1
+    size: 180175
+    cloud:
+      remote_storage:
+        etag: 08d9dccbf0e7e183031001
+        version_id: '1705404779392601'
+  - relpath: dog-breeds/poodle/poodle87.jpg
+    md5: e793be289d38e95596cc726881402aeb
+    size: 79019
+    cloud:
+      remote_storage:
+        etag: 089d9d91f0e7e183031001
+        version_id: '1705404778434205'
+  - relpath: dog-breeds/poodle/poodle88.jpg
+    md5: 9358dd274454b2c124e1b2cf75ece915
+    size: 64601
+    cloud:
+      remote_storage:
+        etag: 0881c694f0e7e183031001
+        version_id: '1705404778488577'
+  - relpath: dog-breeds/poodle/poodle89.jpg
+    md5: 63b22afec5cddf269816c2bd1c8cf585
+    size: 106973
+    cloud:
+      remote_storage:
+        etag: 0894d98ff0e7e183031001
+        version_id: '1705404778409108'
+  - relpath: dog-breeds/poodle/poodle90.jpg
+    md5: 76b6d8cb4aff4956f1619b9dd5715d94
+    size: 108489
+    cloud:
+      remote_storage:
+        etag: 08bfb8caf0e7e183031001
+        version_id: '1705404779371583'
+  - relpath: dog-breeds/poodle/poodle91.jpg
+    md5: 378e9f7fc40de3e3793d9c44c3122e55
+    size: 121471
+    cloud:
+      remote_storage:
+        etag: 08b6d998f0e7e183031001
+        version_id: '1705404778556598'
+  - relpath: dog-breeds/poodle/poodle92.jpg
+    md5: cd6aab175c105b477467977ae63fb8db
+    size: 75142
+    cloud:
+      remote_storage:
+        etag: 0899df97f0e7e183031001
+        version_id: '1705404778540953'
+  - relpath: dog-breeds/poodle/poodle96.jpg
+    md5: e616545e51b0af9e55bad92548a610ae
+    size: 627148
+    cloud:
+      remote_storage:
+        etag: 08b7e3a1f1e7e183031001
+        version_id: '1705404780802487'
+  - relpath: dog-breeds/poodle/poodle97.jpg
+    md5: 60a2d77447e53ef6c5c0bf98149c53d7
+    size: 116346
+    cloud:
+      remote_storage:
+        etag: 08dea192f0e7e183031001
+        version_id: '1705404778451166'
+  - relpath: dog-breeds/poodle/poodle98.jpg
+    md5: 2fcb6af9804012910809283c1a0ee31b
+    size: 169319
+    cloud:
+      remote_storage:
+        etag: 08f0fe96f0e7e183031001
+        version_id: '1705404778528624'
+  - relpath: dog-breeds/poodle/poodle99.jpg
+    md5: 9b450ba812911e03a53ddecb9e67cceb
+    size: 164577
+    cloud:
+      remote_storage:
+        etag: 0889dbaaf0e7e183031001
+        version_id: '1705404778851721'
+  - relpath: dog-breeds/rottweiler/rottweiler1.jpg
+    md5: 37b80108bbef6dc6bd61a74bf5319de5
+    size: 91649
+    cloud:
+      remote_storage:
+        etag: 08d6b79cf2e7e183031001
+        version_id: '1705404782812118'
+  - relpath: dog-breeds/rottweiler/rottweiler10.jpg
+    md5: c5eebb84ca5ccf021917fcfa5c9f4760
+    size: 95579
+    cloud:
+      remote_storage:
+        etag: 08b4ba91f2e7e183031001
+        version_id: '1705404782632244'
+  - relpath: dog-breeds/rottweiler/rottweiler100.jpg
+    md5: 61192bfa02132e93830e82c1b3ed1e49
+    size: 288908
+    cloud:
+      remote_storage:
+        etag: 08e2eee5f2e7e183031001
+        version_id: '1705404784015202'
+  - relpath: dog-breeds/rottweiler/rottweiler105.jpg
+    md5: c0e72de789adaacf8bfda33242786bc1
+    size: 101365
+    cloud:
+      remote_storage:
+        etag: 08ffc0f2f2e7e183031001
+        version_id: '1705404784222335'
+  - relpath: dog-breeds/rottweiler/rottweiler106.jpg
+    md5: ca1a3bf563721267ab95cb1ab009a00e
+    size: 132630
+    cloud:
+      remote_storage:
+        etag: 08edf9dff2e7e183031001
+        version_id: '1705404783918317'
+  - relpath: dog-breeds/rottweiler/rottweiler108.jpg
+    md5: 09e89c75f547661dfa846c45762bbdd3
+    size: 140391
+    cloud:
+      remote_storage:
+        etag: 08c0f6c1f2e7e183031001
+        version_id: '1705404783426368'
+  - relpath: dog-breeds/rottweiler/rottweiler109.jpg
+    md5: 528d145686030a74ca054ef50c744ef0
+    size: 26736
+    cloud:
+      remote_storage:
+        etag: 08c8c7cdf2e7e183031001
+        version_id: '1705404783616968'
+  - relpath: dog-breeds/rottweiler/rottweiler11.jpg
+    md5: 73d69a5b7598cc89c07c870368d7812d
+    size: 130508
+    cloud:
+      remote_storage:
+        etag: 08df88bff2e7e183031001
+        version_id: '1705404783379551'
+  - relpath: dog-breeds/rottweiler/rottweiler110.jpg
+    md5: b5e1517fcd0332696e25a68d39784dfa
+    size: 78745
+    cloud:
+      remote_storage:
+        etag: 08af9ab9f2e7e183031001
+        version_id: '1705404783283503'
+  - relpath: dog-breeds/rottweiler/rottweiler111.jpg
+    md5: 2c2831ed021fbcec57ca24f21ed1993c
+    size: 90511
+    cloud:
+      remote_storage:
+        etag: 088695bcf2e7e183031001
+        version_id: '1705404783331974'
+  - relpath: dog-breeds/rottweiler/rottweiler112.jpg
+    md5: 09e89c75f547661dfa846c45762bbdd3
+    size: 140391
+    cloud:
+      remote_storage:
+        etag: 08cabec7f2e7e183031001
+        version_id: '1705404783517514'
+  - relpath: dog-breeds/rottweiler/rottweiler113.jpg
+    md5: 528d145686030a74ca054ef50c744ef0
+    size: 26736
+    cloud:
+      remote_storage:
+        etag: 0893a1b8f2e7e183031001
+        version_id: '1705404783267987'
+  - relpath: dog-breeds/rottweiler/rottweiler114.jpg
+    md5: b5e1517fcd0332696e25a68d39784dfa
+    size: 78745
+    cloud:
+      remote_storage:
+        etag: 088cf7a8f2e7e183031001
+        version_id: '1705404783016844'
+  - relpath: dog-breeds/rottweiler/rottweiler115.jpg
+    md5: de89627b24adf043c1ddcd3f42443cf1
+    size: 72113
+    cloud:
+      remote_storage:
+        etag: 08ebc88cf2e7e183031001
+        version_id: '1705404782552171'
+  - relpath: dog-breeds/rottweiler/rottweiler116.jpg
+    md5: 3a4887959b78d56939c7e1f00115a6ad
+    size: 127563
+    cloud:
+      remote_storage:
+        etag: 08c897b2f2e7e183031001
+        version_id: '1705404783168456'
+  - relpath: dog-breeds/rottweiler/rottweiler117.jpg
+    md5: ef412e6b6a7a792070ce97a41ae776af
+    size: 102878
+    cloud:
+      remote_storage:
+        etag: 08a3b2ddf2e7e183031001
+        version_id: '1705404783876387'
+  - relpath: dog-breeds/rottweiler/rottweiler118.jpg
+    md5: b246fddc295a774f97feae8806e5450c
+    size: 109060
+    cloud:
+      remote_storage:
+        etag: 0890dbc9f2e7e183031001
+        version_id: '1705404783553936'
+  - relpath: dog-breeds/rottweiler/rottweiler12.jpg
+    md5: 7646097eebdf18d993e4d10633d227ca
+    size: 60173
+    cloud:
+      remote_storage:
+        etag: 0890d1a5f2e7e183031001
+        version_id: '1705404782962832'
+  - relpath: dog-breeds/rottweiler/rottweiler14.jpg
+    md5: 57e4001b95555d6eb70ea715701c9ae1
+    size: 49592
+    cloud:
+      remote_storage:
+        etag: 08c48197f2e7e183031001
+        version_id: '1705404782723268'
+  - relpath: dog-breeds/rottweiler/rottweiler15.jpg
+    md5: 50afad77d2f56c49a83a7406f6efa263
+    size: 133485
+    cloud:
+      remote_storage:
+        etag: 0889b0a5f2e7e183031001
+        version_id: '1705404782958601'
+  - relpath: dog-breeds/rottweiler/rottweiler17.jpg
+    md5: 6c5252c6356fa066113ccf3708ab6531
+    size: 77429
+    cloud:
+      remote_storage:
+        etag: 08c8bec0f2e7e183031001
+        version_id: '1705404783402824'
+  - relpath: dog-breeds/rottweiler/rottweiler18.jpg
+    md5: 1ce6d4111d40e59ff74691bc94d0fa67
+    size: 162348
+    cloud:
+      remote_storage:
+        etag: 0880dec8f2e7e183031001
+        version_id: '1705404783537920'
+  - relpath: dog-breeds/rottweiler/rottweiler19.jpg
+    md5: be022a83104e0f510d0f0018985c8e1a
+    size: 44158
+    cloud:
+      remote_storage:
+        etag: 08e4feb4f2e7e183031001
+        version_id: '1705404783214436'
+  - relpath: dog-breeds/rottweiler/rottweiler2.jpg
+    md5: 285425128ea0988567c52ff17900f701
+    size: 42564
+    cloud:
+      remote_storage:
+        etag: 0881f7c5f2e7e183031001
+        version_id: '1705404783491969'
+  - relpath: dog-breeds/rottweiler/rottweiler20.jpg
+    md5: fd511ebcbc8b67529317527760fb33b9
+    size: 111273
+    cloud:
+      remote_storage:
+        etag: 08c9d383f3e7e183031001
+        version_id: '1705404784503241'
+  - relpath: dog-breeds/rottweiler/rottweiler22.jpg
+    md5: c2fa891902e1b16a786b08811f27aa66
+    size: 60097
+    cloud:
+      remote_storage:
+        etag: 08efd2e3f2e7e183031001
+        version_id: '1705404783978863'
+  - relpath: dog-breeds/rottweiler/rottweiler24.jpg
+    md5: 462e3ad2f77c14e3b3847a2be4b6c60e
+    size: 179896
+    cloud:
+      remote_storage:
+        etag: 08d89dfff2e7e183031001
+        version_id: '1705404784430808'
+  - relpath: dog-breeds/rottweiler/rottweiler26.jpg
+    md5: b2da040ef247b2aa9c576b9aae204750
+    size: 226169
+    cloud:
+      remote_storage:
+        etag: 08a99dcef2e7e183031001
+        version_id: '1705404783627945'
+  - relpath: dog-breeds/rottweiler/rottweiler28.jpg
+    md5: a24f4cfc575059ef1b512a4d906017a4
+    size: 157469
+    cloud:
+      remote_storage:
+        etag: 08bb84ebf2e7e183031001
+        version_id: '1705404784099899'
+  - relpath: dog-breeds/rottweiler/rottweiler30.jpg
+    md5: 632665f3dcc0f70dcaf8ba34af4a611f
+    size: 441345
+    cloud:
+      remote_storage:
+        etag: 08dc9f8af3e7e183031001
+        version_id: '1705404784611292'
+  - relpath: dog-breeds/rottweiler/rottweiler32.jpg
+    md5: a11591f871e9e1c180987c50c3b8e944
+    size: 87276
+    cloud:
+      remote_storage:
+        etag: 089bf6aaf2e7e183031001
+        version_id: '1705404783049499'
+  - relpath: dog-breeds/rottweiler/rottweiler34.jpg
+    md5: 8685022d5cd258ee25266275c9d89ad2
+    size: 319088
+    cloud:
+      remote_storage:
+        etag: 088ccf8df3e7e183031001
+        version_id: '1705404784666508'
+  - relpath: dog-breeds/rottweiler/rottweiler36.jpg
+    md5: a7167ce4fa38605ad02d61bb33ac1eaf
+    size: 87632
+    cloud:
+      remote_storage:
+        etag: 08c2ecd7f2e7e183031001
+        version_id: '1705404783785538'
+  - relpath: dog-breeds/rottweiler/rottweiler38.jpg
+    md5: 61192bfa02132e93830e82c1b3ed1e49
+    size: 288908
+    cloud:
+      remote_storage:
+        etag: 08c0b5d6f2e7e183031001
+        version_id: '1705404783762112'
+  - relpath: dog-breeds/rottweiler/rottweiler4.jpg
+    md5: 1b9f6cf1012728a2a12c7dcffda3caa5
+    size: 92063
+    cloud:
+      remote_storage:
+        etag: 08a1b2c0f2e7e183031001
+        version_id: '1705404783401249'
+  - relpath: dog-breeds/rottweiler/rottweiler40.jpg
+    md5: c57882f30ad4664cff74afcbd57f4ea2
+    size: 224499
+    cloud:
+      remote_storage:
+        etag: 08aad0f7f2e7e183031001
+        version_id: '1705404784306218'
+  - relpath: dog-breeds/rottweiler/rottweiler42.jpg
+    md5: b8582a388e4f8789e5616bd41137b6b3
+    size: 53209
+    cloud:
+      remote_storage:
+        etag: 088eb9baf2e7e183031001
+        version_id: '1705404783303822'
+  - relpath: dog-breeds/rottweiler/rottweiler44.jpg
+    md5: eed1ef9ea760631ef7a25d58a16cd984
+    size: 115553
+    cloud:
+      remote_storage:
+        etag: 08c5af9ef2e7e183031001
+        version_id: '1705404782843845'
+  - relpath: dog-breeds/rottweiler/rottweiler46.jpg
+    md5: 045c8aab97d0d85baecd16a92cfda6a2
+    size: 66996
+    cloud:
+      remote_storage:
+        etag: 08aa9beaf2e7e183031001
+        version_id: '1705404784086442'
+  - relpath: dog-breeds/rottweiler/rottweiler48.jpg
+    md5: 6d2ca2d9ed7aa92ac5230b5053345b99
+    size: 70398
+    cloud:
+      remote_storage:
+        etag: 08efaae2f2e7e183031001
+        version_id: '1705404783957359'
+  - relpath: dog-breeds/rottweiler/rottweiler5.jpg
+    md5: fa61ef2d68cacd71f1643fb2c4100a3e
+    size: 52185
+    cloud:
+      remote_storage:
+        etag: 088ae9b3f2e7e183031001
+        version_id: '1705404783195274'
+  - relpath: dog-breeds/rottweiler/rottweiler50.jpg
+    md5: 281fcde5c1a504d822a8be1ac1c128a6
+    size: 141350
+    cloud:
+      remote_storage:
+        etag: 08a396c1f2e7e183031001
+        version_id: '1705404783414051'
+  - relpath: dog-breeds/rottweiler/rottweiler54.jpg
+    md5: c0e72de789adaacf8bfda33242786bc1
+    size: 101365
+    cloud:
+      remote_storage:
+        etag: 08e185e3f2e7e183031001
+        version_id: '1705404783968993'
+  - relpath: dog-breeds/rottweiler/rottweiler58.jpg
+    md5: f804cdc58e553f66fb82b0b182a0a773
+    size: 319633
+    cloud:
+      remote_storage:
+        etag: 08c094faf2e7e183031001
+        version_id: '1705404784347712'
+  - relpath: dog-breeds/rottweiler/rottweiler6.jpg
+    md5: d29175c162060e656ac6f694f3a4571a
+    size: 59228
+    cloud:
+      remote_storage:
+        etag: 0893e4b9f2e7e183031001
+        version_id: '1705404783292947'
+  - relpath: dog-breeds/rottweiler/rottweiler60.jpg
+    md5: ca1a3bf563721267ab95cb1ab009a00e
+    size: 132630
+    cloud:
+      remote_storage:
+        etag: 08b9fca0f2e7e183031001
+        version_id: '1705404782886457'
+  - relpath: dog-breeds/rottweiler/rottweiler61.jpg
+    md5: c2fa891902e1b16a786b08811f27aa66
+    size: 60097
+    cloud:
+      remote_storage:
+        etag: 08da95c9f2e7e183031001
+        version_id: '1705404783545050'
+  - relpath: dog-breeds/rottweiler/rottweiler62.jpg
+    md5: b2da040ef247b2aa9c576b9aae204750
+    size: 226169
+    cloud:
+      remote_storage:
+        etag: 08fef2f9f2e7e183031001
+        version_id: '1705404784343422'
+  - relpath: dog-breeds/rottweiler/rottweiler63.jpg
+    md5: 632665f3dcc0f70dcaf8ba34af4a611f
+    size: 441345
+    cloud:
+      remote_storage:
+        etag: 08bdc4aef3e7e183031001
+        version_id: '1705404785205821'
+  - relpath: dog-breeds/rottweiler/rottweiler65.jpg
+    md5: c57882f30ad4664cff74afcbd57f4ea2
+    size: 224499
+    cloud:
+      remote_storage:
+        etag: 08c6d98cf3e7e183031001
+        version_id: '1705404784651462'
+  - relpath: dog-breeds/rottweiler/rottweiler66.jpg
+    md5: 045c8aab97d0d85baecd16a92cfda6a2
+    size: 66996
+    cloud:
+      remote_storage:
+        etag: 089b919cf2e7e183031001
+        version_id: '1705404782807195'
+  - relpath: dog-breeds/rottweiler/rottweiler67.jpg
+    md5: 6d2ca2d9ed7aa92ac5230b5053345b99
+    size: 70398
+    cloud:
+      remote_storage:
+        etag: 0895c599f2e7e183031001
+        version_id: '1705404782764693'
+  - relpath: dog-breeds/rottweiler/rottweiler68.jpg
+    md5: 532487d606a62aa48199d88080794e01
+    size: 145010
+    cloud:
+      remote_storage:
+        etag: 08aee2b4f2e7e183031001
+        version_id: '1705404783210798'
+  - relpath: dog-breeds/rottweiler/rottweiler7.jpg
+    md5: ea4cb4bf0b18211c0e03c192423dcd7a
+    size: 81165
+    cloud:
+      remote_storage:
+        etag: 08b4d8c8f2e7e183031001
+        version_id: '1705404783537204'
+  - relpath: dog-breeds/rottweiler/rottweiler70.jpg
+    md5: ca1a3bf563721267ab95cb1ab009a00e
+    size: 132630
+    cloud:
+      remote_storage:
+        etag: 08e1aac4f2e7e183031001
+        version_id: '1705404783465825'
+  - relpath: dog-breeds/rottweiler/rottweiler71.jpg
+    md5: 462e3ad2f77c14e3b3847a2be4b6c60e
+    size: 179896
+    cloud:
+      remote_storage:
+        etag: 08dcd9bdf2e7e183031001
+        version_id: '1705404783357148'
+  - relpath: dog-breeds/rottweiler/rottweiler72.jpg
+    md5: a24f4cfc575059ef1b512a4d906017a4
+    size: 157469
+    cloud:
+      remote_storage:
+        etag: 08b68ce8f2e7e183031001
+        version_id: '1705404784051766'
+  - relpath: dog-breeds/rottweiler/rottweiler73.jpg
+    md5: a11591f871e9e1c180987c50c3b8e944
+    size: 87276
+    cloud:
+      remote_storage:
+        etag: 08e5beabf2e7e183031001
+        version_id: '1705404783058789'
+  - relpath: dog-breeds/rottweiler/rottweiler74.jpg
+    md5: a7167ce4fa38605ad02d61bb33ac1eaf
+    size: 87632
+    cloud:
+      remote_storage:
+        etag: 08bdaea5f2e7e183031001
+        version_id: '1705404782958397'
+  - relpath: dog-breeds/rottweiler/rottweiler75.jpg
+    md5: 61192bfa02132e93830e82c1b3ed1e49
+    size: 288908
+    cloud:
+      remote_storage:
+        etag: 08a19e93f3e7e183031001
+        version_id: '1705404784758561'
+  - relpath: dog-breeds/rottweiler/rottweiler77.jpg
+    md5: eed1ef9ea760631ef7a25d58a16cd984
+    size: 115553
+    cloud:
+      remote_storage:
+        etag: 08c9a4caf2e7e183031001
+        version_id: '1705404783563337'
+  - relpath: dog-breeds/rottweiler/rottweiler78.jpg
+    md5: 281fcde5c1a504d822a8be1ac1c128a6
+    size: 141350
+    cloud:
+      remote_storage:
+        etag: 088584eaf2e7e183031001
+        version_id: '1705404784083461'
+  - relpath: dog-breeds/rottweiler/rottweiler79.jpg
+    md5: c0e72de789adaacf8bfda33242786bc1
+    size: 101365
+    cloud:
+      remote_storage:
+        etag: 0889cfa9f2e7e183031001
+        version_id: '1705404783028105'
+  - relpath: dog-breeds/rottweiler/rottweiler8.jpg
+    md5: ed50482c64bca5fd077e76e0e1d0efb7
+    size: 102272
+    cloud:
+      remote_storage:
+        etag: 08c3a3c5f2e7e183031001
+        version_id: '1705404783481283'
+  - relpath: dog-breeds/rottweiler/rottweiler83.jpg
+    md5: f804cdc58e553f66fb82b0b182a0a773
+    size: 319633
+    cloud:
+      remote_storage:
+        etag: 08b8e3fcf2e7e183031001
+        version_id: '1705404784390584'
+  - relpath: dog-breeds/rottweiler/rottweiler84.jpg
+    md5: c2fa891902e1b16a786b08811f27aa66
+    size: 60097
+    cloud:
+      remote_storage:
+        etag: 08ba84bbf2e7e183031001
+        version_id: '1705404783313466'
+  - relpath: dog-breeds/rottweiler/rottweiler85.jpg
+    md5: a24f4cfc575059ef1b512a4d906017a4
+    size: 157469
+    cloud:
+      remote_storage:
+        etag: 0882bbe3f2e7e183031001
+        version_id: '1705404783975810'
+  - relpath: dog-breeds/rottweiler/rottweiler88.jpg
+    md5: 6d2ca2d9ed7aa92ac5230b5053345b99
+    size: 70398
+    cloud:
+      remote_storage:
+        etag: 08ddacbef2e7e183031001
+        version_id: '1705404783367773'
+  - relpath: dog-breeds/rottweiler/rottweiler89.jpg
+    md5: 532487d606a62aa48199d88080794e01
+    size: 145010
+    cloud:
+      remote_storage:
+        etag: 08facfb2f2e7e183031001
+        version_id: '1705404783175674'
+  - relpath: dog-breeds/rottweiler/rottweiler90.jpg
+    md5: f804cdc58e553f66fb82b0b182a0a773
+    size: 319633
+    cloud:
+      remote_storage:
+        etag: 08a2c3f7f2e7e183031001
+        version_id: '1705404784304546'
+  - relpath: dog-breeds/rottweiler/rottweiler91.jpg
+    md5: 462e3ad2f77c14e3b3847a2be4b6c60e
+    size: 179896
+    cloud:
+      remote_storage:
+        etag: 08eda0e1f2e7e183031001
+        version_id: '1705404783939693'
+  - relpath: dog-breeds/rottweiler/rottweiler92.jpg
+    md5: 632665f3dcc0f70dcaf8ba34af4a611f
+    size: 441345
+    cloud:
+      remote_storage:
+        etag: 089399c1f3e7e183031001
+        version_id: '1705404785511571'
+  - relpath: dog-breeds/rottweiler/rottweiler93.jpg
+    md5: c57882f30ad4664cff74afcbd57f4ea2
+    size: 224499
+    cloud:
+      remote_storage:
+        etag: 0893d9ebf2e7e183031001
+        version_id: '1705404784110739'
+  - relpath: dog-breeds/rottweiler/rottweiler94.jpg
+    md5: 045c8aab97d0d85baecd16a92cfda6a2
+    size: 66996
+    cloud:
+      remote_storage:
+        etag: 08e8d3a5f2e7e183031001
+        version_id: '1705404782963176'
+  - relpath: dog-breeds/rottweiler/rottweiler95.jpg
+    md5: 281fcde5c1a504d822a8be1ac1c128a6
+    size: 141350
+    cloud:
+      remote_storage:
+        etag: 08e98df4f2e7e183031001
+        version_id: '1705404784248553'
+  - relpath: dog-breeds/rottweiler/rottweiler97.jpg
+    md5: b2da040ef247b2aa9c576b9aae204750
+    size: 226169
+    cloud:
+      remote_storage:
+        etag: 0891bbcaf2e7e183031001
+        version_id: '1705404783566225'
+  - relpath: dog-breeds/rottweiler/rottweiler98.jpg
+    md5: a11591f871e9e1c180987c50c3b8e944
+    size: 87276
+    cloud:
+      remote_storage:
+        etag: 08cf8be1f2e7e183031001
+        version_id: '1705404783936975'
+  - relpath: dog-breeds/rottweiler/rottweiler99.jpg
+    md5: a7167ce4fa38605ad02d61bb33ac1eaf
+    size: 87632
+    cloud:
+      remote_storage:
+        etag: 0883cac2f2e7e183031001
+        version_id: '1705404783437059'
