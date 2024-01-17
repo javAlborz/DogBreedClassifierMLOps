@@ -1,7 +1,7 @@
 FROM python:3.9
 WORKDIR /code
 COPY ./requirements.txt /code/requirements.txt
-COPY gsutil -m cp -r gs://mlops-group13-models/model.ckpt models/
+RUN gsutil -m cp -r gs://mlops-group13-models/model.ckpt models/
 
 RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt
 COPY ./src /code/app
