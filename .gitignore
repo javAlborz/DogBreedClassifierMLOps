@@ -184,3 +184,4 @@ checkpoints/*
 Classification*/*
 outputs/*
 models/*
+multirun/*

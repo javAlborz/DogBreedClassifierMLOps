@@ -1,6 +1,20 @@
-lr: 1e-4
+defaults:
+  - override /hydra/sweeper: optuna
+  - _self_
 
-batch_size: 32
+# When running "python train_model.py --multirun"
+# This grid search will be used 
+hydra:
+  sweeper:
+    n_jobs: 1
+    n_trials: 3
+    params:
+      batch_size: range(8, 24, step=8)
+
+# When running "python train_model.py"
+# Then these defaul values will be run
+lr: 0.001
+batch_size: 16
 max_epochs: 1
 
 validation_ratio: 0.15

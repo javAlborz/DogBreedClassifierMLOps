@@ -5,18 +5,11 @@ tqdm
 pytorch-lightning
 wandb
 hydra-core
-
-# For data version control
-# - I'm assuming that the Google Cloud CLI is already installed 
-# -- if not then run the following in command-line :
-#         (New-Object Net.WebClient).DownloadFile("https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe" & "$env:Temp\GoogleCloudSDKInstaller.exe") & $env:Temp\GoogleCloudSDKInstaller.exe
+hydra-optuna-sweeper 
 gsutil
-dvc
-dvc[gs]
 
 # For the web app
 fastapi>=0.68.0,<0.69.0
 uvicorn>=0.15.0,<0.16.0
-opencv-python
 python-multipart
 pyyaml

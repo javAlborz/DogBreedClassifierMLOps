@@ -1,15 +1,15 @@
 import os
-
 import hydra
 import pytorch_lightning as pl
 import torch
 import torchvision.transforms as transforms
 
-from src.data_loader import get_data  # type: ignore
+from src.data_loader import get_data  
 from src.models.model import MyNeuralNet
 
 BASE_DIR = os.getcwd()
 
+os.environ["MIN_TEST_LOSS"] = str(100000000.0)
 
 @hydra.main(config_path=os.path.join(BASE_DIR, "src/conf"), config_name="training_config", version_base=None)
 def main(cfg):
@@ -32,7 +32,7 @@ def main(cfg):
     #         "commit_message": commit_message,
     #         "commit_hash": commit_hash
     #     })
-    
+
     transform = transforms.Compose([
             transforms.ToTensor(),
             transforms.Resize(tuple(cfg.target_shape),antialias=True)
@@ -59,14 +59,17 @@ def main(cfg):
     trainer.fit(model, train_dataloaders=train_loader, val_dataloaders=valid_loader)
 
     # Test
-    trainer.test(model, dataloaders=test_loader)
+    loss = trainer.test(model, dataloaders=test_loader)
 
-    # Save model
-    trainer.save_checkpoint("models/model.ckpt")
+    test_loss = loss[0]["test_loss"]
 
-    # if we want to save the model parameters only
-    #torch.save(model.state_dict(), "model.pt")
-    return model, trainer
+
+    # Update the save model checkpoint if it has a lower loss than the current best model
+    if (float(os.environ["MIN_TEST_LOSS"]) > test_loss):
+        trainer.save_checkpoint("models/model.ckpt")
+        os.environ["MIN_TEST_LOSS"] = str(test_loss)
+    
+    return test_loss
 
 
 if __name__ == "__main__":
