@@ -1,11 +1,9 @@
 import os
-from datetime import datetime
 
 import hydra
 import pytorch_lightning as pl
 import torch
 import torchvision.transforms as transforms
-import wandb
 
 from src.data_loader import get_data  # type: ignore
 from src.models.model import MyNeuralNet

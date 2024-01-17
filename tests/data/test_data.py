@@ -1,12 +1,11 @@
-import pytest
-import glob 
+import glob
 import os
 import re
+
 import numpy as np
 from PIL import Image
 
 from src import data_loader
-
 
 BASE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)),"..","..","data")
 

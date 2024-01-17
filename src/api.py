@@ -1,14 +1,15 @@
-import cv2
-import numpy as np
-import tempfile
 import os
+import tempfile
+
 import torch
+import yaml
 from fastapi import FastAPI, File, UploadFile
 from fastapi.responses import JSONResponse
-import yaml
-from models.model import MyNeuralNet
-from torchvision.transforms import ToTensor
 from PIL import Image
+from torchvision.transforms import ToTensor
+
+from models.model import MyNeuralNet
+
 
 def preprocess_image(image_path):
     # Load the image
