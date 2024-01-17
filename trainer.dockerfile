@@ -35,4 +35,4 @@ RUN gsutil -m cp -r gs://mlops-group13-dog-breeds/data .
 #COPY data.dvc data.dvc
 #RUN dvc pull
 
-CMD ["sh", "-c", "python src/data/make_dataset.py && python src/train_model.py"]
+CMD ["sh", "-c", "python src/data/make_dataset.py && python src/train_model.py && gsutil -m cp -r models/model.ckpt gs://mlops-group13-models"]
