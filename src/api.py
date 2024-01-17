@@ -8,7 +8,7 @@ from fastapi.responses import JSONResponse
 from PIL import Image
 from torchvision.transforms import ToTensor
 
-from models.model import MyNeuralNet
+from src.models.model import MyNeuralNet
 
 
 def preprocess_image(image_path):
@@ -21,7 +21,7 @@ def preprocess_image(image_path):
 
     return image
 
-with open('conf/training_config.yaml', 'r') as file:
+with open('src/conf/training_config.yaml', 'r') as file:
     config = yaml.safe_load(file)
 
 lr = config['lr']
