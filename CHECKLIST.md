@@ -43,6 +43,7 @@
 
 ### Final
 - [ ] Delete the notebook
+- [ ] Make a makefile rule for training the model (?)
 
 ### Additional
 - [ ] Revisit your initial project description. Did the project turn out as you wanted?

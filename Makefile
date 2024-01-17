@@ -42,7 +42,7 @@ clean:
 
 
 data:
-	dvc pull 
+#	dvc pull 
 	python src/data/make_dataset.py
 
 #################################################################################
