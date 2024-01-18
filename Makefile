@@ -1,30 +1,15 @@
-.PHONY: create_environment requirements dev_requirements clean data build_documentation serve_documentation
-
-#################################################################################
-# GLOBALS                                                                       #
-#################################################################################
-
-PROJECT_NAME = mlops_final
-PYTHON_VERSION = 3.10
-PYTHON_INTERPRETER = python
+.PHONY: requirements clean data build_documentation serve_documentation
 
 #################################################################################
 # COMMANDS                                                                      #
 #################################################################################
 
-## Set up python interpreter environment
-create_environment:
-	conda create --name $(PROJECT_NAME) python=$(PYTHON_VERSION) --no-default-packages -y
-
 ## Install Python Dependencies
 requirements:
-	$(PYTHON_INTERPRETER) -m pip install -U pip setuptools wheel
-	$(PYTHON_INTERPRETER) -m pip install -r requirements.txt
-	$(PYTHON_INTERPRETER) -m pip install -e .
+	python -m pip install -U pip setuptools wheel
+	python -m pip install -r requirements.txt
+	python -m pip install -e .
 
-## Install Developer Python Dependencies
-dev_requirements: requirements
-	$(PYTHON_INTERPRETER) -m pip install .["dev"]
 
 ## Delete all compiled Python files
 clean:
@@ -32,17 +17,9 @@ clean:
 	find . -type d -name "__pycache__" -delete
 
 
-#################################################################################
-# PROJECT RULES                                                                 #
-#################################################################################
-
 ## Fetch and process raw data into processed data
-## gcloud auth activate-service-account --quiet --key-file=mlops-group13-data-service-account.json 	Add this back later?
-# gcloud auth revoke --quiet --verbosity="error" data-service-account@mlops-group13.iam.gserviceaccount.com
-
-
 data:
-#	dvc pull 
+	gsutil -m cp -r gs://mlops-group13-dog-breeds/data .
 	python src/data/make_dataset.py
 
 #################################################################################
@@ -50,11 +27,11 @@ data:
 #################################################################################
 
 ## Build documentation
-build_documentation: dev_requirements
+build_documentation: requirements
 	mkdocs build --config-file docs/mkdocs.yaml --site-dir build
 
 ## Serve documentation
-serve_documentation: dev_requirements
+serve_documentation: requirements
 	mkdocs serve --config-file docs/mkdocs.yaml
 
 #################################################################################

@@ -1,8 +1,13 @@
-from unittest.mock import patch, MagicMock
+from unittest.mock import MagicMock, patch
+
+import pytest
+
 from src.train_model import main
+
 
 @patch('wandb.api')
 @patch('pytorch_lightning.loggers.WandbLogger')
+@pytest.mark.skip(reason="data not available on GitHub, so it's not possible to train using train_model.py")
 def test_main(mock_wandb_logger, mock_wandb_api):
     # Define the configuration parameters
     class Config:

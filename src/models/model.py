@@ -49,7 +49,14 @@ class MyNeuralNet(pl.LightningModule):
         x, targets = batch
         preds_logits = self.forward(x)
         loss = self.loss_func(preds_logits, targets)
+
+        # compute accuracy
+        _, preds = torch.max(preds_logits, 1)
+        accuracy = torch.tensor(torch.sum(preds == targets).item() / len(preds))
+
         self.log("train_loss", loss)
+        self.log("train_acc", accuracy)
+
         return loss
     
     
@@ -66,7 +73,14 @@ class MyNeuralNet(pl.LightningModule):
         x, targets = batch
         preds_logits = self.forward(x)
         loss = self.loss_func(preds_logits, targets)
+
+        # compute accuracy
+        _, preds = torch.max(preds_logits, 1)
+        accuracy = torch.tensor(torch.sum(preds == targets).item() / len(preds))
+
         self.log("val_loss", loss)
+        self.log("val_acc", accuracy)
+
         return loss
     
     
@@ -83,7 +97,14 @@ class MyNeuralNet(pl.LightningModule):
         x, targets = batch
         preds_logits = self.forward(x)
         loss = self.loss_func(preds_logits, targets)
+
+        # compute accuracy
+        _, preds = torch.max(preds_logits, 1)
+        accuracy = torch.tensor(torch.sum(preds == targets).item() / len(preds))
+
         self.log("test_loss", loss)
+        self.log("test_acc", accuracy)
+        
         return loss
 
 
