@@ -21,7 +21,7 @@ packages = ["src"]
 dependencies = {file = ["requirements.txt"]}
 
 [tool.setuptools.dynamic.optional-dependencies]
-dev = {file = ['requirements_dev.txt']}
+dev = {file = ['requirements.txt']}
 
 [tool.ruff]
 line-length = 120
