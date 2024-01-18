@@ -42,7 +42,7 @@ clean:
 
 
 data:
-#	dvc pull 
+	gsutil -m cp -r gs://mlops-group13-dog-breeds/data .
 	python src/data/make_dataset.py
 
 #################################################################################
