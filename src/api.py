@@ -6,7 +6,7 @@ import yaml
 from fastapi import FastAPI, File, UploadFile
 from fastapi.responses import JSONResponse
 from PIL import Image
-from torchvision.transforms import ToTensor
+from torchvision.transforms import ToTensor, Resize
 
 from src.models.model import MyNeuralNet
 
@@ -18,6 +18,7 @@ def preprocess_image(image_path):
     # Apply the same transformations as in training
     transform = ToTensor()
     image = transform(image)
+    image = Resize((128, 128))(image)
 
     return image
 
