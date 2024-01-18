@@ -8,7 +8,9 @@ RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt
 #COPY models/ models/
 COPY src/ src/
 RUN mkdir models
-RUN python src/download_model_file.py
+#RUN python src/download_model_file.py
+
+RUN gsutil -m cp -r gs://mlops-group13-models/models/model.ckpt models/model.ckpt
 
 CMD ["uvicorn", "src.api:app", "--host", "0.0.0.0", "--port", "80"]     
 
