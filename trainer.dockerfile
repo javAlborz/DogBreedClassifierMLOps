@@ -24,4 +24,4 @@ RUN pip install -r requirements.txt
 RUN python -m pip install -e .
 RUN gsutil -m cp -r gs://mlops-group13-dog-breeds/data .
 
-CMD ["sh", "-c", "python src/data/make_dataset.py && python src/train_model.py && python upload_file.py"]
+CMD ["sh", "-c", "python src/data/make_dataset.py && python src/train_model.py && python src/upload_file.py"]
