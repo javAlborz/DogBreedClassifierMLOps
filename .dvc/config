@@ -1,5 +1,0 @@
-[core]
-    remote = remote_storage
-['remote "remote_storage"']
-    url = gs://dogbucko/
-    version_aware = true
