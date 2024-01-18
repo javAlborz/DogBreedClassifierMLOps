@@ -3,6 +3,7 @@ import os
 import re
 
 import numpy as np
+import pytest
 from PIL import Image
 
 from src import data_loader
@@ -22,6 +23,7 @@ def count_classes(list_of_paths):
     return counting_dict   
         
 
+@pytest.mark.skip(reason="data not available on GitHub")
 def test_data_sizes():
     list_of_processed = glob.glob(os.path.join(BASE_DIR, "processed","*.jpg"))
     list_of_raw = glob.glob(os.path.join(BASE_DIR, "raw","*","*","*.jpg"))
@@ -33,6 +35,7 @@ def test_data_sizes():
         assert class_count_in_processed[class_name] == class_count_in_raw[class_name]
 
 
+@pytest.mark.skip(reason="data not available on GitHub")
 def test_image_size_and_values():
     img = Image.open(os.path.join(BASE_DIR, "processed","beagle1.jpg"))
     assert img.getbands() == ("R","G","B")
