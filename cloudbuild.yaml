@@ -30,7 +30,7 @@ images:
 # Build the container image for the api!
 - name: 'gcr.io/cloud-builders/docker'
   args: [
-    'build
+    'build',
     '-f',
     'api.dockerfile',
     '-t', 
