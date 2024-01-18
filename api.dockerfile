@@ -1,11 +1,13 @@
 FROM python:3.9
 WORKDIR /code
 COPY ./requirements.txt /code/requirements.txt
-# RUN gsutil -m cp -r gs://mlops-group13-models/model.ckpt models/
-
 RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt
-COPY models/ models/
+
+
+#COPY models/ models/
 COPY src/ src/
+RUN mkdir models
+RUN python src/download_model_file.py
 
 CMD ["uvicorn", "src.api:app", "--host", "0.0.0.0", "--port", "80"]     
 
