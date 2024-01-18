@@ -48,7 +48,7 @@ async def cv_model(data: UploadFile = File(...)):
 
     # Save the uploaded file to a temporary location
     with tempfile.NamedTemporaryFile(delete=False) as temp:
-        temp.write(content)
+        temp.write(content)     # type: ignore[arg-type]
         temp_path = temp.name
 
     # Preprocess the image
