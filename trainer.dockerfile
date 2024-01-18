@@ -24,15 +24,4 @@ RUN pip install -r requirements.txt
 RUN python -m pip install -e .
 RUN gsutil -m cp -r gs://mlops-group13-dog-breeds/data .
 
-#COPY .git .git
-#RUN dvc init --no-scm
-#COPY .dvc/config .dvc/config
-#COPY data/raw.dvc data.dvc
-#RUN dvc config core.no_scm true
-
-#RUN git init
-#COPY .dvc .dvc
-#COPY data.dvc data.dvc
-#RUN dvc pull
-
-CMD ["sh", "-c", "python src/data/make_dataset.py && python src/train_model.py && gsutil -m cp -r models/model.ckpt gs://mlops-group13-models"]
+CMD ["sh", "-c", "python src/data/make_dataset.py && python src/train_model.py && python upload_file.py"]
