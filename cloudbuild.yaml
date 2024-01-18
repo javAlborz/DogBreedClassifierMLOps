@@ -3,13 +3,13 @@ steps:
 - name: 'gcr.io/cloud-builders/docker'
   args: [
     'build',
-    '--build-arg=WANDB_API_KEY=$$wandb_api_key',
+    #'--build-arg=WANDB_API_KEY=$$wandb_api_key',
     '-f',
     'trainer.dockerfile',
     '-t', 
     'gcr.io/$PROJECT_ID/train_model:$TAG_NAME', 
     '.']
-    secretEnv: ['wandb_api_key']
+    #secretEnv: ['wandb_api_key']
 # Push the container image to Container Registry
 - name: 'gcr.io/cloud-builders/docker'
   args: ['push', 'gcr.io/$PROJECT_ID/train_model:$TAG_NAME']
