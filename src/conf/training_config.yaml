@@ -13,13 +13,13 @@ hydra:
 
 # When running "python train_model.py"
 # Then these defaul values will be run
-lr: 0.001
-batch_size: 16
-max_epochs: 1
+lr: 0.0001
+batch_size: 32
+max_epochs: 10
 
 validation_ratio: 0.15
 testing_ratio: 0.10
 
 target_shape:
-  - 32
-  - 32
+  - 128
+  - 128
