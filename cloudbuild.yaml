@@ -24,23 +24,22 @@ steps:
 #  - 'gcr.io/$PROJECT_ID/train_model:$TAG_NAME'
 #  - '--region'
 #  - 'REGION'
-images:
-- 'gcr.io/$PROJECT_ID/train_model:$TAG_NAME'
 # add deploy step here?
 # Build the container image for the api!
-#- name: 'gcr.io/cloud-builders/docker'
-#  args: [
-#    'build
-#    '-f',
-#    'api.dockerfile',
-#    '-t', 
-#    'gcr.io/$PROJECT_ID/api:$TAG_NAME', 
-#    '.']
+- name: 'gcr.io/cloud-builders/docker'
+  args: [
+    'build',
+    '-f',
+    'api.dockerfile',
+    '-t', 
+    'gcr.io/$PROJECT_ID/api:$TAG_NAME', 
+    '.']
 ## Push the container image FOR API to Container Registry
-#- name: 'gcr.io/cloud-builders/docker'
-#  args: ['push', 'gcr.io/$PROJECT_ID/api:$TAG_NAME']
-#images:
-#- 'gcr.io/$PROJECT_ID/api:$TAG_NAME'
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['push', 'gcr.io/$PROJECT_ID/api:$TAG_NAME']
+images:
+- 'gcr.io/$PROJECT_ID/train_model:$TAG_NAME'
+- 'gcr.io/$PROJECT_ID/api:$TAG_NAME'
 ## Deploy container image FOR API to Cloud Run for 
 #- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
 #  entrypoint: gcloud
