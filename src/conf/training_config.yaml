@@ -15,7 +15,7 @@ hydra:
 # Then these defaul values will be run
 lr: 0.0001
 batch_size: 32
-max_epochs: 10
+max_epochs: 1 #for testing purposes
 
 validation_ratio: 0.15
 testing_ratio: 0.10
