@@ -10,7 +10,7 @@ Alborz Sabet s202075
 ## Overall goal of the project
 The goal of this project was to use PyTorch (with Pytorch image models) to solve the classification task of identifying the dog breed of an image. We will limit ourselves to classifying the following breeds: beagle, bulldog, dalmatian, german-shepherd, husky, labrador-retriever, poodle and rottweiler.
 
-[Launch the Demo](https://dogbreedclassifier.streamlit.app/
+[Launch the Demo](https://dogbreedclassifier.streamlit.app/)
 
 ## Frameworks
 Since this is an image classification task we will be using pytorch-image-models from huggingface.
